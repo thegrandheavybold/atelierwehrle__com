@@ -1066,42 +1066,42 @@ template {
 /* poppins-200 - latin */
 @font-face {
   font-display: swap;
-  font-family: "Poppins-Light";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  src: url("/assets/fonts/poppins-v21-latin-200.woff2") format("woff2");
-}
-/* poppins-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/assets/fonts/poppins-v21-latin-regular.woff2") format("woff2");
-}
-/* poppins-600 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins-Bold";
-  font-style: normal;
-  font-weight: 600;
-  src: url("/assets/fonts/poppins-v21-latin-600.woff2") format("woff2");
+  src: url("../fonts/poppins-v21-latin-200.woff2") format("woff2");
 }
 /* poppins-200italic - latin */
 @font-face {
   font-display: swap;
-  font-family: "Poppins-Light-Italic";
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 200;
-  src: url("/assets/fonts/poppins-v21-latin-200italic.woff2") format("woff2");
+  src: url("../fonts/poppins-v21-latin-200italic.woff2") format("woff2");
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
 }
 /* poppins-italic - latin */
 @font-face {
   font-display: swap;
-  font-family: "Poppins-Italic";
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 400;
-  src: url("/assets/fonts/poppins-v21-latin-italic.woff2") format("woff2");
+  src: url("../fonts/poppins-v21-latin-italic.woff2") format("woff2");
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2");
 }
 /* Adobe fonts Nicholas Cochin > Quote Type*/
  * font-family: "ltc-nicholas-cochin-pro", sans-serif
@@ -1613,7 +1613,7 @@ img {
 a {
   color: #000000;
   text-decoration: none;
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: opacity ease 0.7s;
   will-change: opacity;
 }
@@ -1682,10 +1682,10 @@ select,
 optgroup,
 textarea {
   color: #000000;
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: 400;
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -1694,7 +1694,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.75rem;
   margin-top: 0;
   padding: 0;
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000000;
   line-height: 100%;
   text-transform: uppercase;
@@ -1776,7 +1776,7 @@ h6, .h6 {
   }
 }
 p {
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1 rem;
   line-height: 1.5 rem;
   margin: 0 0 2vw 0;
@@ -1795,11 +1795,11 @@ address {
 }
 
 pre {
-  font-family: "Poppins-Light-Italic", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 code, kbd, tt, var {
-  font-family: "Poppins-Light-Italic", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 abbr, acronym {
@@ -1813,7 +1813,7 @@ mark, ins {
 }
 
 strong, .strong {
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ========================================================================== */
@@ -2152,7 +2152,7 @@ footer .footer_ctnt {
   }
 }
 footer .footer_ctnt .__copyright {
-  font-family: "Poppins-Light", sans-serif;
+  font-family: "Poppins", sans-serif, 200;
   font-size: min(4vw, 16px);
   line-height: min(7vw, 33px);
   margin-top: 8px;
