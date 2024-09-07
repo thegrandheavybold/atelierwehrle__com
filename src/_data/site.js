@@ -11,8 +11,8 @@ module.exports = {
   metaDescription: "",
   email: "info@atelierwehrle.com",
   phone: "???",
-  instagram: "",
-  pinterest: "",
+  instagram: "https://www.instagram.com/atelierwehrle",
+  pinterest: "https://www.pinterest.co.uk/atelierwehrle/",
   linkedin: "",
   languages: [
     {
