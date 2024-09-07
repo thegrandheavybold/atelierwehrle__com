@@ -1,0 +1,36 @@
+.garden_gllry
+    @include pt-30 
+    @include pb-30
+    
+    .__imgs
+        li.item__
+            text-align: center
+            @include s
+                grid-column: 1 / -1
+
+.garden__details
+    @include pt-30 
+    @include pb-30
+    .__txt
+        column-count: 2
+        column-gap: 5vw
+        @include s
+            column-count: 1
+
+.garden_closer
+    @include pt-30 
+    @include pb-30
+
+    ol.credits
+        @include pt-8
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        li
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+            align-items: flex-end
+            margin-bottom: 1.25rem
+            &:last-child
+                margin-bottom: 0

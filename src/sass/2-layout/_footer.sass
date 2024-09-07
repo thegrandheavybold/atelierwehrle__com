@@ -1,0 +1,37 @@
+footer
+    .footer_ctnt
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        @include mt-8
+
+
+    
+        .__copyright
+            font-family: $font__light
+            font-size: min(max(4vw), 16px)
+            line-height: min(max(7vw), 33px)
+            @include mt-2
+            @include xl
+                margin-top: 0
+
+        .__links
+            display: flex
+            flex-wrap: wrap
+            li
+                margin-right: 2rem
+                &:last-child
+                    margin-right: 0s
+
+
+    @include l
+         .footer_ctnt
+            flex-flow: column-reverse
+
+    @include m
+         .footer_ctnt
+            flex-flow: column-reverse
+
+    @include s
+         .footer_ctnt
+            flex-flow: column-reverse

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de" id="{{ page.fileSlug }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{seoTitle}} · {{ site.metaTitle }}</title>
+    <meta name="description" content="{{seoDescription}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Tag Manager -->
+
+    <!-- End Google Tag Manager -->
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/fav/favicon-16x16.png">
+    <link rel="manifest" href="/assets/fav/site.webmanifest">
+    <link rel="mask-icon" href="/assets/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- font preloader -->
+    <link rel="preload" href="/assets/fonts/poppins-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/poppins-v21-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/poppins-v21-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Preconnect Fonts -->
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin />
+    <link rel="preconnect" href="https://p.typekit.net" crossorigin />
+
+    <!-- Preload Fonts -->
+    <link rel="preload" as="style" href="https://use.typekit.net/lyi3uli.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/lyi3uli.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="https://use.typekit.net/lyi3uli.css" />
+    </noscript>
+
+    <!-- open graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ seoTitle }} · {{ site[locale].metaTitle }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/{{ metaImage }}">
+    <meta property="og:image:secure_url" content="{{ site.url }}/assets/img/{{ metaImage }}}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:description" content="{{ seoDescription }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.authorTwitter }}">
+    <meta name="twitter:creator" content="{{ site.authorTwitter }}">
+    <meta name="twitter:title" content="{{ seoTitle }} · {{ site[locale].metaTitle }}">
+    <meta name="twitter:description" content="{{ seoDescription }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/{{ metaImage }}">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+
+  </head>

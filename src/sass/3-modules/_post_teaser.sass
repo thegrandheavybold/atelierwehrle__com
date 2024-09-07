@@ -1,0 +1,39 @@
+.teaser_gllry
+    @include pt-30 
+    @include pb-30
+
+    article
+        width: 100%
+        height: 100%
+
+    a
+      text-decoration: none
+      line-height: 0
+      height: 100%
+      width: 100%
+
+
+    figure
+        width: 100%
+        height: 100%
+        margin: 0
+        display: block
+        overflow: hidden
+        position: relative
+        @include mb-2
+
+        picture
+            img
+                opacity: 1
+                position: relative
+                transition: transform ease 2s
+                will-change: transform
+                height: 100%
+                width: 100%
+                display: block
+                object-fit: cover
+
+
+    figure:hover > picture img
+        opacity: 1
+        transform: scale(1.15)

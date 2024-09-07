@@ -1,0 +1,19 @@
+@mixin xxl
+  @media only screen and (min-width: 1920px)
+    @content
+
+@mixin xl
+  @media only screen and (min-width: 1440px) and (max-width: 1919px)
+    @content
+
+@mixin l
+  @media only screen and (min-width: 1024px) and (max-width: 1439px)
+    @content
+
+@mixin m
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    @content
+
+@mixin s
+  @media only screen and (min-width: 0px) and (max-width: 767px)
+    @content

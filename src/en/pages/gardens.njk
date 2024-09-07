@@ -1,0 +1,55 @@
+---
+title: Gardens
+permalink: /{{ locale }}/gardens/
+translationKey: "gardens"
+
+seoTitle: Gardens
+seoDescription: 
+metaImage: 
+---
+
+<section class="teaser_gllry">
+
+  <div class="wrapper">
+
+    {% for post in collections.posts_en | reverse %}
+      {% if loop.first %}<ul class="teasers grd__gllry">{% endif %}
+        {% set counter = ( counter | default(0) ) + 1 %}
+
+          <li class="item__{{ counter }} {{ post.data.tags | join(' ') }} oov">
+
+            <article>
+
+              <a href="{{- post.url -}}" id="{{ post.data.slug }}">
+
+              <figure>
+
+                <picture class="">
+                  <source srcset="/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
+                  <source srcset="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
+                  <source srcset="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
+
+                  <img src="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
+                </picture>
+
+              </figure>
+
+              <span class="ttl">
+
+                {{ post.data.title }} <br>
+                <!-- {{ post.data.description }} -->
+                
+              </span>
+
+            </a>
+
+            </article>
+
+          </li>
+
+      {% if loop.last %}</ul>{% endif %}
+    {% endfor %}
+
+  </div><!-- .wrapper -->
+
+</section>

@@ -1,0 +1,54 @@
+.contact 
+    @include pt-30 
+    @include pb-30
+
+    .grd__a
+        grid-template-areas: 'a b' 'c d '
+        align-items: center
+        grid-row-gap: 80px
+
+        .item__1
+            grid-area: a
+
+        .item__2
+            grid-area: b
+
+        .item__3
+            grid-area: c
+            justify-self: end
+            text-align: right
+
+        .item__4
+            grid-area: d
+
+.map-frame
+    filter: grayscale(100%)
+
+.google-maps 
+    position: relative
+    padding-bottom: 75%
+    height: 0
+    overflow: hidden
+
+    iframe
+        position: absolute
+        top: 0
+        left: 0
+        width: 100% !important
+        height: 100% !important
+
+@include m
+    .contact 
+        .grd__a
+            grid-template-areas: 'a a' 'b b' 'd d' 'c c'
+
+            .item__3
+                display: none
+
+@include s
+    .contact 
+        .grd__a
+            grid-template-areas: 'a a' 'b b' 'd d' 'c c'
+
+            .item__3
+                 display: none

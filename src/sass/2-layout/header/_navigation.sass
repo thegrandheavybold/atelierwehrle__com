@@ -1,0 +1,93 @@
+.menu-button-links
+	margin: 0
+	cursor: pointer
+	position: relative
+	
+
+.menu-button-links button, .menu-button-links button:active, .menu-button-links button:focus, .menu-button-links button:visited, .menu-button-links button:focus-visible, #menubutton
+	margin: 0
+	padding: 0
+	background: none !important
+	border: none !important
+	//z-index: 100
+	align-self: center
+
+.menu-button-links [role="menu"]
+	margin-left: auto
+	margin-right:  auto
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	text-align: left
+	position: fixed
+	background: $white
+	height: auto
+	width: auto
+	overflow-y: scroll
+	transform: translateY(50vw)
+	transition: transform ease .7s, opacity ease .7s
+	will-change: transform, opacity, translate
+
+.menu-button-links [role="menuitem"],
+.menu-button-links [role="separator"]
+	margin: 0
+	padding: 0
+	color: $black
+	font-size: 28px
+	line-height: 34px
+
+
+ul.nav
+	padding-top: 40px
+	position: relative
+	z-index: 90
+	li 
+		width: auto
+		height: auto
+		a
+			text-transform: uppercase
+
+[aria-expanded="true"] + ul.nav
+	margin-top: 45px
+	transition: margin-top ease 1.4s
+	will-change: margin-top
+		
+
+header.sticky .header_bar .menu-button-links [aria-expanded="true"] + ul.nav
+	margin-top: 39px
+
+[aria-expanded="true"] + [role="menu"]
+	opacity: 1
+	visibility: visible
+	transform: translateY(0)
+
+[aria-expanded="false"] + [role="menu"]
+	opacity: 0
+	visibility: hidden
+
+li#legal
+	display: flex
+	justify-content: space-between
+	@include mt-10
+	a
+		&:nth-child(1)
+			margin-right: 20px
+	h6
+		color: $black
+
+.lg_nav
+	display: flex
+	justify-content: space-between
+	@include mb-6
+	a
+		&:nth-child(1)
+			margin-right: 20px
+
+.mm__isopen
+	display: none
+
+
+
+@include s
+	[aria-expanded="true"] + ul.nav
+		margin-top: 15px

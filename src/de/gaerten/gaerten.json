@@ -1,0 +1,4 @@
+{
+  "permalink": "/{{ locale }}/{{ url[locale].gardens }}/{{ page.fileSlug }}/index.html",
+  "layout": "layouts/gardens.njk"
+}

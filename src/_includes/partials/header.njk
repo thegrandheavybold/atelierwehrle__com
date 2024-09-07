@@ -1,0 +1,49 @@
+<header>
+
+  <div class="wrapper">
+
+    <div class="header_bar">
+
+      <div class="header_bar__left">
+
+        {%- include "partials/nav.njk"-%}
+
+      </div><!-- .header_bar__left -->
+
+      <div class="site-branding">
+  			<a id="logo" href="/{{ locale }}/index.html" rel="home" title="Atelier Wehrle" aria-label="This is the Logo of Atelier Wehrle">
+  				<svg class="atelier-wehrle_logo" alt="Atelier Wehrle">
+  					<use xlink:href="#atelier-wehrle_logo"></use>
+  				</svg>
+  			</a>
+  		</div><!-- .site-branding -->
+
+      <ul class="social_links">
+        <li>
+          <a href="{{ site.instagram }}" target="_blank" rel="noopener">
+            <svg class="instagram" alt="Atelier Wehrle on Instagram">
+  					  <use xlink:href="#instagram"></use>
+  				  </svg>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.pinterest }}" target="_blank" rel="noopener">
+            <svg class="pinterest" alt="Atelier Wehrle on Pinterest">
+  					  <use xlink:href="#pinterest"></use>
+  				  </svg>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.linkedin }}" target="_blank" rel="noopener">
+            <svg class="linkedin" alt="Atelier Wehrle on LinkedIn">
+  					  <use xlink:href="#linkedin"></use>
+  				  </svg>
+          </a>
+        </li>
+      </ul><!-- .social_links -->
+
+    </div><!-- .header_bar -->
+
+  </div><!-- .wrapper -->
+
+</header>

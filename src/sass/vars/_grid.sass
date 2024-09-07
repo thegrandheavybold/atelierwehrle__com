@@ -1,0 +1,69 @@
+.wrapper
+  max-width: 1680px
+  width: 100%
+  position: relative
+  margin: 0 auto
+
+.grd__a
+  max-width: 1680px
+  width: 100%
+  display: grid
+  margin: 0 auto
+
+  grid-template-columns: repeat(auto-fit, minmax(5vw, 1fr))
+  grid-column-gap: 32px
+  //grid-row-gap: 80px
+
+.grd__b
+  max-width: 1680px
+  width: 100%
+  display: grid
+  margin: 0 auto
+
+.grd__gllry
+  max-width: 1680px
+  width: 100%
+  display: grid
+  margin: 0 auto
+  grid: auto-flow / 1fr 1fr
+  gap: 5vw
+  align-items: center
+
+
+
+@include xxl
+  .grd__b
+    grid-template-columns: repeat(12, 112px)
+    grid-column-gap: 32px
+
+@include xl
+  .wrapper
+    padding: 0 80px
+
+  .grd__b
+    grid-template-columns: repeat(12, 1fr)
+    grid-column-gap: 24px
+
+@include l
+  .wrapper
+    padding: 0 32px
+
+  .grd__b
+    grid-template-columns: repeat(12, 1fr)
+    grid-column-gap: 24px
+
+@include m
+  .wrapper
+    padding: 0 24px
+
+  .grd__b
+    grid-template-columns: repeat(12, 1fr)
+    grid-column-gap: 24px
+
+@include s
+  .wrapper
+    padding: 0 20px
+
+  .grd__b, .grd__gllry
+    grid-template-columns: repeat(4, 1fr)
+    grid-column-gap: 16px

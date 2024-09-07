@@ -1,0 +1,88 @@
+button#menubutton
+  border: none
+  border-radius: 0
+  background: none
+  padding: 0
+  margin: 0
+  cursor: pointer
+  z-index: 100
+
+.hamburger
+  width: 45px
+  height: 30px
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  span, span::before, span::after
+    width: 45px
+    height: 6px
+    display: block
+    position: absolute
+    background: $black
+    transition: all ease .7s
+    will-change: all
+
+  span::before, span::after
+    content: ''
+    display: block
+
+  span::before
+    top: -12px
+  span::after
+    bottom: -12px
+
+[aria-expanded="true"] >
+
+  .hamburger span
+    transform: rotate(225deg)
+    transition: transform ease .5s .5s
+    will-change: transform
+
+    &::before
+      top: 0
+      opacity: 0
+      transition: top ease .5s, opacity .5s .3s
+      will-change: top
+
+    &::after
+      bottom: 0
+      transform: rotate(-90deg)
+      transition: bottom ease .5s, transform ease .5s .3s
+      will-change: bottom
+
+
+[aria-expanded="false"] >
+
+  .hamburger span
+    transform: rotate(0deg)
+    transition: transform .5s, width ease .7s
+    will-change: transform
+
+    &::before
+      top: -12px
+      opacity: 1
+      transition: opacity ease .5s .7s, top .5s .7s, width ease .7s
+      will-change: opacity, width
+
+    &::after
+      bottom: -12px
+      transform: rotate(0)
+      transition: transform ease .5s .2s, bottom ease .5s .7s, width ease .7s
+      will-change: transform, width
+
+  .hamburger:hover span
+    width: 20px
+  .hamburger:hover span::after
+    width: 10px
+  .hamburger:hover span::before
+    width: 15px
+
+
+
+
+.hamburger:hover, .hamburger:active, .hamburger:focus
+  span, span::before, span::after
+    width: 45px
+

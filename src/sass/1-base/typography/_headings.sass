@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5, h6
+	margin-bottom: .75rem
+	margin-top: 0
+	padding: 0
+	font-family: $font__bold
+	color: $black
+	line-height: 100%
+	text-transform: uppercase
+	//overflow-wrap: break-word
+
+h1, .h1
+	font-size: 58px
+
+h2, .h2
+	font-size: 46px
+
+h3, .h3
+	font-size: 41px
+
+h4, .h4
+	font-size: 32px
+
+h5, .h5
+	font-size: 23px
+
+h6, .h6
+	font-size: 20px
+
+.bigquote
+	font-family: $font__quote
+	text-transform: none
+	font-size: 6vh
+
+@include s
+	h1, h2, h3, h4
+		hyphens: auto
+	h1
+		font-size: 41px
+	h2
+		font-size: 36px
+	h3
+		font-size: 32px
+	h4
+		font-size: 29px
+
+@include m
+	h1
+		font-size: 41px
+	h2
+		font-size: 36px
+	h3
+		font-size: 32px
+	h4
+		font-size: 29px
+
+@include l
+	h1
+		font-size: 41px
+	h2
+		font-size: 36px
+	h3
+		font-size: 32px
+	h4
+		font-size: 29px

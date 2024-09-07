@@ -1,0 +1,22 @@
+
+// Wrapper mixin
+@mixin wrapper($wrapperHeight: 140, $wrapperWidth: 108 )
+	padding: ($wrapperHeight + px) ($wrapperWidth + px)
+	padding: (0.063 * $wrapperHeight) + rem (0.063 * $wrapperWidth) + rem
+
+
+@mixin clearfix()
+	content: ""
+	display: table
+	table-layout: fixed
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after()
+	clear: both
+
+
+// Center block
+@mixin center-block
+	display: block
+	margin-left: auto
+	margin-right: auto

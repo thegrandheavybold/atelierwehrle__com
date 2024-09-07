@@ -1,0 +1,25 @@
+ {%- include "partials/head.njk" -%}
+
+  {%- include "partials/svg_icons.njk" -%}
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+      
+    <!-- End Google Tag Manager (noscript) -->
+
+    {%- include "partials/header.njk" -%}
+
+    <main>
+
+      {{ content | safe }}
+
+    </main>
+
+    {%- include "partials/footer.njk" -%}
+
+
+    <script type="module" src="/js/main-min.js" defer></script>
+
+  </body>
+</html>

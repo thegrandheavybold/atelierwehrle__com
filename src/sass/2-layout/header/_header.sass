@@ -1,0 +1,46 @@
+header
+  margin: 0
+  padding: 63px 0 23px 0
+  position: fixed
+  top: 0
+  width: 100vw
+  background: $white
+  z-index: 100
+  transition: padding ease 1.4s
+  will-change: padding
+
+  &.sticky
+    padding: 16px 0 16px 0
+    
+
+  .header_bar
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    &__left
+      display: flex
+      align-items: center
+
+    
+    .social_links
+      display: flex
+      align-items: right
+      //justify-content: space-between
+      @include s
+        display: none
+      li
+        height: auto
+        width: auto
+        margin-right: 2rem 
+        &:last-of-type
+          margin-right: 0
+        
+        a
+          display: block
+          height: auto
+          width: auto
+          &:hover > svg
+            opacity: 25%
+            transition: opacity ease .7s
+            will-change: opacity
