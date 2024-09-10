@@ -1069,7 +1069,7 @@ template {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  src: url("../fonts/poppins-v21-latin-200.woff2") format("woff2");
+  src: url("assets/fonts/poppins-v21-latin-200.woff2") format("woff2");
 }
 /* poppins-200italic - latin */
 @font-face {
@@ -1077,7 +1077,7 @@ template {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 200;
-  src: url("../fonts/poppins-v21-latin-200italic.woff2") format("woff2");
+  src: url("assets/fonts/poppins-v21-latin-200italic.woff2") format("woff2");
 }
 /* poppins-regular - latin */
 @font-face {
@@ -1085,7 +1085,7 @@ template {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+  src: url("assets/fonts/poppins-v21-latin-regular.woff2") format("woff2");
 }
 /* poppins-italic - latin */
 @font-face {
@@ -1093,7 +1093,7 @@ template {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/poppins-v21-latin-italic.woff2") format("woff2");
+  src: url("assets/fonts/poppins-v21-latin-italic.woff2") format("woff2");
 }
 /* poppins-600 - latin */
 @font-face {
@@ -1101,12 +1101,14 @@ template {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2");
+  src: url("assets/fonts/poppins-v21-latin-600.woff2") format("woff2");
 }
-/* Adobe fonts Nicholas Cochin > Quote Type*/
- * font-family: "ltc-nicholas-cochin-pro", sans-serif
- * font-weight: 400
- * font-style: normal */
+@font-face {
+  /* Adobe fonts Nicholas Cochin > Quote Type*/
+  font-family: "ltc-nicholas-cochin-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 ::selection {
   background: #000000;
   color: #fff;
@@ -1561,6 +1563,17 @@ button.swiper-pagination-bullet {
 .hero_slider .hro__sldr {
   height: 65vw;
 }
+
+span.caption {
+  width: 100%;
+  text-align: right;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.85rem;
+}
+
 /*** elements */
 html,
 body {
@@ -1614,8 +1627,6 @@ a {
   color: #000000;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  transition: opacity ease 0.7s;
-  will-change: opacity;
 }
 a:visited {
   color: #000000;
@@ -1625,7 +1636,6 @@ a:hover, a:focus, a:active {
 }
 a:hover, a:active {
   outline: 0;
-  opacity: 0.5;
 }
 
 a.link {
@@ -1637,6 +1647,14 @@ a.link {
 
 a.link:hover {
   background-size: 0% 2px;
+}
+
+a.fade {
+  transition: opacity ease 0.7s;
+  will-change: opacity;
+}
+a.fade:hover {
+  opacity: 0.5;
 }
 
 /*** lists */
@@ -2114,6 +2132,11 @@ li#legal h6 {
   display: none;
 }
 
+#menubutton:hover, #menubutton:focus, #menubutton:active {
+  border: none;
+  outline: none;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   [aria-expanded=true] + ul.nav {
     margin-top: 15px;
@@ -2140,6 +2163,7 @@ footer .footer_ctnt {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 32px;
+  font-size: 0.9rem;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   footer .footer_ctnt {
@@ -2152,7 +2176,7 @@ footer .footer_ctnt {
   }
 }
 footer .footer_ctnt .__copyright {
-  font-family: "Poppins", sans-serif, 200;
+  font-family: "Poppins", sans-serif, 200, normal;
   font-size: min(4vw, 16px);
   line-height: min(7vw, 33px);
   margin-top: 8px;
@@ -2170,7 +2194,7 @@ footer .footer_ctnt .__links li {
   margin-right: 2rem;
 }
 footer .footer_ctnt .__links li:last-child {
-  margin-right: 0s;
+  margin-right: 0;
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   footer .footer_ctnt {
@@ -2381,7 +2405,7 @@ section.legal .wrapper .legal_content a {
   }
 }
 .contact .grd__a {
-  grid-template-areas: "a b" "c d ";
+  grid-template-areas: "a b" "d c";
   align-items: center;
   grid-row-gap: 80px;
 }
@@ -2393,8 +2417,6 @@ section.legal .wrapper .legal_content a {
 }
 .contact .grd__a .item__3 {
   grid-area: c;
-  justify-self: end;
-  text-align: right;
 }
 .contact .grd__a .item__4 {
   grid-area: d;

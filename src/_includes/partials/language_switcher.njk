@@ -21,7 +21,7 @@
   {%- endfor -%}
 
   <li id="switch" role="none" class="nav__item">
-    <a class="lg_nav__link  {{ activeClass }}" href="{{ translatedUrl }}">{{ lgg.label }}</a>
+    <a class="lg_nav__link fade {{ activeClass }}" href="{{ translatedUrl }}">{{ lgg.label }}</a>
   </li>
 
   {%- if loop.last %}</ul>{% endif -%}

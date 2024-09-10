@@ -2,7 +2,7 @@ module.exports = {
   de: {
     gardens: "Gärten",
     contact: "Kontakt",
-    about: "Über Manuel",
+    about: "Atelier",
     award: "Auszeichnungen",
     imprint: "Impressum",
     privacy: "Datenschutz",
@@ -14,7 +14,7 @@ module.exports = {
   en: {
     gardens: "Gardens",
     contact: "Contact",
-    about: "About Manuel",
+    about: "Atelier",
     award: "Awards",
     imprint: "Imprint",
     privacy: "Privacy",

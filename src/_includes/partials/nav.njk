@@ -14,25 +14,25 @@
 
     <li role="none" class="nav__item">
 
-      <a role="menuitem" href="/{{ locale }}/{{ url[locale].about }}" class="st_lvl__link {{ 'active' if '/{{ url[locale].about }}' in page.url }}" >{{ translate[locale].about }}</a>
+      <a role="menuitem" href="/{{ locale }}/{{ url[locale].about }}" class="st_lvl__link fade {{ 'active' if '/{{ url[locale].about }}' in page.url }}" >{{ translate[locale].about }}</a>
 
     </li>
 
     <li role="none" class="nav__item">
 
-      <a role="menuitem" href="/{{ locale }}/{{ url[locale].gardens }}" class="st_lvl__link {{ 'active' if '/{{ url[locale].gardens }}' in page.url }}">{{ translate[locale].gardens }}</a>
+      <a role="menuitem" href="/{{ locale }}/{{ url[locale].gardens }}" class="st_lvl__link fade {{ 'active' if '/{{ url[locale].gardens }}' in page.url }}">{{ translate[locale].gardens }}</a>
 
     </li>
 
     <li role="none" class="nav__item">
 
-      <a role="menuitem" href="/{{ locale }}/{{ url[locale].contact }}" class="st_lvl__link {{ 'active' if '/{{ url[locale].contact }}' in page.url }}">{{ translate[locale].contact }}</a>
+      <a role="menuitem" href="/{{ locale }}/{{ url[locale].contact }}" class="st_lvl__link fade {{ 'active' if '/{{ url[locale].contact }}' in page.url }}">{{ translate[locale].contact }}</a>
 
     </li>
 
     <li id="legal" role="none" class="nav__item">
-      <a role="menuitem" href="/{{ locale }}/{{ url[locale].imprint }}" class="{{ 'active' if '/{{ url[locale].imprint }}' in page.url }}"><span class="h6">{{ translate[locale].imprint }}</span></a>
-      <a role="menuitem" href="/{{ locale }}/{{ url[locale].privacy }}" class="{{ 'active' if '/{{ url[locale].privacy }}' in page.url }}"><span class="h6">{{ translate[locale].privacy }}</span></a>
+      <a role="menuitem" href="/{{ locale }}/{{ url[locale].imprint }}" class="{{ 'active' if '/{{ url[locale].imprint }}' in page.url }} fade"><span class="h6">{{ translate[locale].imprint }}</span></a>
+      <a role="menuitem" href="/{{ locale }}/{{ url[locale].privacy }}" class="{{ 'active' if '/{{ url[locale].privacy }}' in page.url }} fade"><span class="h6">{{ translate[locale].privacy }}</span></a>
     </li>
   
   </ul><!-- .menu_items -->

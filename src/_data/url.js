@@ -2,14 +2,14 @@ module.exports = {
   de: {
     gardens: "gaerten",
     contact: "kontakt",
-    about: "ueber-manuel",
+    about: "atelier",
     imprint: "impressum",
     privacy: "datenschutz"
   },
   en: {
     gardens: "gardens",
     contact: "contact",
-    about: "about-manuel",
+    about: "atelier",
     imprint: "imprint",
     privacy: "privacy"
   }
