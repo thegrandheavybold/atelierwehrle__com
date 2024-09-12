@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 	Theme Name: Susanna Theunissen | Coaching Supervison Beratung
  * Theme URI: https://atelierwehrle.com
  * Author: Christian Kriegsheim
@@ -1632,10 +1633,13 @@ a:visited {
   color: #000000;
 }
 a:hover, a:focus, a:active {
+  border: none;
   color: #000000;
+  outline: none;
 }
 a:hover, a:active {
   outline: 0;
+  border: none;
 }
 
 a.link {
@@ -2017,6 +2021,7 @@ button#menubutton {
   margin: 0;
   cursor: pointer;
   position: relative;
+  border: none;
 }
 
 .menu-button-links button, .menu-button-links button:active, .menu-button-links button:focus, .menu-button-links button:visited, .menu-button-links button:focus-visible, #menubutton {
@@ -2057,13 +2062,16 @@ ul.nav {
   padding-top: 40px;
   position: relative;
   z-index: 90;
+  border: none;
 }
 ul.nav li {
   width: auto;
   height: auto;
+  border: none;
 }
 ul.nav li a {
   text-transform: uppercase;
+  border: none;
 }
 
 [aria-expanded=true] + ul.nav {
@@ -2378,6 +2386,9 @@ section.legal .wrapper .legal_content a {
   height: auto;
   display: block;
 }
+.awards .award_list li:nth-last-child(1) {
+  flex-grow: 0.25;
+}
 
 /*** Contact Page & Maps */
 .contact {
@@ -2622,14 +2633,92 @@ section.legal .wrapper .legal_content a {
 .teaser_gllry figure picture img {
   opacity: 1;
   position: relative;
-  transition: transform ease 2s;
+  transition: transform ease-out 0.7s;
+  transition-duration: 15s;
   will-change: transform;
   height: 100%;
   width: 100%;
   display: block;
   object-fit: cover;
+  transform: translate3d(0, 0, 0) scale(1.1);
 }
 .teaser_gllry figure:hover > picture img {
   opacity: 1;
-  transform: scale(1.15);
+  transform: translate3d(50px, 0, 0) scale(1.2);
+}
+
+.teaser_gllry li.video > article a figure picture.featured_img {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.teaser_gllry li.video > article a figure div.vdo_fx {
+  display: block !important;
+  visibility: visible;
+}
+.teaser_gllry li.video > featured_hover_img {
+  display: block;
+}
+.teaser_gllry li article a figure div.vdo_fx {
+  display: none;
+}
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-webkit-media-controls {
+  display: none !important;
+}
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+/* Für Firefox */
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-moz-media-controls {
+  display: none !important;
+}
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-moz-media-controls-enclosure {
+  display: none !important;
+}
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-moz-media-controls-play-button {
+  display: none !important;
+}
+
+.video_hover_img {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  transition: opacity ease 2s;
+  will-change: opacity;
+}
+
+.teaser_gllry li article a:hover > figure div.vdo_fx picture.video_hover_img {
+  opacity: 0;
+}
+
+.video article a figure div.vdo_fx video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 100%;
+}
+
+/* The animation code */
+@keyframes cam-pan {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1.1);
+  }
+  50% {
+    transform: translate3d(50px, 0, 0) scale(1.2);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.1);
+  }
 }

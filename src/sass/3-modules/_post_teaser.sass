@@ -1,7 +1,6 @@
 .teaser_gllry
     @include pt-30 
     @include pb-30
-
     article
         width: 100%
         height: 100%
@@ -26,14 +25,90 @@
             img
                 opacity: 1
                 position: relative
-                transition: transform ease 2s
+                transition: transform ease-out .7s
+                transition-duration: 15s
                 will-change: transform
                 height: 100%
                 width: 100%
                 display: block
                 object-fit: cover
+                transform: translate3d(0, 0, 0) scale(1.1)
+                
 
 
     figure:hover > picture img
         opacity: 1
-        transform: scale(1.15)
+        transform: translate3d(50px, 0, 0) scale(1.2)
+        
+.teaser_gllry
+    
+    li
+        &.video > article a figure picture.featured_img
+            display: none
+            visibility: hidden
+            opacity: 0
+
+        &.video > article a figure div.vdo_fx  
+            display: block !important
+            visibility: visible
+        &.video > featured_hover_img
+            display: block
+
+        article a figure div.vdo_fx
+            display: none
+
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-webkit-media-controls 
+    display: none !important
+
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-webkit-media-controls-enclosure 
+    display: none !important
+
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-webkit-media-controls-play-button 
+    display: none !important
+
+
+/* Für Firefox */
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-moz-media-controls 
+    display: none !important
+
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-moz-media-controls-enclosure 
+    display: none !important
+
+
+ul.teasers.grd__gllry li:not(.video) article a figure div.vdo_fx video::-moz-media-controls-play-button 
+    display: none !important
+
+.video_hover_img
+    position: relative
+    z-index: 2
+    opacity: 1
+    transition: opacity ease 2s
+    will-change: opacity
+
+.teaser_gllry li article a:hover > figure div.vdo_fx picture.video_hover_img
+    opacity: 0
+        
+
+.video article a figure div.vdo_fx video
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    width: auto
+    height: 100%
+        
+/* The animation code */
+@keyframes cam-pan 
+    0% 
+        transform: translate3d(0, 0, 0) scale(1.1)
+    50%
+        transform: translate3d(50px, 0, 0) scale(1.2)
+
+    100%
+        transform: translate3d(0, 0, 0) scale(1.1)
+        

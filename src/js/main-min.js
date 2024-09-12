@@ -14654,3 +14654,38 @@ const footerElement = document.querySelector('footer');
           footerElement.classList.add('mm__isopen');
       }
   });
+  
+document.querySelectorAll('ul.teasers.grd__gllry li').forEach(function(li) {
+    if (!li.classList.contains('video')) { 
+        li.querySelectorAll('article a figure video').forEach(function(video) {
+            video.controls = false;
+        });
+    }
+});
+
+
+//Video Hover for Garden Teasers if has video
+document.querySelectorAll('ul.teasers.grd__gllry li').forEach(function(li) {
+  
+        const video = li.querySelector('article a figure div.vdo_fx video');
+
+        if (video) {
+            video.controls = false;
+
+            // Video starten, wenn die Maus über das Element fährt
+            li.addEventListener('mouseenter', function() {
+                video.play();
+            });
+
+            // Video pausieren, wenn die Maus das Element verlässt
+            li.addEventListener('mouseleave', function() {
+                video.pause();
+            });
+        }else {
+        // Video-Element aus dem DOM entfernen, wenn es nicht vorhanden ist
+        li.querySelector('article a figure').remove();
+    }
+    
+});
+
+document.getElementById("player").controls = false;
