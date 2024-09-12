@@ -27,25 +27,25 @@ metaImage:
                   <div class="vdo_fx">
 
                     <picture class="video_hover_img">
-                      <source srcset="/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
-                      <source srcset="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
-                      <source srcset="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
+                      <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
+                      <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
+                      <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
 
-                      <img src="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
+                      <img src="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
                     </picture>
 
                     <video id="player" class="" controls="false" muted loop>
-                      <source src="/assets/img/{{ post.data.featuredVideo }}" type="video/webm" />
+                      <source src="/.netlify/images?url=/assets/img/{{ post.data.featuredVideo }}" type="video/webm" />
                     </video>
 
                   </div>
 
                   <picture class="featured_img">
-                    <source srcset="/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
-                    <source srcset="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
-                    <source srcset="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
+                    <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
+                    <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
+                    <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
 
-                    <img src="/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
+                    <img src="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
                   </picture>
 
                 </figure>
