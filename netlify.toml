@@ -11,14 +11,3 @@
 [build.processing.html]
   pretty_urls = true
 
-[images]
-  remote_images = ["https://atelierwehrle.com/assets/img/*"]
-
-
-[[redirects]]
-  # Requests to URLs matching this pattern...
-  from = "/assets/img/*"
-  # ...will resolve to this URL pattern
-  to = "/.netlify/images?url=/assets/img/*"
-  # ... and the status code of 200 will make this behave as a rewrite
-  status = 200
