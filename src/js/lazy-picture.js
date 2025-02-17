@@ -1,11 +1,22 @@
 // Generate an picture tag with image src URLs which use Neltify image transforms
 
-module.exports = (ImageName, ImageAlt) => {
+export default function lazyPicture(ImageName, ImageAlt) {
   return `<picture class="lazy lazy-initial">
-            <source srcset="/assets/img/tiny/${ImageName}" media="(min-width: 1025px)">
-            <source srcset="/assets/img/tiny/${ImageName}?nf_resize=fit&w=1024" media="(min-width: 769px)">
-            <source srcset="/assets/img/tiny/${ImageName}?nf_resize=fit&w=768" media="(min-width: 481px)">
+            <img
+              srcset="
+                /assets/img/200/${ImageName}   200w,
+                /assets/img/400/${ImageName}   400w,
+                /assets/img/800/${ImageName}   800w,
+                /assets/img/1200/${ImageName} 1200w"
 
-            <img src="/assets/img/tiny/${ImageName}?nf_resize=fit&w=480" alt="${ImageAlt}" />
+              sizes=" 
+                (max-width: 450px) 200px,
+                (max-width: 850px) 400px,
+                (max-width: 1000px) 800px,
+                1200px"
+
+              src="/assets/img/1200/${ImageName}"
+              alt="${ImageAlt}"
+            />
           </picture>`;
-};
+}

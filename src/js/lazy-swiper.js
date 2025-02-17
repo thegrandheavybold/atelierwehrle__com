@@ -1,13 +1,24 @@
 // Generate an picture tag with image src URLs which use Neltify image transforms
-
-module.exports = (ImageName, ImageAlt) => {
+export default function lazySwiper(ImageName, ImageAlt) {
   return `<picture>
-            <source data-srcset="/assets/img/${ImageName}" media="(min-width: 1025px)">
-            <source data-srcset="/assets/img/${ImageName}?nf_resize=fit&w=1024" media="(min-width: 769px)">
-            <source data-srcset="/assets/img/${ImageName}?nf_resize=fit&w=768" media="(min-width: 481px)">
+            <img
+            
+            loading="lazy"
+          
+              srcset="
+                /assets/img/200/${ImageName}   200w,
+                /assets/img/400/${ImageName}   400w,
+                /assets/img/800/${ImageName}   800w,
+                /assets/img/1200/${ImageName} 1200w"
 
-            <source data-srcset="/assets/img/${ImageName}?nf_resize=fit&w=1024" media="(orientation: portrait) and (max-height: 920px)">
+              sizes=" 
+                (max-width: 450px) 200px,
+                (max-width: 850px) 400px,
+                (max-width: 1000px) 800px,
+                1200px"
 
-            <img loading="lazy" data-src="/assets/img/${ImageName}?nf_resize=fit&w=480" alt="${ImageAlt}" type="image/jpg"/>
+              src="/assets/img/1200/${ImageName}"
+              alt="${ImageAlt}"
+            />
           </picture>`;
-};
+}
