@@ -1,5 +1,6 @@
 // Generate an picture tag with image src URLs which use Neltify image transforms
-export default function lazySwiper(ImageName, ImageAlt) {
+
+module.exports = (ImageName, ImageAlt) => {
   return `<picture>
             <img
             
@@ -21,4 +22,4 @@ export default function lazySwiper(ImageName, ImageAlt) {
               alt="${ImageAlt}"
             />
           </picture>`;
-}
+};
