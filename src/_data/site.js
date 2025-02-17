@@ -10,10 +10,10 @@ module.exports = {
   metaTitle: "",
   metaDescription: "",
   email: "info@atelierwehrle.com",
-  phone: "???",
+  phone: "+49 331 8700 0968",
   instagram: "https://www.instagram.com/atelierwehrle",
   pinterest: "https://www.pinterest.co.uk/atelierwehrle/",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/manuelwehrle/",
   languages: [
     {
       label: "DE",
