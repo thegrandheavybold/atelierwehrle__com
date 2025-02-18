@@ -11,13 +11,3 @@
 [build.processing.html]
   pretty_urls = true
 
-#Netlify Image CDN
-[[redirects]]
-from = "/assets/img/:file"
-to = "/.netlify/images?url=/assets/img/:file"
-status = 200
-
-[[redirects]]
-from = "/assets/img/:width/:file"
-to = "/.netlify/images?url=/assets/img/:file&width=:width"
-status = 200
