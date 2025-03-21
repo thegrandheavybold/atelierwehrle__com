@@ -25,7 +25,7 @@ const heroSwiper = new Swiper('.hro__sldr', {
   speed: 2000,
   autoplay: {
     delay: 6000
-  },
+  }
 
 });
 

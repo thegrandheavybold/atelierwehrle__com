@@ -15,7 +15,7 @@ oov.forEach(oov => {
       trigger: oov,
       scrub: 3,
       end: "bottom bottom"
-    },
+    }
   })
 });
 

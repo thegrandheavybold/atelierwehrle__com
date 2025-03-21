@@ -13,7 +13,7 @@ module.exports = {
   phone: "+49 331 8700 0968",
   instagram: "https://www.instagram.com/atelierwehrle",
   pinterest: "https://www.pinterest.co.uk/atelierwehrle/",
-  linkedin: "https://www.linkedin.com/in/manuelwehrle/",
+  linkedin: "https://www.linkedin.com/company/atelier-wehrle-gmbh/",
   languages: [
     {
       label: "DE",

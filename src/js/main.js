@@ -79,29 +79,43 @@ import 'gsap-triggers.js'
 //Import Swiper Sliders
 import 'swiper-sliders.js'
 
+//Import lazy.js
+//import 'lazy.js'
 
 //Video Hover for Garden Teasers if has video
-document.querySelectorAll('ul.teasers.grd__gllry li').forEach(function(li) {
-  
-        const video = li.querySelector('article a figure div.vdo_fx video');
+document.addEventListener("DOMContentLoaded", function () {
+    // Video Hover for Garden Teasers if has video
+    document.querySelectorAll("ul.teasers.grd__gllry li").forEach(function (li) {
+        const video = li.querySelector("article a figure div.vdo_fx video");
 
         if (video) {
             video.controls = false;
 
-            // Video starten, wenn die Maus über das Element fährt
-            li.addEventListener('mouseenter', function() {
+            // Play video on hover
+            li.addEventListener("mouseenter", function () {
                 video.play();
             });
 
-            // Video pausieren, wenn die Maus das Element verlässt
-            li.addEventListener('mouseleave', function() {
+            // Pause video when mouse leaves
+            li.addEventListener("mouseleave", function () {
                 video.pause();
             });
-        }else {
-        // Video-Element aus dem DOM entfernen, wenn es nicht vorhanden ist
-        li.querySelector('article a figure').remove();
+        } else {
+            // Ensure the element exists before removing it
+            const figure = li.querySelector("article a figure");
+            if (figure) {
+                figure.remove();
+            }
+        }
+    });
+
+    // Fix for player controls error
+    const player = document.getElementById("player");
+    if (player) {
+        player.controls = false;
+    } else {
+        console.warn("⚠️ Element with ID 'player' not found in the DOM.");
     }
-    
 });
 
-document.getElementById("player").controls = false;
+

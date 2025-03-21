@@ -26,12 +26,23 @@ metaImage:
                   
                   <div class="vdo_fx">
 
-                    <picture class="video_hover_img">
-                      <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
-                      <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
-                      <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
+                    <picture class="video_hover_img lazy lazy-initial">
+                      <img
+                        srcset="
+                          /assets/img/200/{{ post.data.featuredImage }}   200w,
+                          /assets/img/400/{{ post.data.featuredImage }}   400w,
+                          /assets/img/800/{{ post.data.featuredImage }}   800w,
+                          /assets/img/1200/{{ post.data.featuredImage }} 1200w"
 
-                      <img src="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
+                        sizes=" 
+                          (max-width: 450px) 200px,
+                          (max-width: 850px) 400px,
+                          (max-width: 1000px) 800px,
+                          1200px"
+
+                        src="/assets/img/1200/{{ post.data.featuredImage }}"
+                        alt="{{ post.data.title }} – {{ post.data.description }}"
+                      />
                     </picture>
 
                     <video id="player" class="" controls="false" muted loop>
@@ -39,13 +50,24 @@ metaImage:
                     </video>
 
                   </div>
+                  
+                  <picture class="featured_img lazy lazy-initial">
+                    <img
+                      srcset="
+                        /assets/img/200/{{ post.data.featuredImage }}   200w,
+                        /assets/img/400/{{ post.data.featuredImage }}   400w,
+                        /assets/img/800/{{ post.data.featuredImage }}   800w,
+                        /assets/img/1200/{{ post.data.featuredImage }} 1200w"
 
-                  <picture class="featured_img">
-                    <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}" media="(min-width: 1025px)">
-                    <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=1024" media="(min-width: 769px)">
-                    <source srcset="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=768" media="(min-width: 481px)">
+                      sizes=" 
+                        (max-width: 450px) 200px,
+                        (max-width: 850px) 400px,
+                        (max-width: 1000px) 800px,
+                        1200px"
 
-                    <img src="/.netlify/images?url=/assets/img/{{ post.data.featuredImage }}?nf_resize=fit&w=480" alt="{{ post.data.title }} – {{ post.data.description }}" />
+                      src="/assets/img/1200/{{ post.data.featuredImage }}"
+                      alt="{{ post.data.title }} – {{ post.data.description }}"
+                    />
                   </picture>
 
                 </figure>
