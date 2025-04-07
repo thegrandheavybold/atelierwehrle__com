@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="de" id="{{ page.fileSlug }}">
+<html class="no-js" lang="{{lang}}" id="{{ page.fileSlug }}">
   <head>
     <meta charset="utf-8">
     <title>{{site.title}} · {{ seoTitle }}</title>
@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NHT87VMR');</script>
-    <!-- End Google Tag Manager -->
+    <!-- i18n SEO alternate Link-->
+    <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}{{page.url}}">
+    {% for link in page.url | locale_links %}
+    <link rel="alternate" hreflang="{{link.lang}}" href="{{site.url}}{{link.url}}">
+    {% endfor %}
 
     <!-- ccm19 cookie consent -->
-    <script src="https://cloud.ccm19.de/app.js?apiKey=41234b03f43d774ef6674ed6380929d7c00f832cfd8b16e0&amp;domain=67b3732874465e67850a3622" referrerpolicy="origin"></script>
+    <script data-ccm-loader-src="https://cloud.ccm19.de/app.js?apiKey=41234b03f43d774ef6674ed6380929d7c00f832cfd8b16e0&amp;domain=67b3732874465e67850a3622" referrerpolicy="origin" type="text/x-ccm-loader"></script>
+    
+    <!-- search console verfication -->
+    <meta name="google-site-verification" content="W38T_wo9w9LfWIw0GDs9MnALoGh9142aZ7kU4-Rrm1c" />
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
