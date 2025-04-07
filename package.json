@@ -2,27 +2,28 @@
   "name": "atelier_wehrle",
   "description": "",
   "keywords": [],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Christian Kriegsheim – TheGrandHeavyBold",
   "license": "ISC",
-  "main": ".eleventy.js",
+  "main": ".eleventy.mjs",
+  "type": "module",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve",
-    "watch": "eleventy --watch",
-    "debug": "DEBUG=*"
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy"
   },
   "dependencies": {
     "@sindresorhus/slugify": "^2.2.1",
+    "decap-cms-app": "^3.6.2",
     "eleventy-plugin-i18n": "^0.1.3",
     "gsap": "npm:@gsap/shockingly@^3.12.5",
     "moment": "^2.30.1",
-    "netlify-cli": "^17.35.0",
+    "netlify-cli": "^19.1.5",
     "normalize.css": "^8.0.1",
     "require-dir": "^1.2.0",
     "swiper": "^11.1.12"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "3.0.0"
   }
 }

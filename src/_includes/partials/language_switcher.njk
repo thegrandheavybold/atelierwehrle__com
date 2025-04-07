@@ -1,28 +1,18 @@
-{# loop though site.languages #}
-{%- for lgg in site.languages -%}
-  {%- if loop.first -%}<ul class="lg_nav">{%- endif -%}
+<ul class="lg_nav">
 
-  {# set translatedUrl to the homepage of that language by default #}
-  {%- set translatedUrl = "/" + lgg.code + "/" -%}
-
-  {# set current language class #}
-  {%- set activeClass = "is-active" if lgg.code == locale else "" -%}
-
-  {# loop through all the content of the site #}
-  {%- for item in collections.all -%}
-
-    {# for each item in the loop, check if
-    - its translationKey matches the current item translationKey
-    - its locale matches the code of the language we are looping through #}
-    {%- if item.data.translationKey == translationKey and item.data.locale == lgg.code -%}
-      {%- set translatedUrl = item.url -%}
-    {%- endif -%}
-
-  {%- endfor -%}
-
-  <li id="switch" role="none" class="nav__item">
-    <a class="lg_nav__link fade {{ activeClass }}" href="{{ translatedUrl }}">{{ lgg.label }}</a>
+  {# Hardcoded order: DE first #}
+  {% set activeClassDe = "is-active" if lang == "de" else "" %}
+  <li role="none" class="nav__item">
+    <a class="lg_nav__link fade {{ activeClassDe }}" href="{% if lang == 'de' %}{{ page.url }}{% else %}{% for link in page.url | locale_links %}{% if link.lang == 'de' %}{{ link.url }}{% endif %}{% endfor %}{% endif %}" lang="de" hreflang="de">
+      {{ 'DE' if lang == 'de' else 'DE' }}
+    </a>
   </li>
 
-  {%- if loop.last %}</ul>{% endif -%}
-{%- endfor -%}
+  {% set activeClassEn = "is-active" if lang == "en" else "" %}
+  <li role="none" class="nav__item">
+    <a class="lg_nav__link fade {{ activeClassEn }}" href="{% if lang == 'en' %}{{ page.url }}{% else %}{% for link in page.url | locale_links %}{% if link.lang == 'en' %}{{ link.url }}{% endif %}{% endfor %}{% endif %}" lang="en" hreflang="en">
+      {{ 'EN' if lang == 'en' else 'EN' }}
+    </a>
+  </li>
+
+</ul>

@@ -1,6 +1,6 @@
 {
   "permalink": "/{{ locale }}/{{ url.de.gardens}}/{{ page.fileSlug }}/",
   "layout": "layouts/gardens.njk",
-  "lang": "de",
-  "locale": "de"
+  "lang": "en",
+  "locale": "en"
 }

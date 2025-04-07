@@ -1,6 +1,5 @@
 // Generate an picture tag with image src URLs which use Neltify image transforms
-
-module.exports = (ImageName, ImageAlt) => {
+export default function picture(ImageName, ImageAlt) {
   return `<picture class="lazy lazy-initial">
             <img
               srcset="
@@ -19,4 +18,4 @@ module.exports = (ImageName, ImageAlt) => {
               alt="${ImageAlt}"
             />
           </picture>`;
-};
+}

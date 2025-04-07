@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: atelierwehrle__com
+  branch: main
+  auth_scope: repo
+  base_url: "https://mgkkcbqwyukfhtfgcmhm.supabase.co"
+  auth_endpoint: "/auth/v1/authorize"
+  app_id: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1na2tjYnF3eXVrZmh0ZmdjbWhtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMwMzA2MDAsImV4cCI6MjA1ODYwNjYwMH0.FNyG_0VytfVaBTqUilm1pWkSA5gh2XF84Y0sjuTsNf4"
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Inhalt", name: "body", widget: "markdown" }

@@ -1,10 +1,11 @@
-module.exports = {
-  de: {
-    gardens: "gaerten",
-    contact: "kontakt",
-    about: "atelier",
-    imprint: "impressum",
-    privacy: "datenschutz"
+export default function url() {
+  return {
+     de: {
+      gardens: "gaerten",
+      contact: "kontakt",
+      about: "atelier",
+      imprint: "impressum",
+      privacy: "datenschutz"
   },
   en: {
     gardens: "gardens",
@@ -13,4 +14,5 @@ module.exports = {
     imprint: "imprint",
     privacy: "privacy"
   }
-};
+  };
+}
