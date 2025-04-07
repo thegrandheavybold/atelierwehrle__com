@@ -23,6 +23,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/_headers");
   eleventyConfig.addPassthroughCopy("./src/_redirects");
   eleventyConfig.addPassthroughCopy("./src/admin");
+  eleventyConfig.addPassthroughCopy("./src/google20e2595b65a4949d.html");
+
   
   // Shortcodes for Pictures
   eleventyConfig.addShortcode("picture", picture);
