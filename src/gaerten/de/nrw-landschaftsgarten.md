@@ -1,5 +1,4 @@
 ---
-locale: de
 date: 2023-09-01T17:35
 urlSlug: nrw-landschaftsgarten
 metaTags:

@@ -1,5 +1,4 @@
 ---
-locale: de
 date: 2024-04-01T18:10
 urlSlug: salzburg-schlossgarten
 metaTags:

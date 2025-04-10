@@ -1,5 +1,4 @@
 ---
-locale: en
 urlSlug: geneva
 metaTags:
   metatitle: Geneva CH – Balkon

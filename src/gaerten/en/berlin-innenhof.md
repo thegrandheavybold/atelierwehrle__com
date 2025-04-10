@@ -1,5 +1,4 @@
 ---
-locale: en
 urlSlug: berlin-innenhof
 metaTags:
   metatitle: Atelier Wehrle, Berlin DE – Innenhof

@@ -1,5 +1,4 @@
 ---
-locale: en
 urlSlug: bodensee-bauerngarten
 metaTags:
   metatitle: Lake Constance DE – Cottage garden

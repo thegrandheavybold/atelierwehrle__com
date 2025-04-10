@@ -1,5 +1,4 @@
 ---
-locale: de
 date: 2024-01-01T16:44
 urlSlug: berlin-villengarten
 metaTags:

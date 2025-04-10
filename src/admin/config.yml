@@ -22,12 +22,6 @@ collections:
     create: true
     i18n: true
     fields:
-      - label: "Locale"
-        name: "locale"
-        widget: "hidden"
-        default: "de"
-        i18n: true
-
       - label: "Datum"
         name: "date"
         widget: "datetime"
@@ -41,7 +35,7 @@ collections:
         widget: "string"
         hint: "URL-Bezeichnung"
         required: true
-        i18n: duplicate
+        i18n: true
       
       - label: "SEO Meta Tags"
         name: "metaTags"

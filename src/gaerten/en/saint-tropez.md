@@ -1,5 +1,4 @@
 ---
-locale: en
 urlSlug: saint-tropez
 metaTags:
   metatitle: Saint Tropez F – Villengarten
