@@ -40,13 +40,22 @@ export default function (eleventyConfig) {
     return moment(date).format(format);
   });
 
-  // Collections
+  // Collections Old versions
   eleventyConfig.addCollection("gaerten_de", (collection) => 
     collection.getFilteredByGlob("./src/de/gaerten/*.njk")
   );
 
   eleventyConfig.addCollection("gaerten_en", (collection) => 
     collection.getFilteredByGlob("./src/en/gaerten/*.njk")
+  );
+
+   // Collections New for Gardens
+  eleventyConfig.addCollection("gardens_de", (collection) => 
+    collection.getFilteredByGlob("./src/gaerten/de/*.md")
+  );
+
+  eleventyConfig.addCollection("gardens_en", (collection) => 
+    collection.getFilteredByGlob("./src/gaerten/en/*.md")
   );
 
   // i18n
@@ -65,8 +74,21 @@ export default function (eleventyConfig) {
 		// When to throw errors for missing localized content files
 		errorMode: "strict"
 	});
+  
+  //For Templating using picture shortcode and frontmatter
+  // Split-Filter registrieren
+  eleventyConfig.addFilter("split", function (str, delimiter) {
+    return str.split(delimiter);
+  });
 
-
+  // Optional auch gleich "last" ergänzen:
+  eleventyConfig.addFilter("last", function (arr) {
+    if (Array.isArray(arr)) {
+      return arr[arr.length - 1];
+    }
+    return arr;
+  });
+  
   //Config object.
   return {
     dir: {

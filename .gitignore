@@ -7,3 +7,7 @@ dist
 # Local Netlify folder
 .netlify
 .env
+src/de/gaerten_old
+src/en/gaerten_old
+src/de/pages/gaerten_old.njk
+src/en/pages/gaerten_old.njk
