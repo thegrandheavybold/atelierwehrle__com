@@ -1,4 +1,5 @@
 ---
+locale: de
 date: 2022-02-01T17:23
 urlSlug: geneva
 metaTags:

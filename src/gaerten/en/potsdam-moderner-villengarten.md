@@ -1,4 +1,5 @@
 ---
+locale: en
 urlSlug: potsdam-moderner-villengarten
 metaTags:
   metatitle: Potsdam DE – moderner Villengarten

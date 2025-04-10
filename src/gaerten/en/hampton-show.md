@@ -1,4 +1,5 @@
 ---
+locale: en
 urlSlug: hampton-show
 metaTags:
   metatitle: "Hampton Court Palace UK – Flower Show "

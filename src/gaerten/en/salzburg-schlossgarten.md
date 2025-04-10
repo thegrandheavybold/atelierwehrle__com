@@ -1,4 +1,5 @@
 ---
+locale: en
 urlSlug: salzburg-schlossgarten
 metaTags:
   metatitle: Salzburg A – Schlossgarten

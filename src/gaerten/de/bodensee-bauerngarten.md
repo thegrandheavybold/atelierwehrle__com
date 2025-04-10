@@ -1,4 +1,5 @@
 ---
+locale: de
 date: 2024-01-01T16:46
 urlSlug: bodensee-bauerngarten
 metaTags:

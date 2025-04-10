@@ -2,10 +2,11 @@ backend:
   name: github
   repo: thegrandheavybold/atelierwehrle__com
   branch: main
-
+  publish_mode: editorial_workflow
 
 media_folder: "/src/assets/img"
 public_folder: "/assets/img"
+
 
 i18n:
   structure: multiple_folders
@@ -21,6 +22,12 @@ collections:
     create: true
     i18n: true
     fields:
+      - label: "Locale"
+        name: "locale"
+        widget: "hidden"
+        default: "de"
+        i18n: true
+
       - label: "Datum"
         name: "date"
         widget: "datetime"

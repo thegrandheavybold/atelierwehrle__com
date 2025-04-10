@@ -1,4 +1,5 @@
 ---
+locale: en
 urlSlug: nrw-landschaftsgarten
 metaTags:
   metaDescription: This landscape garden surrounds a country house in the English

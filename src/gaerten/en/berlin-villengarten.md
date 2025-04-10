@@ -1,4 +1,5 @@
 ---
+locale: en
 urlSlug: berlin-villengarten
 metaTags:
   metatitle: Atelier Wehrle Berlin DE – Villa Garden

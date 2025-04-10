@@ -1,4 +1,5 @@
 ---
+locale: de
 date: 2022-07-01T18:06
 urlSlug: saint-tropez
 metaTags:

@@ -1,4 +1,5 @@
 ---
+locale: de
 date: 2024-02-01T17:48
 urlSlug: potsdam-moderner-villengarten
 metaTags:

@@ -1,4 +1,5 @@
 ---
+locale: de
 date: 2016-07-01T17:33
 urlSlug: hampton-show
 metaTags:
