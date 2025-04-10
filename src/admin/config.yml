@@ -35,7 +35,7 @@ collections:
         widget: "string"
         hint: "URL-Bezeichnung"
         required: true
-        i18n: true
+        i18n: duplicate
       
       - label: "SEO Meta Tags"
         name: "metaTags"
