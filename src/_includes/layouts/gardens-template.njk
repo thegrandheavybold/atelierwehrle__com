@@ -1,0 +1,125 @@
+---
+layout: layouts/base.njk
+
+eleventyComputed:
+  title: "{{ title }}"
+  description: "{{ metaTags.metaDescription }}"
+  featuredImage: "{{ featured.featImage }}"
+  slug: "{{ urlSlug }}"
+  seoTitle: "{{ metaTags.metatitle }}"
+  seoDescription: "{{ metaTags.metaDescription }}"
+  metaImage: "{{ featured.featImage }}"
+---
+
+{# MAIN ARTICLE #}
+{% if mainArticle %}
+
+    {# Opener Image Section #}
+    {% if mainArticle.articleHeader.openerImage %}
+
+      <section class="opener {{ page.fileSlug }} {{ tags | join(' ') }} lx">
+
+        <div class="wrapper">
+         
+          {% picture mainArticle.articleHeader.openerImage | split('/') | last, mainArticle.articleHeader.alt %}
+
+        </div>
+
+      </section>
+
+    {% endif %}
+  
+
+    {# Gallery Section #}
+    {% if mainArticle.galleryImages %}
+
+      <section class="garden_gllry">
+
+        <ol class="wrapper grd__gllry __imgs">
+
+          {% for img in mainArticle.galleryImages %}
+
+            {% if img.image %}
+
+              <li class="item__ oov">
+
+                {% picture img.image | split('/') | last, img.alt %}
+
+              </li>
+
+            {% endif %}
+
+          {% endfor %}
+
+        </ol><!-- .wrapper -->
+
+      </section><!-- .garden_gllry -->
+
+    {% endif %}
+
+
+    {# Article Copy #}
+    {% if mainArticle.copy %}
+
+      <section class="garden__details oov">
+
+        <div class="wrapper">
+
+          <h1 class="h5">{{ title }}</h1>
+
+          <p class="__txt">
+
+            {{ mainArticle.copy }}
+            
+          </p><!-- .wrapper -->
+
+        </div><!-- .wrapper -->
+
+      </section><!-- .garden__details -->
+
+    {% endif %}
+
+
+    <section class="garden_closer">
+
+      <div class="wrapper">
+
+        {# Footer Image #}
+        {% if mainArticle.articleFooter.closingImage %}
+
+          <div class="item__1 oov">
+
+            {% picture mainArticle.articleFooter.closingImage | split('/') | last, mainArticle.articleFooter.alt %}
+          
+          </div>
+
+        {% endif %}
+        
+
+        {# Credits #}
+        {% if mainArticle.articleCredits %}
+
+          <ol class="item__2 credits oov">
+
+            <li>
+            <strong>{{ translate[locale].design }}</strong>			<span>{{ mainArticle.articleCredits.entwurf }}</span>
+            </li>
+
+            <li>
+              <strong>{{ translate[locale].execution }}</strong>			<span>{{ mainArticle.articleCredits.ausfuehrung }}</span>
+            </li>
+        
+            <li>
+              <strong>{{ translate[locale].images }}</strong>			<span>{{ mainArticle.articleCredits.bilder }}</span>
+            </li>
+
+          </ol>
+
+        {% endif %}
+
+      </div><!-- .wrapper -->
+
+    </section><!-- .opener -->
+
+
+{% endif %}

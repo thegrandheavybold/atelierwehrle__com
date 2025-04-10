@@ -1,10 +1,7 @@
-import "decap-cms-app";
+import CMS from "decap-cms-app";
 
-// CMS initialisieren
+// Initialize the CMS object
 CMS.init();
 
-// Beispiel: Eine Vorschau-Template-Registrierung (falls gewünscht)
-CMS.registerPreviewTemplate("blog", ({ entry }) => {
-  const data = entry.getIn(["data"]).toJS();
-  return `<h1>${data.title}</h1><p>${data.body}</p>`;
-});
+// Now the registry is available via the CMS object.
+CMS.registerPreviewTemplate("AtelierWehrleCMS", AtelierWehrleCMS);

@@ -11,7 +11,7 @@ metaImage:
 
   <div class="wrapper">
 
-    {% for post in collections.posts_de | reverse %}
+    {% for post in collections.gardens_de | reverse %}
       {% if loop.first %}<ul class="teasers grd__gllry">{% endif %}
         {% set counter = ( counter | default(0) ) + 1 %}
 
@@ -21,60 +21,18 @@ metaImage:
 
               <a href="{{- post.url -}}" id="{{ post.data.slug }}">
 
-              <figure>
-                  
-                  <div class="vdo_fx">
+                <div class="flowcontainer">
 
-                    <picture class="video_hover_img lazy lazy-initial">
-                      <img
-                        srcset="
-                          /assets/img/200/{{ post.data.featuredImage }}   200w,
-                          /assets/img/400/{{ post.data.featuredImage }}   400w,
-                          /assets/img/800/{{ post.data.featuredImage }}   800w,
-                          /assets/img/1200/{{ post.data.featuredImage }} 1200w"
-
-                        sizes=" 
-                          (max-width: 450px) 200px,
-                          (max-width: 850px) 400px,
-                          (max-width: 1000px) 800px,
-                          1200px"
-
-                        src="/assets/img/1200/{{ post.data.featuredImage }}"
-                        alt="{{ post.data.title }} – {{ post.data.description }}"
-                      />
-                    </picture>
-
-                    <video id="player" class="" controls="false" muted loop>
-                      <source src="/assets/img/{{ post.data.featuredVideo }}" type="video/webm" />
-                    </video>
-
-                  </div>
-                  
-                  <picture class="featured_img lazy lazy-initial">
-                    <img
-                      srcset="
-                        /assets/img/200/{{ post.data.featuredImage }}   200w,
-                        /assets/img/400/{{ post.data.featuredImage }}   400w,
-                        /assets/img/800/{{ post.data.featuredImage }}   800w,
-                        /assets/img/1200/{{ post.data.featuredImage }} 1200w"
-
-                      sizes=" 
-                        (max-width: 450px) 200px,
-                        (max-width: 850px) 400px,
-                        (max-width: 1000px) 800px,
-                        1200px"
-
-                      src="/assets/img/1200/{{ post.data.featuredImage }}"
-                      alt="{{ post.data.title }} – {{ post.data.description }}"
-                    />
-                  </picture>
-
-                </figure>
+                  {% if post.data.featured and post.data.featured.featImage %}
+                    {% picture post.data.featured.featImage | split('/') | last, post.data.featured.alt %}
+                  {% endif %}
+                
+                </div>
 
               <span class="ttl">
 
-                {{ post.data.description }} <br>
-                <!-- {{ post.data.description }} -->
+                {{ post.data.title }} <br>
+                <!-- {{ post.data.title }} -->
                 
               </span>
 

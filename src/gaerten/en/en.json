@@ -1,6 +1,7 @@
 {
   "permalink": "/{{ locale }}/{{ url.de.gardens}}/{{ page.fileSlug }}/",
-  "layout": "layouts/gardens.njk",
+  "layout": "layouts/gardens-template.njk",
   "lang": "en",
-  "locale": "en"
+  "locale": "en",
+  "tags": "gardens_en"
 }

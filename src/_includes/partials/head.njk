@@ -8,10 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- i18n SEO alternate Link-->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}{{page.url}}">
     {% for link in page.url | locale_links %}
     <link rel="alternate" hreflang="{{link.lang}}" href="{{site.url}}{{link.url}}">
     {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/de">
 
     <!-- ccm19 cookie consent -->
     <script data-ccm-loader-src="https://cloud.ccm19.de/app.js?apiKey=41234b03f43d774ef6674ed6380929d7c00f832cfd8b16e0&amp;domain=67b3732874465e67850a3622" referrerpolicy="origin" type="text/x-ccm-loader"></script>

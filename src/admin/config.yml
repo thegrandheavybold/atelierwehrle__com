@@ -1,21 +1,195 @@
 backend:
   name: github
-  repo: atelierwehrle__com
+  repo: thegrandheavybold/atelierwehrle__com
   branch: main
-  auth_scope: repo
-  base_url: "https://mgkkcbqwyukfhtfgcmhm.supabase.co"
-  auth_endpoint: "/auth/v1/authorize"
-  app_id: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1na2tjYnF3eXVrZmh0ZmdjbWhtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMwMzA2MDAsImV4cCI6MjA1ODYwNjYwMH0.FNyG_0VytfVaBTqUilm1pWkSA5gh2XF84Y0sjuTsNf4"
 
-media_folder: "src/assets/uploads"
-public_folder: "/assets/uploads"
+media_folder: "/src/assets/img"
+public_folder: "/assets/img"
+publish_mode: editorial_workflow
+
+i18n:
+  structure: multiple_folders
+  locales: [de, en]
+  default_locale: de 
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/posts"
+  - label: "Gärten"
+    name: "gaerten"
+    folder: "src/gaerten"
+    slug: "{{urlSlug}}"
+    path: "{{slug}}"
     create: true
-    slug: "{{slug}}"
+    i18n: true
     fields:
-      - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Inhalt", name: "body", widget: "markdown" }
+      - label: "Datum"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm"       # Day.js Format!
+        picker_utc: false
+        required: true
+        default: ""
+
+      - label: "URL Slug"
+        name: "urlSlug"
+        widget: "string"
+        hint: "URL-Bezeichnung"
+        required: true
+        i18n: duplicate
+      
+      - label: "SEO Meta Tags"
+        name: "metaTags"
+        widget: "object"
+        i18n: true
+        fields:
+          - label: "Meta Title"
+            name: "metatitle"
+            widget: "string"
+            hint: "Meta Title SEO Optimiert"
+            i18n: true
+            required: false
+          
+          - label: "Meta Description"
+            name: "metaDescription"
+            widget: "text"
+            hint: "Meta Description SEO Optimiert"
+            i18n: true
+            required: false
+
+      - label: "Featured"
+        name: "featured"
+        widget: "object"
+        i18n: true  
+        fields:
+          - label: "Featured Image"
+            name: "featImage"
+            widget: "image"
+            i18n: true
+            hint: "Thumbnail für Gärtenübersicht Seite"
+            choose_url: false
+            media_folder: "/src/assets/img"
+            public_folder: "/assets/img"
+            media_library:
+              config:
+                multiple: false
+                max_file_size: 2000000
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+            i18n: true
+      
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        i18n: true
+        
+
+
+      - label: "Main Article"
+        name: "mainArticle"
+        widget: "object"
+        i18n: true
+        required: false
+        fields:
+          - label: "Article Header"
+            name: "articleHeader"
+            widget: "object"
+            required: false
+            i18n: true
+            fields:  
+              - label: "Opener Image"
+                name: "openerImage"
+                widget: "image"
+                i18n: true
+                required: false
+                hint: "Opener Image – FullWidth"
+                choose_url: false
+                media_folder: "/src/assets/img"
+                public_folder: "/assets/img"
+                media_library:
+                  config:
+                    multiple: false
+                    max_file_size: 2000000
+              
+              - label: "Alt Text"
+                name: "alt"
+                widget: "string"
+                i18n: true
+                required: false
+              
+          - label: "Gallery"
+            name: "galleryImages"
+            widget: "list"
+            i18n: true
+            required: false
+            fields: 
+              - label: Image
+                name: image
+                widget: image
+                i18n: true
+                required: false
+                choose_url: false
+                media_folder: "/src/assets/img"
+                public_folder: "/assets/img"
+                media_library:
+                  config:
+                    multiple: false
+                    max_file_size: 2000000
+              - label: "Alt Text"
+                name: "alt"
+                widget: "string"
+                i18n: true
+                required: false
+
+          - label: "Article Copy"
+            name: "copy"
+            widget: "text"
+            i18n: true
+            required: false
+          
+          - label: "Article Footer"
+            name: "articleFooter"
+            widget: "object"
+            i18n: true
+            required: false
+            fields:
+              - label: "Closing Image"
+                name: "closingImage"
+                widget: "image"
+                i18n: true
+                hint: "Main Closing Image – FullWidth"
+                choose_url: false
+                required: false
+                media_folder: "/src/assets/img"
+                public_folder: "/assets/img"
+                media_library:
+                  config:
+                    multiple: false
+                    max_file_size: 2000000
+              - label: "Alt Text"
+                name: "alt"
+                widget: "string"
+                required: false
+                i18n: true
+          
+          - label: "Article Credits"
+            name: "articleCredits"
+            widget: "object"
+            i18n: true
+            fields:
+              - label: "Entwurf & Ausführungsplanung"
+                name: "entwurf"
+                widget: "string"
+                required: false
+                i18n: true
+              - label: "Ausführung"
+                name: "ausfuehrung"
+                widget: "string"
+                required: false
+                i18n: true
+              - label: "Bilder"
+                name: "bilder"
+                widget: "string"
+                required: false
+                i18n: true
+
+
