@@ -2,6 +2,7 @@ backend:
   name: github
   repo: thegrandheavybold/atelierwehrle__com
   branch: main
+  publish_mode: editorial_workflow
 
 media_folder: "/src/assets/img"
 public_folder: "/assets/img"
