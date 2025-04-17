@@ -35,8 +35,8 @@ package = "@netlify/plugin-sitemap"
   buildDir = "dist"
 
   exclude = [
-    "./admin/**",            # exclude everything inside /dist/admin/
-    "./admin/index.html",    # extra safe
-    "./admin",                # root-level folder if needed
-    "./google20e2595b65a4949d"
+    "./dist/admin/**",            # exclude everything inside /dist/admin/
+    "./dist/index.html",    # extra safe
+    "./dist/admin",                # root-level folder if needed
+    "./dist/google20e2595b65a4949d"
   ]
