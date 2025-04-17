@@ -1,8 +1,7 @@
 ---
-title: Gärten
-permalink: /{{ locale }}/gaerten/index.html
+title: Gardens
 
-seoTitle: Gärten
+seoTitle: Gardens
 seoDescription: 
 metaImage: 
 ---
@@ -11,7 +10,7 @@ metaImage:
 
   <div class="wrapper">
 
-    {% for post in collections.gardens_de | reverse %}
+    {% for post in collections.gardens_en | reverse %}
       {% if loop.first %}<ul class="teasers grd__gllry">{% endif %}
         {% set counter = ( counter | default(0) ) + 1 %}
 

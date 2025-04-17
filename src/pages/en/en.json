@@ -1,4 +1,5 @@
 {
+  "permalink": "/{{ locale }}/{{ page.fileSlug }}/",
   "locale": "en",
   "lang": "en",
   "layout": "layouts/base.njk"

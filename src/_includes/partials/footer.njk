@@ -13,10 +13,27 @@
         <li><a class="fade" href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
         <li><a class="fade" href="{{ site.pinterest }}" target="_blank" rel="noopener">Pinterest</a></li>
         <li><a class="fade" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a class="fade" href="/{{ locale }}/{{ url[locale].imprint }}">{{ translate[locale].imprint }}</a></li>
-        <li><a class="fade" href="/{{ locale }}/{{ url[locale].privacy }}">{{ translate[locale].privacy }}</a></li>
-      </ul>
 
+        {% set baseUrl = "" if locale == "de" else "/" + locale %}
+
+        <li>
+          <a class="fade"
+            href="{{ baseUrl }}/{{ url.de.imprint }}"
+            lang="{{ locale }}"
+            hreflang="{{ locale }}">
+            {{ translate[locale].imprint }}
+          </a>
+        </li>
+        <li>
+          <a class="fade"
+            href="{{ baseUrl }}/{{ url.de.privacy }}"
+            lang="{{ locale }}"
+            hreflang="{{ locale }}">
+            {{ translate[locale].privacy }}
+          </a>
+        </li>
+
+      </ul>
 
     </div>
 

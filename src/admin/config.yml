@@ -29,6 +29,7 @@ collections:
         picker_utc: false
         required: true
         default: ""
+        i18n: duplicate
 
       - label: "URL Slug"
         name: "urlSlug"

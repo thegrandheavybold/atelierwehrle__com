@@ -40,15 +40,6 @@ export default function (eleventyConfig) {
     return moment(date).format(format);
   });
 
-  // Collections Old versions
-  eleventyConfig.addCollection("gaerten_de", (collection) => 
-    collection.getFilteredByGlob("./src/de/gaerten/*.njk")
-  );
-
-  eleventyConfig.addCollection("gaerten_en", (collection) => 
-    collection.getFilteredByGlob("./src/en/gaerten/*.njk")
-  );
-
    // Collections New for Gardens
   eleventyConfig.addCollection("gardens_de", (collection) => 
     collection.getFilteredByGlob("./src/gaerten/de/*.md")
