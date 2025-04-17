@@ -1,6 +1,6 @@
 ---
 date: 2022-01-01T23:57
-slug: berlin-innenhof
+urlSlug: berlin-innenhof
 metaTags:
   metatitle: Atelier Wehrle, Berlin DE – Innenhof
   metaDescription: |

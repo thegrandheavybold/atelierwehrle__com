@@ -6,7 +6,6 @@ backend:
 
 media_folder: "/src/assets/img"
 public_folder: "/assets/img"
-publish_mode: editorial_workflow
 
 i18n:
   structure: multiple_folders
@@ -16,31 +15,26 @@ i18n:
 collections:
   - label: "Gärten"
     name: "gaerten"
-    folder: "src/gaerten/"
-    slug: "{{ slug }}"
-    path: "{{ slug }}"
+    folder: "src/gaerten"
+    slug: "{{slug}}"   # ✅ use filename as fallback slug
+    path: "{{slug}}"   # URL remains based on slug
     create: true
     i18n: true
     extension: "md"
     format: "frontmatter"
+
     fields:
-
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        i18n: true
-
       - label: "Datum"
         name: "date"
         widget: "datetime"
-        format: "YYYY-MM-DDTHH:mm"       # Day.js Format!
+        format: "YYYY-MM-DDTHH:mm"
         picker_utc: false
         required: true
         default: ""
         i18n: true
 
       - label: "URL Slug"
-        name: "urlslug"
+        name: "urlSlug"
         widget: "string"
         hint: "URL-Bezeichnung"
         required: true
@@ -51,42 +45,18 @@ collections:
         widget: "object"
         i18n: true
         fields:
-          - label: "Meta Title"
-            name: "metatitle"
-            widget: "string"
-            hint: "Meta Title SEO Optimiert"
-            i18n: true
-            required: false
-          
-          - label: "Meta Description"
-            name: "metaDescription"
-            widget: "text"
-            hint: "Meta Description SEO Optimiert"
-            i18n: true
-            required: false
+          - { label: "Meta Title", name: "metatitle", widget: "string", i18n: true, required: false }
+          - { label: "Meta Description", name: "metaDescription", widget: "text", i18n: true, required: false }
 
       - label: "Featured"
         name: "featured"
         widget: "object"
         i18n: true  
         fields:
-          - label: "Featured Image"
-            name: "featImage"
-            widget: "image"
-            i18n: true
-            hint: "Thumbnail für Gärtenübersicht Seite"
-            choose_url: false
-            media_folder: "/src/assets/img"
-            public_folder: "/assets/img"
-            media_library:
-              config:
-                multiple: false
-                max_file_size: 2000000
-          - label: "Alt Text"
-            name: "alt"
-            widget: "string"
-            i18n: true
+          - { label: "Featured Image", name: "featImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+          - { label: "Alt Text", name: "alt", widget: "string", i18n: true }
 
+      - { label: "Title", name: "title", widget: "string", i18n: true }
 
       - label: "Main Article"
         name: "mainArticle"
@@ -99,101 +69,35 @@ collections:
             widget: "object"
             required: false
             i18n: true
-            fields:  
-              - label: "Opener Image"
-                name: "openerImage"
-                widget: "image"
-                i18n: true
-                required: false
-                hint: "Opener Image – FullWidth"
-                choose_url: false
-                media_folder: "/src/assets/img"
-                public_folder: "/assets/img"
-                media_library:
-                  config:
-                    multiple: false
-                    max_file_size: 2000000
-              
-              - label: "Alt Text"
-                name: "alt"
-                widget: "string"
-                i18n: true
-                required: false
-              
+            fields:
+              - { label: "Opener Image", name: "openerImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+              - { label: "Alt Text", name: "alt", widget: "string", i18n: true, required: false }
+
           - label: "Gallery"
             name: "galleryImages"
             widget: "list"
             i18n: true
             required: false
-            fields: 
-              - label: Image
-                name: image
-                widget: image
-                i18n: true
-                required: false
-                choose_url: false
-                media_folder: "/src/assets/img"
-                public_folder: "/assets/img"
-                media_library:
-                  config:
-                    multiple: false
-                    max_file_size: 2000000
-              - label: "Alt Text"
-                name: "alt"
-                widget: "string"
-                i18n: true
-                required: false
+            fields:
+              - { label: "Image", name: "image", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+              - { label: "Alt Text", name: "alt", widget: "string", required: false }
 
-          - label: "Article Copy"
-            name: "copy"
-            widget: "text"
-            i18n: true
-            required: false
-          
+          - { label: "Article Copy", name: "copy", widget: "text", i18n: true, required: false }
+
           - label: "Article Footer"
             name: "articleFooter"
             widget: "object"
             i18n: true
             required: false
             fields:
-              - label: "Closing Image"
-                name: "closingImage"
-                widget: "image"
-                i18n: true
-                hint: "Main Closing Image – FullWidth"
-                choose_url: false
-                required: false
-                media_folder: "/src/assets/img"
-                public_folder: "/assets/img"
-                media_library:
-                  config:
-                    multiple: false
-                    max_file_size: 2000000
-              - label: "Alt Text"
-                name: "alt"
-                widget: "string"
-                required: false
-                i18n: true
-          
+              - { label: "Closing Image", name: "closingImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+              - { label: "Alt Text", name: "alt", widget: "string", i18n: true, required: false }
+
           - label: "Article Credits"
             name: "articleCredits"
             widget: "object"
             i18n: true
             fields:
-              - label: "Entwurf & Ausführungsplanung"
-                name: "entwurf"
-                widget: "string"
-                required: false
-                i18n: true
-              - label: "Ausführung"
-                name: "ausfuehrung"
-                widget: "string"
-                required: false
-                i18n: true
-              - label: "Bilder"
-                name: "bilder"
-                widget: "string"
-                required: false
-                i18n: true
-
-
+              - { label: "Entwurf & Ausführungsplanung", name: "entwurf", widget: "string", i18n: true, required: false }
+              - { label: "Ausführung", name: "ausfuehrung", widget: "string", i18n: true, required: false }
+              - { label: "Bilder", name: "bilder", widget: "string", i18n: true, required: false }
