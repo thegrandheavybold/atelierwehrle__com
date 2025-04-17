@@ -1,5 +1,7 @@
 ---
-urlSlug: berlin-innenhof
+title: Berlin DE – Courtyard
+date: 2022-01-01T23:57
+slug: berlin-innenhof
 metaTags:
   metatitle: Atelier Wehrle, Berlin DE – Innenhof
   metaDescription: |
@@ -7,7 +9,6 @@ metaTags:
 featured:
   alt: Atelier Wehrle, Berlin DE – Innenhof
   featImage: /assets/img/veteranenstrasse__04.jpg
-title: Berlin DE – Courtyard
 mainArticle:
   copy: >-
     This previously unused, shady courtyard was transformed into a vibrant,

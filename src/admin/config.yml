@@ -16,14 +16,20 @@ i18n:
 collections:
   - label: "Gärten"
     name: "gaerten"
-    folder: "src/gaerten"
-    slug: "{{urlSlug}}"
-    path: "{{slug}}"
+    folder: "src/gaerten/"
+    slug: "{{ slug }}"
+    path: "{{ slug }}"
     create: true
     i18n: true
     extension: "md"
     format: "frontmatter"
     fields:
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        i18n: true
+        
       - label: "Datum"
         name: "date"
         widget: "datetime"
@@ -31,14 +37,14 @@ collections:
         picker_utc: false
         required: true
         default: ""
-        i18n: duplicate
+        i18n: true
 
       - label: "URL Slug"
-        name: "urlSlug"
+        name: "slug"
         widget: "string"
         hint: "URL-Bezeichnung"
         required: true
-        i18n: duplicate
+        i18n: true
       
       - label: "SEO Meta Tags"
         name: "metaTags"
@@ -80,12 +86,6 @@ collections:
             name: "alt"
             widget: "string"
             i18n: true
-      
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        i18n: true
-        
 
 
       - label: "Main Article"

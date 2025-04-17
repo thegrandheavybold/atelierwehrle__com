@@ -1,6 +1,7 @@
 ---
+title: Berlin DE – Innenhof
 date: 2022-01-01T23:57
-urlSlug: berlin-innenhof
+slug: berlin-innenhof
 metaTags:
   metatitle: Atelier Wehrle, Berlin DE – Innenhof
   metaDescription: |
@@ -8,7 +9,6 @@ metaTags:
 featured:
   alt: Atelier Wehrle, Berlin DE – Innenhof
   featImage: /assets/img/veteranenstrasse__04.jpg
-title: Berlin DE – Innenhof
 mainArticle:
   copy: >-
     Dieser zuvor ungenutzte, schattige Innenhof wurde durch die Umgestaltung
