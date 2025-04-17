@@ -29,7 +29,7 @@ collections:
         name: "title"
         widget: "string"
         i18n: true
-        
+
       - label: "Datum"
         name: "date"
         widget: "datetime"
@@ -40,7 +40,7 @@ collections:
         i18n: true
 
       - label: "URL Slug"
-        name: "slug"
+        name: "urlslug"
         widget: "string"
         hint: "URL-Bezeichnung"
         required: true
