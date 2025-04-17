@@ -2,8 +2,10 @@ backend:
   name: github
   repo: thegrandheavybold/atelierwehrle__com
   branch: main
-
+  
 publish_mode: editorial_workflow
+
+local_backend: true
 
 media_folder: "/src/assets/img"
 public_folder: "/assets/img"
@@ -103,3 +105,40 @@ collections:
               - { label: "Entwurf & Ausführungsplanung", name: "entwurf", widget: "string", i18n: true, required: false }
               - { label: "Ausführung", name: "ausfuehrung", widget: "string", i18n: true, required: false }
               - { label: "Bilder", name: "bilder", widget: "string", i18n: true, required: false }
+
+
+
+
+  - label: "Test Content"
+    name: "testcontent"
+    folder: "src/testcontent"
+    create: true
+    i18n: true
+    slug: "{{slug}}"
+    path: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        i18n: true
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm"
+        i18n: true
+
+  - label: "Test Single Language"
+    name: "test_single"
+    folder: "src/test_single"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm" }
+      - { label: "Content", name: "body", widget: "markdown" }
