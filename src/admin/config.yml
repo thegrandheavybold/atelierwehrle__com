@@ -21,6 +21,8 @@ collections:
     path: "{{slug}}"
     create: true
     i18n: true
+    extension: "md"
+    format: "frontmatter"
     fields:
       - label: "Datum"
         name: "date"
