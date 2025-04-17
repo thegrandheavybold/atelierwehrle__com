@@ -2,7 +2,8 @@ backend:
   name: github
   repo: thegrandheavybold/atelierwehrle__com
   branch: main
-  publish_mode: editorial_workflow
+
+publish_mode: editorial_workflow
 
 media_folder: "/src/assets/img"
 public_folder: "/assets/img"
@@ -22,8 +23,10 @@ collections:
     i18n: true
     extension: "md"
     format: "frontmatter"
-
     fields:
+
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+
       - label: "Datum"
         name: "date"
         widget: "datetime"
@@ -56,7 +59,6 @@ collections:
           - { label: "Featured Image", name: "featImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
           - { label: "Alt Text", name: "alt", widget: "string", i18n: true }
 
-      - { label: "Title", name: "title", widget: "string", i18n: true }
 
       - label: "Main Article"
         name: "mainArticle"
