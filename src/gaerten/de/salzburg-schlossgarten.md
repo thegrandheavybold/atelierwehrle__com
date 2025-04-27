@@ -1,4 +1,5 @@
 ---
+title: Salzburg A – Schlossgarten
 date: 2024-04-01T00:49
 urlSlug: salzburg-schlossgarten
 metaTags:
@@ -8,7 +9,6 @@ metaTags:
 featured:
   alt: Atelier Wehrle, Salzburg A – Schlossgarten
   featImage: /assets/img/leopoldskron__02.jpg
-title: Salzburg A – Schlossgarten
 mainArticle:
   articleHeader:
     alt: Atelier Wehrle, Salzburg A – Schlossgarten
@@ -16,24 +16,27 @@ mainArticle:
   galleryImages:
     - alt: Atelier Wehrle, Salzburg A – Schlossgarten
       image: /assets/img/leopoldskron__03.jpg
-    - image: /assets/img/leopoldskron__01.jpg
-      alt: Atelier Wehrle, Salzburg A – Schlossgarten
+    - alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__01.jpg
     - alt: Atelier Wehrle, Salzburg A – Schlossgarten
       image: /assets/img/leopoldskron__09.jpg
-    - image: /assets/img/leopoldskron__08.jpg
+    - alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__08.jpg
+    - image: /assets/img/leopoldskron__07.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
     - alt: Atelier Wehrle, Salzburg A – Schlossgarten
-      image: /assets/img/leopoldskron__07.jpg
-    - image: /assets/img/leopoldskron__04.jpg
-      alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__06.jpg
-      alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__05.jpg
-      alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__12.jpg
-      alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__11.jpg
-      alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__04.jpg
+    - alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__06.jpg
+    - alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__05.jpg
+    - alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__12.jpg
+    - alt: Atelier Wehrle, Salzburg A – Schlossgarten
+      image: /assets/img/leopoldskron__11.jpg
+  articleFooter:
+    alt: Atelier Wehrle, Salzburg A – Schlossgarten
+    closingImage: /assets/img/leopoldskron__10.jpg
   copy: "Das Parterre am Schloss Leopoldskron in Salzburg, dem ehemaligen Zuhause
     von Max Reinhardt, dem Mitbegründer der Salzburger Festspiele, verbindet
     historische Pracht mit zeitloser Eleganz. Das Schloss, das auch als
@@ -55,9 +58,6 @@ mainArticle:
     Garten Ihre Umgebung bereichern kann.
 
     \       "
-  articleFooter:
-    closingImage: /assets/img/leopoldskron__10.jpg
-    alt: Atelier Wehrle, Salzburg A – Schlossgarten
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     bilder: Vladyslav Pustovit
