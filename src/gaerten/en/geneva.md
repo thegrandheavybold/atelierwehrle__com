@@ -1,4 +1,5 @@
 ---
+title: Geneva CH – Balcony
 date: 2022-02-01T00:21
 urlSlug: geneva
 metaTags:
@@ -7,9 +8,8 @@ metaTags:
     garden paradise that serves as a peaceful oasis amid the hectic city life,
     despite the limited space.
 featured:
-  featImage: /assets/img/geneva__06.jpg
   alt: Atelier Wehrle, Geneva CH – Balkon
-title: Geneva CH – Balkon
+  featImage: /assets/img/geneva__05.jpg
 mainArticle:
   articleHeader:
     openerImage: /assets/img/geneva__06.jpg
@@ -25,15 +25,18 @@ mainArticle:
       alt: Atelier Wehrle, Geneva CH – Balkon
     - image: /assets/img/geneva__03.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
-  copy: >-2
-     On a small balcony in Geneva, Atelier Wehrle has created a garden paradise that serves as a peaceful oasis amid the hectic city life, despite the limited space. The outdoor area was designed as a natural extension of the interior—a living room in the open air that invites relaxation.
-        
-          Open in design, this space offers a stunning view over Lake Geneva to the Jura Mountains in France. The vibrant, natural plant selection creates an inviting atmosphere, where one can linger with a glass of wine and enjoy the view.
-          
-          In contrast, the sleeping area is characterized by a sheltered yet airy design. Without the feeling of being hidden behind walls, the space remains private and cozy, ideal for moments of relaxation and tranquility, away from the city views.
   articleFooter:
     alt: Atelier Wehrle, Geneva CH – Balkon
     closingImage: /assets/img/geneva__05.jpg
+  copy: >
+    On a small balcony in Geneva, Atelier Wehrle has created a garden paradise
+    that serves as a peaceful oasis amid the hectic city life, despite the
+    limited space. The outdoor area was designed as a natural extension of the
+    interior—a living room in the open air that invites relaxation.
+
+          Open in design, this space offers a stunning view over Lake Geneva to the Jura Mountains in France. The vibrant, natural plant selection creates an inviting atmosphere, where one can linger with a glass of wine and enjoy the view.
+
+          In contrast, the sleeping area is characterized by a sheltered yet airy design. Without the feeling of being hidden behind walls, the space remains private and cozy, ideal for moments of relaxation and tranquility, away from the city views.
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: Jacquet SA – Pépinière
