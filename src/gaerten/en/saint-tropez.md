@@ -1,5 +1,6 @@
 ---
-date: 2022-07-01T00:45
+title: Saint Tropez F – Villa Garden
+date: 2022-07-28T00:45
 urlSlug: saint-tropez
 metaTags:
   metatitle: Saint Tropez F – Villa Garden
@@ -7,8 +8,7 @@ metaTags:
     Saint-Tropez, remains unseen for reasons of discretion.
 featured:
   featImage: /assets/img/atelier-wehrle__06.png
-  alt: Saint Tropez F – Villa Garden
-title: Saint Tropez F – Villengarten
+  alt: Atelier Wehrle, Saint Tropez F – Villengarten
 mainArticle:
   copy: 'This garden, located in the "Les Parcs" villa district of Saint-Tropez,
     remains unseen for reasons of discretion. The design responds to the
@@ -18,7 +18,7 @@ mainArticle:
     even in the height of summer without irrigation, remaining a blooming oasis
     for both people and wildlife. This garden design is a response to climate
     change while simultaneously celebrating the art and beauty of garden
-    culture.  '
+    culture. '
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     bilder: Vladyslav Pustovit
