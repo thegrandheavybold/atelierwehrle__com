@@ -1,6 +1,7 @@
 ---
 title: Saint Tropez F – Villa Garden
-date: ""
+date: 2022-07-28T00:45
+urlSlug: saint-tropez
 metaTags:
   metatitle: Saint Tropez F – Villa Garden
   metaDescription: This garden, located in the "Les Parcs" villa district of
