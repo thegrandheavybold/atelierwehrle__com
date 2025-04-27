@@ -1,56 +1,56 @@
 ---
+title: Nordrhein-Westfalen DE – Landscape garden
 date: 2023-09-01T00:31
 urlSlug: nrw-landschaftsgarten
 metaTags:
-  metatitle: " Nordrhein-Westfalen DE – Landschaftsgarten"
+  metatitle: Nordrhein-Westfalen DE – Landscape garden
   metaDescription: This landscape garden surrounds a country house in the English
     Arts and Crafts style.
 featured:
-  featImage: /assets/img/hagen__10.jpg
   alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-title: Nordrhein-Westfalen DE – Landscape garden
+  featImage: /assets/img/hagen__10.jpg
 mainArticle:
   articleHeader:
     openerImage: /assets/img/hagen__10.jpg
     alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
   galleryImages:
-    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-      image: /assets/img/hagen__02.jpg
-    - image: /assets/img/hagen__05.jpg
+    - image: /assets/img/hagen__02.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__05.jpg
     - image: /assets/img/hagen__06.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__04.jpg
-      alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__11.jpg
-      alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__09.jpg
+    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__04.jpg
+    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__11.jpg
+    - image: /assets/img/hagen__08.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-      image: /assets/img/hagen__08.jpg
-    - image: /assets/img/hagen__03.jpg
-      alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__07.jpg
-      alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__13.jpg
-      alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__09.jpg
+    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__03.jpg
+    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__07.jpg
+    - alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+      image: /assets/img/hagen__13.jpg
   articleFooter:
-    closingImage: /assets/img/hagen__12.jpg
     alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
+    closingImage: /assets/img/hagen__12.jpg
+  copy: "This landscape garden surrounds a country house in the English Arts and
+    Crafts style, which was brought back to life by Berlin interior designer
+    Gisbert Pöppler. The heart of the garden is the swimming pond, nestled in a
+    colorful perennial landscape. Visitors can stroll along wide grassy paths
+    through a sea of flowers and buzzing insects, no matter the season. This
+    garden is an example of how nature can be given back even in private spaces.
+    The swimming pond serves as a retreat and habitat for newts, dragonflies,
+    birds, and numerous insects. A former concrete pool was renaturalized and
+    connected to the new swimming pond by a stream with stepping stones.
+    Additional elements such as a vegetable garden, rose garden, meadows, a
+    woodland garden, and a formally designed courtyard complete the overall
+    concept. "
   articleCredits:
     entwurf: Manuel Wehrle for the Königliche Gartenakademie
     ausfuehrung: Klute – Garten Eden
     bilder: Vladyslav Pustovit
-  copy: Dieser Landschaftsgarten umschließt ein Landhaus im englischen Jugendstil
-    welches vom Berlin Innenarchitekten Gisbert Pöppler zu neuem Leben erweckt
-    wurde. Das Herzstück des Gartens ist der Schwimmteich, der in eine
-    farbenfrohe Staudenlandschaft eingebettet ist. Besucher können zu jeder
-    Jahreszeit auf breiten Rasenwegen durch ein Meer aus Blüten und summende
-    Insekten wandeln. Dieser Garten ist ein Beispiel dafür, wie man auch im
-    privaten Raum der Natur etwas zurückgeben kann. Der Schwimmteich dient als
-    Rückzugsort und Habitat für Molche, Libellen, Vögel und zahlreiche Insekten.
-    Ein ehemaliges Betonbecken wurde renaturiert und durch einen Wasserlauf mit
-    Trittsteinen an den neuen Schwimmteich angebunden. Weitere Elemente wie ein
-    Gemüsegarten, Rosengarten, Wiesen, ein Waldgarten und ein formal gestalteter
-    Hof runden das Gesamtkonzept ab.
 ---
