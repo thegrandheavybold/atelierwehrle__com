@@ -10,7 +10,7 @@ featured:
   alt: Atelier Wehrle, Geneva CH – Balkon
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/geneva__06.jpg
+    openerImage: /assets/img/Pflanzplanung-Dachgarten-immergruen.jpg
     alt: Atelier Wehrle, Geneva CH – Balkon
   galleryImages:
     - image: /assets/img/Terrassengestaltung-Moebelplanung-modern.jpg
