@@ -6,7 +6,7 @@ metaTags:
   metatitle: Geneva CH – Balkon
   metaDescription: Auf einem kleinen Balkon in Genf hat Atelier Wehrle ein Gartenparadies geschaffen.
 featured:
-  featImage: /assets/img/geneva__05.jpg
+  featImage: /assets/img/Terrassengestaltung-Dachgarten-Stauden-in-Toepfen.jpg
   alt: Atelier Wehrle, Geneva CH – Balkon
 mainArticle:
   articleHeader:
@@ -30,7 +30,7 @@ mainArticle:
 
           Der Schlafbereich hingegen ist durch eine geschützte, aber dennoch luftige Gestaltung geprägt. Ohne das Gefühl, sich hinter Mauern zu verstecken, bleibt der Raum privat und behaglich, ideal für Momente der Entspannung und Ruhe, abseits der Stadtblicke.
   articleFooter:
-    closingImage: /assets/img/geneva__05.jpg
+    closingImage: /assets/img/Terrassengestaltung-Dachgarten-Stauden-in-Toepfen.jpg
     alt: Atelier Wehrle, Geneva CH – Balkon
   articleCredits:
     entwurf: Manuel Wehrle
