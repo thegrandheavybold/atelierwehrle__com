@@ -38,7 +38,7 @@ mainArticle:
 
           The vegetable garden combines tradition with inspiration: traditional cottage gardens, English walled gardens, and the "potager du roi" in Versailles. The espalier fruit trees are both functional and a design element that highlights the charm of this garden. A habitat has been created here that unites tradition, innovation, and sustainability.
   articleFooter:
-    closingImage: /assets/img/eichbergstrasse__10.jpg
+    closingImage: /assets/img/Gartengestaltung-Pflanuplanung-Staudenbeet.jpg
     alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
   articleCredits:
     entwurf: Manuel Wehrle
