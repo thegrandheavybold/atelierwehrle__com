@@ -19,7 +19,7 @@ mainArticle:
       alt: Atelier Wehrle, Geneva CH – Balkon
     - image: /assets/img/Terrassengestaltung-Dachgarten-Pflanzen.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
-    - image: /assets/img/geneva__07.jpg
+    - image: /assets/img/Balkongestaltung-Pflanzplanung-und-Sichtschutz.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
     - image: /assets/img/Terrassengestaltung-Dachgarten-Gehoelze.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
