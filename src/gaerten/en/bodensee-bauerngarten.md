@@ -34,7 +34,7 @@ mainArticle:
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten.jpg
     - image: /assets/img/bercherhof__13.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
-    - image: /assets/img/bercherhof__11.jpg
+    - image: /assets/img/Pflanzplanung-Staudenbeet-mit-Geophyten.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
   copy: This landscape garden is located on a ridge above the Upper Rhine, offering breathtaking views of the surrounding countryside. From here, the view sweeps over the Rhine, which gently winds through the hilly landscape. Particularly impressive is the natural sequence of garden spaces dictated by the environment. Visitors are invited to stroll from the traditional vegetable garden into the romantic rose garden, and finally discover the expansive landscape park with old trees and pear trees, entwined with dreamy white rambler roses. The modern vegetable garden with raised beds made of Corten steel adds a contemporary touch. The highlight of the garden is the swimming pond, nestled into the landscape, offering views of a dry grassland meadow with fruit trees.
   articleFooter:

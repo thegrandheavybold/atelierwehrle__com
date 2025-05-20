@@ -35,7 +35,7 @@ mainArticle:
       alt: ''
     - image: /assets/img/bercherhof__13.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
-    - image: /assets/img/bercherhof__11.jpg
+    - image: /assets/img/Pflanzplanung-Staudenbeet-mit-Geophyten.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
   copy: |-
     Dieser Landschaftsgarten, befindet sich auf einem Bergrücken am Hochrhein und bietet atemberaubende Ausblicke in die umliegende Landschaft. Von hier aus schweift der Blick über den Rhein, der sich sanft durch die hügelige Landschaft schlängelt. 
