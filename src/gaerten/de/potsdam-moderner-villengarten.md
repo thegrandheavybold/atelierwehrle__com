@@ -21,7 +21,7 @@ mainArticle:
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/eichbergstrasse__08.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
-    - image: /assets/img/eichbergstrasse__03.jpg
+    - image: /assets/img/Gartenplanung-moderner-Garten.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/eichbergstrasse__06.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
