@@ -31,7 +31,7 @@ mainArticle:
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/bercherhof__14.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
-    - image: /assets/img/bercherhof__05.jpg
+    - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten.jpg
     - image: /assets/img/bercherhof__13.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/bercherhof__11.jpg
