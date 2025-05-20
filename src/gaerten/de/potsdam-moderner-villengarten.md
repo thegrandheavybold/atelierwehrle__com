@@ -6,11 +6,11 @@ metaTags:
   metatitle: Potsdam DE – moderner Villengarten
   metaDescription: 'Der Gemüsegarten verbindet Tradition mit Inspiration: traditionelle Bauerngärten, englische „walled gardens“ und der „potager du roi“ in Versailles.'
 featured:
-  featImage: /assets/img/eichbergstrasse__12.jpg
+  featImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
   alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/eichbergstrasse__12.jpg
+    openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
     alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
   galleryImages:
     - image: /assets/img/Gartenplanung-moderner-Garten-mit-Stauden.jpg
