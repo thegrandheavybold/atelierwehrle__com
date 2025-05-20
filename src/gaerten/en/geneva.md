@@ -13,7 +13,7 @@ mainArticle:
     openerImage: /assets/img/geneva__06.jpg
     alt: Atelier Wehrle, Geneva CH – Balkon
   galleryImages:
-    - image: /assets/img/geneva__04.jpg
+    - image: /assets/img/Terrassengestaltung-Moebelplanung-modern.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
     - image: /assets/img/Terrassengestaltung-Topfpflanzen-Stauden.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
