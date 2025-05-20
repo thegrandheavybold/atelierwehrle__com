@@ -27,7 +27,7 @@ mainArticle:
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet-mit-Graesern.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
-    - image: /assets/img/eichbergstrasse__05.jpg
+    - image: /assets/img/Gartengestaltung-Obstwiese-im-Garten.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/eichbergstrasse__11.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
