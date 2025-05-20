@@ -6,11 +6,11 @@ metaTags:
   metatitle: Lake Constance DE – Bauerngarten
   metaDescription: Visitors are invited to stroll from the traditional vegetable garden into the romantic rose garden.
 featured:
-  featImage: /assets/img/bercherhof__12.jpg
+  featImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
   alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/bercherhof__12.jpg
+    openerImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
     alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
   galleryImages:
     - image: /assets/img/Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg

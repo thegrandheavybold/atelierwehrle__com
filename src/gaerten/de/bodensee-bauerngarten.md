@@ -6,11 +6,11 @@ metaTags:
   metatitle: Bodensee DE – Bauerngarten
   metaDescription: Besucher werden eingeladen, vom traditionellen Gemüsegarten in den romantischen Rosengarten zu schlendern.
 featured:
-  featImage: /assets/img/bercherhof__12.jpg
+  featImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
   alt: Atelier Wehrle, Bodenseee DE – Bauerngarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/bercherhof__12.jpg
+    openerImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
     alt: Atelier Wehrle, Bodensee DE – Bauerngarten
   galleryImages:
     - image: /assets/img/Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg
