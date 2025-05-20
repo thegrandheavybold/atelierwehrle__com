@@ -32,7 +32,7 @@ mainArticle:
     - image: /assets/img/bercherhof__14.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten.jpg
-    - image: /assets/img/bercherhof__13.jpg
+    - image: /assets/img/Pflanzplanung-Rose-im-Staudenbeet.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/Pflanzplanung-Staudenbeet-mit-Geophyten.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten

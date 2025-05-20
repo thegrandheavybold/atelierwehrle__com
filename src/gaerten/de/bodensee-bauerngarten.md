@@ -33,7 +33,7 @@ mainArticle:
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten.jpg
       alt: ''
-    - image: /assets/img/bercherhof__13.jpg
+    - image: /assets/img/Pflanzplanung-Rose-im-Staudenbeet.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
     - image: /assets/img/Pflanzplanung-Staudenbeet-mit-Geophyten.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
