@@ -21,7 +21,7 @@ mainArticle:
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/bercherhof__10.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
-    - image: /assets/img/bercherhof__09.jpg
+    - image: /assets/img/Gartengestaltung-Obstbaum-Birne.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten-Wassertrog.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
