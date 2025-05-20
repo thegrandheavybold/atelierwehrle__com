@@ -19,7 +19,7 @@ mainArticle:
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/Gartengestaltung-Gemuesegarten-mit-Gewaechshaus.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
-    - image: /assets/img/eichbergstrasse__08.jpg
+    - image: /assets/img/Gartengestaltung-Blumenwiese-insektenfreundlich.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/Gartenplanung-moderner-Garten.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
