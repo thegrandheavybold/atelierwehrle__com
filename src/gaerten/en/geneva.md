@@ -15,7 +15,7 @@ mainArticle:
   galleryImages:
     - image: /assets/img/geneva__04.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
-    - image: /assets/img/geneva__02.jpg
+    - image: /assets/img/Terrassengestaltung-Topfpflanzen-Stauden.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
     - image: /assets/img/Terrassengestaltung-Dachgarten-Pflanzen.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
