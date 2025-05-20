@@ -27,7 +27,7 @@ mainArticle:
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
     - image: /assets/img/bercherhof__07.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
-    - image: /assets/img/bercherhof__03.jpg
+    - image: /assets/img/Gartengestaltung-Pflanzplanung-Tulpen.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
     - image: /assets/img/bercherhof__14.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
