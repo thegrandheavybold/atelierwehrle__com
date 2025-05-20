@@ -29,7 +29,7 @@ mainArticle:
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/Gartengestaltung-Obstwiese-im-Garten.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
-    - image: /assets/img/eichbergstrasse__11.jpg
+    - image: /assets/img/Gartengestaltung-Blumenwiese-insektenfreunlich.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
   copy: |-
     Der ursprüngliche Garten bestand aus einer Rasenfläche, vier Säuleneichen und einem monotonen Efeuhang – dies war der Zustand bevor Manuel Wehrle den Garten ab 2020 grundlegend veränderte und dies nicht nur für das Auge sondern auch um der Natur wieder etwas zurückzugeben. 

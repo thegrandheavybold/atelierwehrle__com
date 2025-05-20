@@ -29,7 +29,7 @@ mainArticle:
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
     - image: /assets/img/Gartengestaltung-Obstwiese-im-Garten.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
-    - image: /assets/img/eichbergstrasse__11.jpg
+    - image: /assets/img/Gartengestaltung-Blumenwiese-insektenfreunlich.jpg
       alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
   copy: |-
     The original garden consisted of a lawn area, four columnar oaks, and a monotonous ivy slope—this was the state before Manuel Wehrle fundamentally transformed the garden starting in 2020, not only for aesthetic appeal but also to give back to nature.
