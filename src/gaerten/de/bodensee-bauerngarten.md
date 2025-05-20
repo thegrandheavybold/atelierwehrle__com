@@ -13,7 +13,7 @@ mainArticle:
     openerImage: /assets/img/bercherhof__12.jpg
     alt: Atelier Wehrle, Bodensee DE – Bauerngarten
   galleryImages:
-    - image: /assets/img/bercherhof__02.jpg
+    - image: /assets/img/Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
     - image: /assets/img/Gartenplanung-Gemuesegarten-mit-Wassertrog.jpg
       alt: Atelier Wehrle, Bodensee DE – Bauerngarten
