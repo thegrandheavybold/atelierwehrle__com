@@ -42,7 +42,7 @@ mainArticle:
 
           Besonders beeindruckend ist die natürliche Abfolge von Gartenräumen, die durch die Umgebung vorgegeben ist. Besucher werden eingeladen, vom traditionellen Gemüsegarten in den romantischen Rosengarten zu schlendern, um schließlich den weitläufigen Landschaftspark mit altem Baumbestand und Birnbäumen zu entdecken, die von Ramblerrosen in traumhaftem Weiß umrankt sind. Der moderne Gemüsegarten mit Hochbeeten aus Cortenstahl setzt einen zeitgemäßen Akzent. Das Highlight des Gartens ist der in die Landschaft eingebettete Schwimmteich, der sich harmonisch in die Umgebung einfügt und Ausblicke auf eine Magerrasenwiese mit Obstbäumen bietet.
   articleFooter:
-    closingImage: /assets/img/bercherhof__06.jpg
+    closingImage: /assets/img/Gartenplanung-Schwimmteich-naturnah.jpg
     alt: Atelier Wehrle, Bodensee DE – Bauerngarten
   articleCredits:
     entwurf: Manuel Wehrle
