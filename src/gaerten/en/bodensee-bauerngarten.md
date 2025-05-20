@@ -19,7 +19,7 @@ mainArticle:
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Schnittblumen.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
-    - image: /assets/img/bercherhof__10.jpg
+    - image: /assets/img/Gartengestaltung-Schnittblumen-im-Gemuesegarten.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
     - image: /assets/img/Gartengestaltung-Obstbaum-Birne.jpg
       alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
