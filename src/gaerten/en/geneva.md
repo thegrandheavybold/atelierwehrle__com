@@ -21,7 +21,7 @@ mainArticle:
       alt: Atelier Wehrle, Geneva CH – Balkon
     - image: /assets/img/geneva__07.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
-    - image: /assets/img/geneva__03.jpg
+    - image: /assets/img/Terrassengestaltung-Dachgarten-Gehoelze.jpg
       alt: Atelier Wehrle, Geneva CH – Balkon
   copy: |-
     On a small balcony in Geneva, Atelier Wehrle has created a garden paradise that serves as a peaceful oasis amid the hectic city life, despite the limited space. The outdoor area was designed as a natural extension of the interior—a living room in the open air that invites relaxation.
