@@ -6,11 +6,11 @@ metaTags:
   metatitle: Salzburg A – Castle Garden
   metaDescription: This palace garden demonstrates how tradition and modernity can be combined in a stylish way.
 featured:
-  featImage: /assets/img/leopoldskron__02.jpg
+  featImage: /assets/img/Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg
   alt: Atelier Wehrle, Salzburg A – Schlossgarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/leopoldskron__02.jpg
+    openerImage: /assets/img/Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg
     alt: Atelier Wehrle, Salzburg A – Schlossgarten
   galleryImages:
     - image: /assets/img/leopoldskron__03.jpg
