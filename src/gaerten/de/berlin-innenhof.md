@@ -15,7 +15,7 @@ mainArticle:
   galleryImages:
     - image: /assets/img/Gartengestaltung-Hinterhof-Schattengarten.jpg
       alt: Atelier Wehrle, Berlin DE – Innenhof
-    - image: /assets/img/veteranenstrasse__06.jpg
+    - image: /assets/img/Gartengestaltung-Hinterhof-begruenen.jpg
       alt: Atelier Wehrle, Berlin DE – Innenhof
     - image: /assets/img/Gartengestaltung-Hinterhof-neu-anlegen.jpg
       alt: Atelier Wehrle, Berlin DE – Innenhof
