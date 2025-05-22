@@ -23,7 +23,7 @@ mainArticle:
       alt: Atelier Wehrle, Berlin DE – Innenhof
   copy: Dieser zuvor ungenutzte, schattige Innenhof wurde durch die Umgestaltung in Zusammenarbeit mit der Interior Designerin Maj van der Linden und Frieser Gartengestaltung, Swisspearl, zu einem lebendigen, einladenden Raum. Da der Innenhof zu keiner Zeit direktes Sonnenlicht erhält, wurden Pflanzen ausgewählt, die auch bei wenig Licht gedeihen und dennoch üppig wirken. Die Wahl ausschließlich weißblühender Stauden bringt Frische und Helligkeit in den Raum, wodurch der ehemals dunkle Hof eine neue, freundliche Atmosphäre erhält.
   articleFooter:
-    closingImage: /assets/img/Gartengestaltung-Hinterhof-Schattenbepflanzung.jpg
+    closingImage: /assets/img/Hinterhof-Gestaltung-Schattenbepflanzung.jpg
     alt: Atelier Wehrle, Berlin DE – Innenhof
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
