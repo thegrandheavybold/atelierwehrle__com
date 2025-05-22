@@ -16,7 +16,7 @@ mainArticle:
     - image: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/Gartengestaltung-moderner-Garten.jpg
-    - image: /assets/img/koch__09.jpg
+    - image: /assets/img/Gartengestaltung-Formschnittgehoelze-integrieren.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/Gartenplanung-Schattengarten-mit-Stauden.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
