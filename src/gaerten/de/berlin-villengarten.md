@@ -18,7 +18,7 @@ mainArticle:
     - image: /assets/img/Gartengestaltung-moderner-Garten.jpg
     - image: /assets/img/koch__09.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
-    - image: /assets/img/koch__08.jpg
+    - image: /assets/img/Gartenplanung-Schattengarten-mit-Stauden.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/Gartengestaltung-Designgarten-mit-Formschnitt.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
