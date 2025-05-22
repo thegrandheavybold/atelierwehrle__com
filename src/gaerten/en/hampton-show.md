@@ -13,7 +13,7 @@ mainArticle:
     openerImage: /assets/img/hampton-show__02.jpg
     alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
   galleryImages:
-    - image: /assets/img/hampton-show__01.jpg
+    - image: /assets/img/Gartengestaltung-Showgarten-mit-Staudenbeet.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
     - image: /assets/img/hampton-show__03.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
