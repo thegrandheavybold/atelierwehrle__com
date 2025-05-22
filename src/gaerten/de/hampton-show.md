@@ -21,7 +21,7 @@ mainArticle:
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
     - image: /assets/img/hampton-show__05.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
-    - image: /assets/img/hampton-show__04.jpg
+    - image: /assets/img/Chelsea-Flower-Show-Garten.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
   copy: |-
     Im Jahr 2016 hatte ich die Ehre, zusammen mit meinem guten Freund und Kollegen Jasper Käßmann einen außergewöhnlichen Showgarten für die renommierte Hampton Court Palace Flower Show der Royal Horticultural Society in England zu gestalten. Dieser Garten war dem 400. Todestag des berühmten englischen Dichters William Shakespeare gewidmet und trug das Motto „All the world is a stage“.
