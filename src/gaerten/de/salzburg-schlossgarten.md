@@ -40,7 +40,7 @@ mainArticle:
 
           Dieser Schlossgarten zeigt, wie Tradition und Moderne auf stilvolle Weise verbunden werden können. Lassen Sie sich von dieser Gestaltung inspirieren und entdecken Sie, wie ein individuell gestalteter Garten Ihre Umgebung bereichern kann.
   articleFooter:
-    closingImage: /assets/img/leopoldskron__10.jpg
+    closingImage: /assets/img/Gartengestaltung-Pflanzplanung-fuer-Schlosspark.jpg
     alt: Atelier Wehrle, Salzburg A – Schlossgarten
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie

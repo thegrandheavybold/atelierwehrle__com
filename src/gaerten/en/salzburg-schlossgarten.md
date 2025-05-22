@@ -40,7 +40,7 @@ mainArticle:
 
           This palace garden demonstrates how tradition and modernity can be combined in a stylish way. Let this design inspire you and discover how a custom-designed garden can enrich your surroundings.
   articleFooter:
-    closingImage: /assets/img/leopoldskron__10.jpg
+    closingImage: /assets/img/Gartengestaltung-Pflanzplanung-fuer-Schlosspark.jpg
     alt: Atelier Wehrle, Salzburg A – Schlossgarten
   articleCredits:
     entwurf: Manuel Wehrle for the Königliche Gartenakademie
