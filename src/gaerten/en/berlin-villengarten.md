@@ -20,7 +20,7 @@ mainArticle:
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/koch__08.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
-    - image: /assets/img/koch__07.jpg
+    - image: /assets/img/Gartengestaltung-Designgarten-mit-Formschnitt.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/Gartengestaltung-moderne-Bepflanzung.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
