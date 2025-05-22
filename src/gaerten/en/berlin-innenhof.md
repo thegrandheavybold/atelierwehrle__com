@@ -17,7 +17,7 @@ mainArticle:
       alt: Atelier Wehrle, Berlin DE – Innenhof
     - image: /assets/img/veteranenstrasse__06.jpg
       alt: Atelier Wehrle, Berlin DE – Innenhof
-    - image: /assets/img/veteranenstrasse__03.jpg
+    - image: /assets/img/Gartengestaltung-Hinterhof-neu-anlegen.jpg
       alt: Atelier Wehrle, Berlin DE – Innenhof
     - image: /assets/img/veteranenstrasse__05.jpg
       alt: Atelier Wehrle, Berlin DE – Innenhof
