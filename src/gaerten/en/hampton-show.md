@@ -6,11 +6,11 @@ metaTags:
   metatitle: Hampton Court Palace UK – Flower Show
   metaDescription: The garden itself told a symbolic story of life’s journey.
 featured:
-  featImage: /assets/img/hampton-show__02.jpg
+  featImage: /assets/img/Gartengestaltung-Showgarten-hampton-show.jpg
   alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/hampton-show__02.jpg
+    openerImage: /assets/img/Gartengestaltung-Showgarten-hampton-show.jpg
     alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
   galleryImages:
     - image: /assets/img/Gartengestaltung-Showgarten-mit-Staudenbeet.jpg
