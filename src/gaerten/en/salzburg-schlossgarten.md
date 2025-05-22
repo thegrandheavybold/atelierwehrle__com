@@ -17,7 +17,7 @@ mainArticle:
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
     - image: /assets/img/Gartenplanung-Schlossgarten-historisch-modern.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__09.jpg
+    - image: /assets/img/Gartenplanung-historischer-Schlossgarten.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
     - image: /assets/img/Gartengestaltung-Schloss-Leopoldskron-sound-of-music.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
