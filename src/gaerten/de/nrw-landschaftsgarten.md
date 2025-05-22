@@ -21,7 +21,7 @@ mainArticle:
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/Gartenplanung_Villengarten.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__11.jpg
+    - image: /assets/img/Gartengestaltung-Garten-mit-Schwimmteich.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
