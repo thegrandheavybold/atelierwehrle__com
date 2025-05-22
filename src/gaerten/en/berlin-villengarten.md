@@ -33,7 +33,7 @@ mainArticle:
 
           This garden is not only an aesthetic experience but also a place of creativity and introspection. Here, the client can recharge and escape the hectic everyday life. Especially in autumn, when the garden is bathed in golden colors, it reveals its full beauty, inviting moments of peace and reflection.
   articleFooter:
-    closingImage: /assets/img/koch__05.jpg
+    closingImage: /assets/img/Gartengestaltung-Formschnittgehoelze-im-Garten.jpg
     alt: Atelier Wehrle, Berlin DE – Villengarten
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie

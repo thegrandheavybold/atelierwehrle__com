@@ -33,7 +33,7 @@ mainArticle:
 
           Dieser Garten ist nicht nur ein ästhetisches Erlebnis, sondern auch ein Ort der Kreativität und inneren Einkehr. Hier kann der Kunde Kraft tanken und sich vom hektischen Alltag erholen. Besonders im Herbst, wenn der Garten in goldene Farben getaucht ist, entfaltet er seine ganze Schönheit und lädt zu Momenten der Ruhe und Besinnung ein.
   articleFooter:
-    closingImage: /assets/img/koch__05.jpg
+    closingImage: /assets/img/Gartengestaltung-Formschnittgehoelze-im-Garten.jpg
     alt: Atelier Wehrle, Berlin DE – Villengarten
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
