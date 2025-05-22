@@ -6,11 +6,11 @@ metaTags:
   metatitle: Atelier Wehrle, Berlin DE – Courtyard
   metaDescription: Berlin DE – Courtyard
 featured:
-  featImage: /assets/img/veteranenstrasse__04.jpg
+  featImage: /assets/img/Hinterhof-Gestaltung-Bepflanzung.jpg
   alt: Atelier Wehrle, Berlin DE – Innenhof
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/veteranenstrasse__04.jpg
+    openerImage: /assets/img/Hinterhof-Gestaltung-Bepflanzung.jpg
     alt: Atelier Wehrle, Berlin DE – Innenhof
   galleryImages:
     - image: /assets/img/Hinterhofgestaltung-Schattengarten.jpg
