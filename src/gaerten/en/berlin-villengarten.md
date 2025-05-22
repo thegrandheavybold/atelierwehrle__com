@@ -10,7 +10,7 @@ featured:
   alt: Atelier Wehrle, Berlin DE – Villengarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/koch__04.jpg
+    openerImage: /assets/img/Gartengestaltung-moderner-Garten-im-Herbst.jpg
     alt: Atelier Wehrle, Berlin DE – Villengarten
   galleryImages:
     - image: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
