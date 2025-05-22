@@ -17,7 +17,7 @@ mainArticle:
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
     - image: /assets/img/Gartengestaltung-Showgarten-hampton-show-England.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
-    - image: /assets/img/Atelier-Wehrle-Auszeichnung-hampton-show.jpg
+    - image: /assets/img/Manuel-Wehrle-Auszeichnung-chelsea-flower-show.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
     - image: /assets/img/Gartengestaltung-Chelsea-flower-show.jpg
       alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
