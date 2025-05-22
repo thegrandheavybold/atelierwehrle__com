@@ -38,7 +38,7 @@ mainArticle:
 
           Der Gemüsegarten verbindet Tradition mit Inspiration: traditionelle Bauerngärten, englische „walled gardens“ und der „potager du roi“ in Versailles. Das Obstspalier ist funktional und ein gestalterisches Element, das den Charme dieses Gartens unterstreicht. Hier wurde ein Lebensraum geschaffen, der Tradition, Innovation und Nachhaltigkeit vereint.
   articleFooter:
-    closingImage: /assets/img/Gartengestaltung-Pflanuplanung-Staudenbeet.jpg
+    closingImage: /assets/img/Gartengestaltung-Pflanzplanung-Stauden.jpg
     alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
   articleCredits:
     entwurf: Manuel Wehrle
