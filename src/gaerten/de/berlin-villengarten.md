@@ -6,14 +6,14 @@ metaTags:
   metatitle: Atelier Wehrle, Berlin DE – Villengarten
   metaDescription: Berlin DE – Villengarten
 featured:
-  featImage: /assets/img/koch__01.jpg
+  featImage: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
   alt: Atelier Wehrle, Berlin DE – Villengarten
 mainArticle:
   articleHeader:
     openerImage: /assets/img/koch__04.jpg
     alt: Atelier Wehrle, Berlin DE – Villengarten
   galleryImages:
-    - image: /assets/img/koch__01.jpg
+    - image: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/koch__03.jpg
     - image: /assets/img/koch__09.jpg
