@@ -24,7 +24,7 @@ mainArticle:
       alt: Atelier Wehrle, Berlin DE – Villengarten
     - image: /assets/img/Gartengestaltung-moderne-Bepflanzung.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
-    - image: /assets/img/koch__06.jpg
+    - image: /assets/img/Gartengestaltung-Formschnitt-grafische-Gestaltung.jpg
       alt: Atelier Wehrle, Berlin DE – Villengarten
   copy: |-
     This urban garden in Berlin is a true place of inspiration and relaxation. At the center of the garden lies an oval lawn, surrounded by a gently undulating landscape of Molinia grasses. This harmonious composition is complemented by artfully pruned topiaries, reminiscent of the strict forms of French Baroque gardens.
