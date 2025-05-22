@@ -23,7 +23,7 @@ mainArticle:
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/hagen__11.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__08.jpg
+    - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/hagen__09.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
