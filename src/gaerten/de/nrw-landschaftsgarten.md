@@ -29,7 +29,7 @@ mainArticle:
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/Gartengestaltung-Waldgarten-mit-Stauden.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__07.jpg
+    - image: /assets/img/Gartengestaltung-Natur-Schwimmteich.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/hagen__13.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
