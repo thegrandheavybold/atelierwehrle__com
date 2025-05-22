@@ -31,7 +31,7 @@ mainArticle:
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
     - image: /assets/img/leopoldskron__12.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__11.jpg
+    - image: /assets/img/Gartenplanung-Schloss-Leopoldskron.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
   copy: |-
     The parterre at Leopoldskron Palace in Salzburg, the former home of Max Reinhardt, co-founder of the Salzburg Festival, combines historical grandeur with timeless elegance. The palace, which also served as the setting for a Chanel fashion show under Karl Lagerfeld, inspired me to redesign the garden.

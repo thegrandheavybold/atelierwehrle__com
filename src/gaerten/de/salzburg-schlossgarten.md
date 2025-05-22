@@ -31,7 +31,7 @@ mainArticle:
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
     - image: /assets/img/leopoldskron__12.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
-    - image: /assets/img/leopoldskron__11.jpg
+    - image: /assets/img/Gartenplanung-Schloss-Leopoldskron.jpg
       alt: Atelier Wehrle, Salzburg A – Schlossgarten
   copy: |-
     Das Parterre am Schloss Leopoldskron in Salzburg, dem ehemaligen Zuhause von Max Reinhardt, dem Mitbegründer der Salzburger Festspiele, verbindet historische Pracht mit zeitloser Eleganz. Das Schloss, das auch als Schauplatz einer Chanel-Fashion-Show unter Karl Lagerfeld diente, inspirierte mich zur Neugestaltung des Gartens.
