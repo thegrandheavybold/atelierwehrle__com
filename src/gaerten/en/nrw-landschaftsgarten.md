@@ -31,7 +31,7 @@ mainArticle:
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/Gartengestaltung-Natur-Schwimmteich.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__13.jpg
+    - image: /assets/img/Gartengestaltung-Pflanzplanung-Gunnera.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
   copy: This landscape garden surrounds a country house in the English Arts and Crafts style, which was brought back to life by Berlin interior designer Gisbert Pöppler. The heart of the garden is the swimming pond, nestled in a colorful perennial landscape. Visitors can stroll along wide grassy paths through a sea of flowers and buzzing insects, no matter the season. This garden is an example of how nature can be given back even in private spaces. The swimming pond serves as a retreat and habitat for newts, dragonflies, birds, and numerous insects. A former concrete pool was renaturalized and connected to the new swimming pond by a stream with stepping stones. Additional elements such as a vegetable garden, rose garden, meadows, a woodland garden, and a formally designed courtyard complete the overall concept.
   articleFooter:

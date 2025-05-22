@@ -31,7 +31,7 @@ mainArticle:
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/Gartengestaltung-Natur-Schwimmteich.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__13.jpg
+    - image: /assets/img/Gartengestaltung-Pflanzplanung-Gunnera.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
   copy: Dieser Landschaftsgarten umschließt ein Landhaus im englischen Jugendstil welches vom Berlin Innenarchitekten Gisbert Pöppler zu neuem Leben erweckt wurde. Das Herzstück des Gartens ist der Schwimmteich, der in eine farbenfrohe Staudenlandschaft eingebettet ist. Besucher können zu jeder Jahreszeit auf breiten Rasenwegen durch ein Meer aus Blüten und summende Insekten wandeln. Dieser Garten ist ein Beispiel dafür, wie man auch im privaten Raum der Natur etwas zurückgeben kann. Der Schwimmteich dient als Rückzugsort und Habitat für Molche, Libellen, Vögel und zahlreiche Insekten. Ein ehemaliges Betonbecken wurde renaturiert und durch einen Wasserlauf mit Trittsteinen an den neuen Schwimmteich angebunden. Weitere Elemente wie ein Gemüsegarten, Rosengarten, Wiesen, ein Waldgarten und ein formal gestalteter Hof runden das Gesamtkonzept ab.
   articleFooter:
