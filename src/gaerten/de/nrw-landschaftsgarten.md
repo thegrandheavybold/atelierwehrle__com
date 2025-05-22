@@ -6,11 +6,11 @@ metaTags:
   metatitle: Nordrhein-Westfalen DE – Landschaftsgarten
   metaDescription: Dieser Landschaftsgarten umschließt ein Landhaus im englischen Jugendstil welches vom Berlin Innenarchitekten Gisbert Pöppler zu neuem Leben erweckt wurde.
 featured:
-  featImage: /assets/img/hagen__10.jpg
+  featImage: /assets/img/Gartengestaltung-Staudenbeete-im-Waldgarten.jpg
   alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/hagen__10.jpg
+    openerImage: /assets/img/Gartengestaltung-Staudenbeete-im-Waldgarten.jpg
     alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
   galleryImages:
     - image: /assets/img/Gartenplanung-Schwimmteich-mit-Seerose.jpg

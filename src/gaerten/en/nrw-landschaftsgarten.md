@@ -6,11 +6,11 @@ metaTags:
   metatitle: Nordrhein-Westfalen DE – Landscape garden
   metaDescription: This landscape garden surrounds a country house in the English Arts and Crafts style.
 featured:
-  featImage: /assets/img/hagen__10.jpg
+  featImage: /assets/img/Gartengestaltung-Staudenbeete-im-Waldgarten.jpg
   alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/hagen__10.jpg
+    openerImage: /assets/img/Gartengestaltung-Staudenbeete-im-Waldgarten.jpg
     alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
   galleryImages:
     - image: /assets/img/Gartenplanung-Schwimmteich-mit-Seerose.jpg
