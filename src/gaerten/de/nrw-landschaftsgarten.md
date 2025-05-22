@@ -15,7 +15,7 @@ mainArticle:
   galleryImages:
     - image: /assets/img/Gartenplanung-Schwimmteich-mit-Seerose.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
-    - image: /assets/img/hagen__05.jpg
+    - image: /assets/img/Gartenplanung-Terrassengestaltung.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
     - image: /assets/img/hagen__06.jpg
       alt: Atelier Wehrle, Nordrhein-Westfalen DE – Landschaftsgarten
