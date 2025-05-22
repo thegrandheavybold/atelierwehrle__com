@@ -32,7 +32,7 @@ mainArticle:
          
           Dieser Showgarten verdeutlicht, wie Gärten nicht nur visuell beeindrucken, sondern auch tiefere emotionale und philosophische Geschichten erzählen können.
   articleFooter:
-    closingImage: /assets/img/hampton-show__06.jpg
+    closingImage: /assets/img/Gartengestaltung-Pflanzplanung-chelsea-flower-show.jpg
     alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
   articleCredits:
     entwurf: Manuel Wehrle und Jasper Käßmann
