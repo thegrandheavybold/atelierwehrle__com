@@ -1,5 +1,5 @@
 // Generate an picture tag with image src URLs which use Neltify image transforms
-export default function picture(ImageName, ImageAlt) {
+export default function lazySwiper(ImageName, ImageAlt) {
   return `<picture>
             <img
             
@@ -23,3 +23,6 @@ export default function picture(ImageName, ImageAlt) {
           </picture>
           `;
 }
+
+
+
