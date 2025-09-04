@@ -1,7 +1,9 @@
 svg.atelier-wehrle_logo
-  width: 45vw
+  width: 38vw
   height: 9vw
   fill: $black
+  transition: width ease .7s, height ease .7s
+  will-change: width, height
 
 svg.atelier-wehrle_mobile_logo
   width: 15vw
@@ -22,3 +24,10 @@ svg.linkedin
   width: 33px
   height: 33px
   fill: $black
+
+
+header
+  &.sticky
+    svg.atelier-wehrle_logo
+      width: 25vw
+      height: 5vw
