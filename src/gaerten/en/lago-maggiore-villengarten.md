@@ -1,5 +1,5 @@
 ---
-title: Lake Maggiore – Hillside Villa Garden
+title: Lake Maggiore CH – Hillside Villa Garden
 date: 2025-10-22T15:58
 urlSlug: lago-maggiore-villengarten
 metaTags:

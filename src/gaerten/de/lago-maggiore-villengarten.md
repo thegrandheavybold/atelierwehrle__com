@@ -1,5 +1,5 @@
 ---
-title: Lago Maggiore – Villengarten am Hang
+title: Lago Maggiore CH – Villengarten am Hang
 date: 2025-10-22T15:58
 urlSlug: lago-maggiore-villengarten
 metaTags:
