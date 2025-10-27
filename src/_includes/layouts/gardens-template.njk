@@ -17,7 +17,7 @@ eleventyComputed:
     {# Opener Image Section #}
     {% if mainArticle.articleHeader.openerImage %}
 
-      <section class="opener {{ page.fileSlug }} {{ tags | join(' ') }} lx">
+      <section class="opener {{ page.fileSlug }} {% if tags %}{{ tags | join(' ') }}{% endif %} lx">
 
         <div class="wrapper">
          

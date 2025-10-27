@@ -14,7 +14,7 @@ metaImage:
       {% if loop.first %}<ul class="teasers grd__gllry">{% endif %}
         {% set counter = ( counter | default(0) ) + 1 %}
 
-          <li class="item__{{ counter }} {{ post.data.tags | join(' ') }} oov">
+          <li class="item__{{ counter }} {% if post.data.tags %}{{ post.data.tags | join(' ') }}{% endif %} oov">
 
             <article>
 
