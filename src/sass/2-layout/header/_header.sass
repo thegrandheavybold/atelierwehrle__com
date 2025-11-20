@@ -20,6 +20,7 @@ header
     &__left
       display: flex
       align-items: center
+      width: 163px
 
     
     .social_links
@@ -43,3 +44,11 @@ header
             opacity: 25%
             transition: opacity ease .7s
             will-change: opacity
+
+@include s
+  header
+    padding: 23px 0 23px 0
+
+    .header_bar
+      &__left
+        width: auto
