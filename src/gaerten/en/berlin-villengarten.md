@@ -3,38 +3,37 @@ title: Berlin DE – Villa Garden
 date: 2024-01-01T00:03
 urlSlug: berlin-villengarten
 metaTags:
-  metatitle: Atelier Wehrle, Berlin DE – Villengarten
-  metaDescription: Berlin DE – Villengarten
+  metatitle: "Berlin Villa Garden - Luxury Landscape Design"
+  metaDescription: "Private villa garden in Berlin with clear spatial structure, naturalistic planting design and high-end material quality by Atelier Wehrle."
 featured:
   featImage: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
-  alt: Atelier Wehrle, Berlin DE – Villengarten
+  alt: "Topiary shrubs as a defining element in the villa garden composition."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartengestaltung-moderner-Garten-im-Herbst.jpg
-    alt: Atelier Wehrle, Berlin DE – Villengarten
+    alt: "Detail view of a naturalistic, carefully designed garden space."
   galleryImages:
     - image: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Topiary shrubs as a defining element in the villa garden composition."
     - image: /assets/img/Gartengestaltung-moderner-Garten.jpg
+      alt: "Detail view of a naturalistic, carefully designed garden space."
     - image: /assets/img/Gartengestaltung-Formschnittgehoelze-integrieren.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Topiary shrubs as a defining element in the villa garden composition."
     - image: /assets/img/Gartenplanung-Schattengarten-mit-Stauden.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Shade garden with white flowering perennials and layered planting."
     - image: /assets/img/Gartengestaltung-Designgarten-mit-Formschnitt.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Topiary shrubs as a defining element in the villa garden composition."
     - image: /assets/img/Gartengestaltung-moderne-Bepflanzung.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Detail view of a naturalistic, carefully designed garden space."
     - image: /assets/img/Gartengestaltung-Formschnitt-grafische-Gestaltung.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Topiary shrubs as a defining element in the villa garden composition."
   copy: |-
-    This urban garden in Berlin is a true place of inspiration and relaxation. At the center of the garden lies an oval lawn, surrounded by a gently undulating landscape of Molinia grasses. This harmonious composition is complemented by artfully pruned topiaries, reminiscent of the strict forms of French Baroque gardens.
-
-          The contrast between the natural lightness of the grasses and the elegant rigor of the topiaries creates a timeless atmosphere that invites visitors to stroll through the garden. On this path, one can move from the open lawn through the artfully designed grassy landscape into the calming woodland garden.
-
-          This garden is not only an aesthetic experience but also a place of creativity and introspection. Here, the client can recharge and escape the hectic everyday life. Especially in autumn, when the garden is bathed in golden colors, it reveals its full beauty, inviting moments of peace and reflection.
+    This urban villa garden in Berlin is a place of inspiration and retreat. At its center lies an oval lawn framed by a gently undulating Molinia grass landscape. The composition is complemented by carefully clipped topiaries, referencing the formal language of French Baroque gardens.
+    The contrast between the natural lightness of grasses and the architectural precision of topiary creates a timeless atmosphere. Visitors move from open lawn areas through structured planting into the quieter woodland garden, following a clear spatial sequence.
+    Beyond aesthetics, the garden supports reflection and everyday calm. Especially in autumn, when warm tones dominate, the planting reaches its full expressive quality.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Formschnittgehoelze-im-Garten.jpg
-    alt: Atelier Wehrle, Berlin DE – Villengarten
+    alt: "Topiary shrubs as a defining element in the villa garden composition."
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     ausfuehrung: Käding Gartenbau

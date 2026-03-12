@@ -3,50 +3,49 @@ title: Bodensee DE – Bauerngarten
 date: 2024-01-01T00:13
 urlSlug: bodensee-bauerngarten
 metaTags:
-  metatitle: Bodensee DE – Bauerngarten
-  metaDescription: Besucher werden eingeladen, vom traditionellen Gemüsegarten in den romantischen Rosengarten zu schlendern.
+  metatitle: "Bodensee Bauerngarten - Naturnahe Gartengestaltung"
+  metaDescription: "Bauerngarten am Bodensee mit Gemüsegarten, Rosengarten und landschaftlichem Übergang. Naturnahe, hochwertige Gartengestaltung von Atelier Wehrle."
 featured:
   featImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
-  alt: Atelier Wehrle, Bodenseee DE – Bauerngarten
+  alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
-    alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+    alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
   galleryImages:
     - image: /assets/img/Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Gemüsegarten mit Gewächshaus und funktionaler Beetstruktur."
     - image: /assets/img/Gartenplanung-Gemuesegarten-mit-Wassertrog.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Schnittblumen.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Schnittblumenbeet mit farblich abgestimmter Pflanzplanung."
     - image: /assets/img/Gartengestaltung-Schnittblumen-im-Gemuesegarten.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung."
     - image: /assets/img/Gartengestaltung-Obstbaum-Birne.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Obstbaum im ländlichen Gartenraum mit natürlicher Pflanzbegleitung."
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten-Wassertrog.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Standort.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Tulpen.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Tulpenpflanzung als frühlingsbetonter Akzent im Gartenbild."
     - image: /assets/img/Pflanzplanung-sonniges-Staudenbeet.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten.jpg
-      alt: ''
+      alt: "Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung."
     - image: /assets/img/Pflanzplanung-Rose-im-Staudenbeet.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
     - image: /assets/img/Pflanzplanung-Staudenbeet-mit-Geophyten.jpg
-      alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+      alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
   copy: |-
-    Dieser Landschaftsgarten, befindet sich auf einem Bergrücken am Hochrhein und bietet atemberaubende Ausblicke in die umliegende Landschaft. Von hier aus schweift der Blick über den Rhein, der sich sanft durch die hügelige Landschaft schlängelt. 
-
-          Besonders beeindruckend ist die natürliche Abfolge von Gartenräumen, die durch die Umgebung vorgegeben ist. Besucher werden eingeladen, vom traditionellen Gemüsegarten in den romantischen Rosengarten zu schlendern, um schließlich den weitläufigen Landschaftspark mit altem Baumbestand und Birnbäumen zu entdecken, die von Ramblerrosen in traumhaftem Weiß umrankt sind. Der moderne Gemüsegarten mit Hochbeeten aus Cortenstahl setzt einen zeitgemäßen Akzent. Das Highlight des Gartens ist der in die Landschaft eingebettete Schwimmteich, der sich harmonisch in die Umgebung einfügt und Ausblicke auf eine Magerrasenwiese mit Obstbäumen bietet.
+    Dieser Landschaftsgarten am Hochrhein liegt auf einem Bergrücken und öffnet weite Ausblicke in die umliegende Kulturlandschaft. Der Blick folgt dem Rhein durch die sanften Hügel - ein Standort mit starker landschaftlicher Präsenz.
+    Besonders prägend ist die natürliche Abfolge der Gartenräume: vom traditionellen Gemüsegarten in den romantischen Rosengarten bis zum weitläufigen Landschaftspark mit altem Baumbestand und Birnbäumen, die von weißen Ramblerrosen begleitet werden. Der moderne Gemüsegarten mit Cortenstahl-Hochbeeten setzt einen zeitgemässen Kontrast.
+    Das Herzstück ist der in die Topografie eingebettete Schwimmteich mit Blick auf Obstwiese und Magerrasen. So verbindet das Projekt naturnahe Gartenplanung, funktionale Nutzung und hochwertige Gestaltung in einem stimmigen Gesamtbild.
   articleFooter:
     closingImage: /assets/img/Gartenplanung-Schwimmteich-naturnah.jpg
-    alt: Atelier Wehrle, Bodensee DE – Bauerngarten
+    alt: "Naturnaher Schwimmteich mit strukturierter Uferbepflanzung."
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: ''
     bilder: Vladyslav Pustovit
 ---
-

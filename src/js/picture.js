@@ -1,21 +1,23 @@
-// Generate an picture tag with image src URLs which use Neltify image transforms
-export default function picture(ImageName, ImageAlt) {
-  return `<picture class="lazy lazy-initial">
-            <img
-              srcset="
-                /assets/img/200/${ImageName}   200w,
-                /assets/img/400/${ImageName}   400w,
-                /assets/img/800/${ImageName}   800w,
-                /assets/img/1200/${ImageName} 1200w"
+import imageMarkup from "./imageMarkup.js";
 
-              sizes=" 
-                (max-width: 450px) 200px,
-                (max-width: 850px) 400px,
-                (max-width: 1000px) 800px,
-                1200px"
-
-              src="/assets/img/1200/${ImageName}"
-              alt="${ImageAlt}"
-            />
-          </picture>`;
+// Generate SEO-friendly picture tags that work with Netlify image transforms.
+export default function picture(
+  ImageName,
+  ImageAlt,
+  loading = "lazy",
+  fetchPriority = "auto",
+  width = 1200,
+  height = 800
+) {
+  return imageMarkup({
+    imageName: ImageName,
+    imageAlt: ImageAlt,
+    className: "lazy lazy-initial",
+    loading,
+    fetchPriority,
+    width,
+    height,
+    fallbackWidth: 1200,
+    widths: [200, 400, 800, 1200],
+  });
 }

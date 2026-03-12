@@ -3,43 +3,47 @@ title: Lake Constance DE – Cottage garden
 date: 2024-01-01T00:13
 urlSlug: bodensee-bauerngarten
 metaTags:
-  metatitle: Lake Constance DE – Bauerngarten
-  metaDescription: Visitors are invited to stroll from the traditional vegetable garden into the romantic rose garden.
+  metatitle: "Lake Constance Cottage Garden - Naturalistic Design"
+  metaDescription: "Cottage garden at Lake Constance combining productive beds, rose garden character and naturalistic landscape transitions."
 featured:
   featImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
-  alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+  alt: "Perennial bed with seasonal bloom sequence and structural depth."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartengestaltung-Staudenbeet-mit-Kraeutern.jpg
-    alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+    alt: "Perennial bed with seasonal bloom sequence and structural depth."
   galleryImages:
     - image: /assets/img/Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Kitchen garden with greenhouse and functional bed layout."
     - image: /assets/img/Gartenplanung-Gemuesegarten-mit-Wassertrog.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Kitchen garden with clear structure and productive planting."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Schnittblumen.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Cut-flower bed with color-coordinated planting design."
     - image: /assets/img/Gartengestaltung-Schnittblumen-im-Gemuesegarten.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Kitchen garden with clear structure and productive planting."
     - image: /assets/img/Gartengestaltung-Obstbaum-Birne.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Fruit tree in a rural garden setting with natural planting context."
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten-Wassertrog.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Kitchen garden with clear structure and productive planting."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Standort.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Detail view of a naturalistic, carefully designed garden space."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Tulpen.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Tulip planting as a spring accent in the garden composition."
     - image: /assets/img/Pflanzplanung-sonniges-Staudenbeet.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Perennial bed with seasonal bloom sequence and structural depth."
     - image: /assets/img/Gartenplanung-klassisch-Gemuesegarten.jpg
+      alt: "Kitchen garden with clear structure and productive planting."
     - image: /assets/img/Pflanzplanung-Rose-im-Staudenbeet.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+      alt: "Perennial bed with seasonal bloom sequence and structural depth."
     - image: /assets/img/Pflanzplanung-Staudenbeet-mit-Geophyten.jpg
-      alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
-  copy: This landscape garden is located on a ridge above the Upper Rhine, offering breathtaking views of the surrounding countryside. From here, the view sweeps over the Rhine, which gently winds through the hilly landscape. Particularly impressive is the natural sequence of garden spaces dictated by the environment. Visitors are invited to stroll from the traditional vegetable garden into the romantic rose garden, and finally discover the expansive landscape park with old trees and pear trees, entwined with dreamy white rambler roses. The modern vegetable garden with raised beds made of Corten steel adds a contemporary touch. The highlight of the garden is the swimming pond, nestled into the landscape, offering views of a dry grassland meadow with fruit trees.
+      alt: "Perennial bed with seasonal bloom sequence and structural depth."
+  copy: |-
+    Located on a ridge above the Upper Rhine, this landscape garden opens broad views across the surrounding hills and river valley. The project is defined by a natural sequence of garden rooms shaped by the site itself.
+    Visitors move from a traditional kitchen garden into a romantic rose garden and finally into a wider landscape park with mature trees and pear trees wrapped in white rambler roses. Raised Corten-steel beds add a contemporary layer to the productive garden.
+    A swimming pond integrated into the terrain forms the project’s centerpiece, overlooking orchard meadow structures and species-rich grassland. The result combines naturalistic planning, productive use and high-end private garden design.
   articleFooter:
     closingImage: /assets/img/Gartenplanung-Schwimmteich-naturnah.jpg
-    alt: Atelier Wehrle, Lake Constance DE – Bauerngarten
+    alt: "Natural swimming pond with structured planted edges."
   articleCredits:
     entwurf: Manuel Wehrle
     bilder: Vladyslav Pustovit

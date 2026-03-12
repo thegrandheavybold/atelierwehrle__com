@@ -1,8 +1,22 @@
-# A path:
+# Fingerprinted bundles from Vite can be cached aggressively.
+/assets/build/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts change rarely and are preload-critical.
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# CMS images can change under the same filename.
+/assets/img/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+# Generic fallback for other assets.
 /assets/*
-   # Headers for that path:
-   Cache-Control: public, max-age=360000
+  Cache-Control: public, max-age=86400
 
 /*
- X-Frame-Options: DENY
- X-XSS-Protection: 1; mode=block
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload

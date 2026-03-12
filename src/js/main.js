@@ -1,121 +1,147 @@
-//JS Support check and touch screen check
-var html = document.querySelector("html");
-  html.classList.remove("no-js");
-  html.classList.add("js");
+import "../sass/style.sass";
 
-function is_touch_device() {
-  return !!('ontouchstart' in window);
+const screenshotMode = new URLSearchParams(window.location.search).has("screenshot");
+
+function decodeNetlifyTransformToOriginal(urlValue) {
+  if (!urlValue || !urlValue.includes("/.netlify/images")) {
+    return urlValue;
+  }
+
+  try {
+    const parsed = new URL(urlValue, window.location.origin);
+    const source = parsed.searchParams.get("url");
+    return source ? decodeURIComponent(source) : urlValue;
+  } catch {
+    return urlValue;
+  }
 }
 
-  if(is_touch_device()) {
-    html.classList.add("touch");
-  }
-  else {
-    html.classList.remove("touch");
-  }
+function normalizeImagesForScreenshots() {
+  const images = document.querySelectorAll("img");
+  images.forEach((img) => {
+    const rawSrc = img.getAttribute("src");
+    const rawSrcset = img.getAttribute("srcset");
 
-//Scroll & Parallax Function
-window.addEventListener('scroll', function() {
-
-  const target = document.querySelector('.parallax');
-
-  var scrolled = window.pageYOffset;
-  var rate = scrolled * .35;
-
-    if (target){
-      target.style.transform = 'translate3D(0px, '+rate+'px, 0px)';
+    const normalizedSrc = decodeNetlifyTransformToOriginal(rawSrc);
+    if (normalizedSrc && normalizedSrc !== rawSrc) {
+      img.setAttribute("src", normalizedSrc);
     }
 
-});
-
-//Shrinking Header on Scroll
-window.addEventListener('scroll', function(){
-
-  const target = document.querySelector('header');
-    var sticky = target.offsetTop + 100;
-
-    if (window.pageYOffset > sticky) {
-      target.classList.add('sticky');
-    } else {
-       target.classList.remove('sticky');
+    if (rawSrcset && rawSrcset.includes("/.netlify/images")) {
+      const rewritten = rawSrcset
+        .split(",")
+        .map((entry) => {
+          const trimmed = entry.trim();
+          if (!trimmed) return trimmed;
+          const [urlPart, descriptor] = trimmed.split(/\s+/, 2);
+          const normalized = decodeNetlifyTransformToOriginal(urlPart);
+          return descriptor ? `${normalized} ${descriptor}` : normalized;
+        })
+        .join(", ");
+      img.setAttribute("srcset", rewritten);
     }
 
-});
-
-// Get the main and footer elements by their ids
-const mainElement = document.querySelector('main');
-const footerElement = document.querySelector('footer');
-
- // Get the button element by its id
-  const toggleButton = document.getElementById('menubutton');
-
-  // Toggle the 'mm__isopen' class on the main and footer elements when the button is clicked
-  toggleButton.addEventListener('click', function() {
-      if (mainElement.classList.contains('mm__isopen')) {
-          // If main is hidden, show it along with the footer
-          mainElement.classList.remove('mm__isopen');
-          footerElement.classList.remove('mm__isopen');
-      } else {
-          // If main is visible, mm__isopen it along with the footer
-          mainElement.classList.add('mm__isopen');
-          footerElement.classList.add('mm__isopen');
-      }
+    img.loading = "eager";
+    img.decoding = "sync";
   });
-  
-document.querySelectorAll('ul.teasers.grd__gllry li').forEach(function(li) {
-    if (!li.classList.contains('video')) { 
-        li.querySelectorAll('article a figure video').forEach(function(video) {
-            video.controls = false;
-        });
-    }
-});
+}
 
-//Import Navigation
-import 'navigation.js'
+const html = document.querySelector("html");
+if (html) {
+  html.classList.remove("no-js");
+  html.classList.add("js");
+  html.classList.toggle("touch", "ontouchstart" in window);
+  html.classList.toggle("screenshot-mode", screenshotMode);
+}
 
-//gsap magic
-import 'gsap-triggers.js'
+if (screenshotMode) {
+  normalizeImagesForScreenshots();
+}
 
-//Import Swiper Sliders
-import 'swiper-sliders.js'
+const parallaxTarget = document.querySelector(".parallax");
+if (parallaxTarget && !screenshotMode) {
+  window.addEventListener("scroll", () => {
+    const rate = window.pageYOffset * 0.35;
+    parallaxTarget.style.transform = `translate3D(0px, ${rate}px, 0px)`;
+  });
+}
 
-//Import lazy.js
-//import 'lazy.js'
+const headerTarget = document.querySelector("header");
+if (headerTarget && !screenshotMode) {
+  const stickyOffset = headerTarget.offsetTop + 100;
+  window.addEventListener("scroll", () => {
+    headerTarget.classList.toggle("sticky", window.pageYOffset > stickyOffset);
+  });
+}
 
-//Video Hover for Garden Teasers if has video
-document.addEventListener("DOMContentLoaded", function () {
-    // Video Hover for Garden Teasers if has video
-    document.querySelectorAll("ul.teasers.grd__gllry li").forEach(function (li) {
-        const video = li.querySelector("article a figure div.vdo_fx video");
+const mainElement = document.querySelector("main");
+const footerElement = document.querySelector("footer");
+const toggleButton = document.getElementById("menubutton");
 
-        if (video) {
-            video.controls = false;
+if (toggleButton && mainElement && footerElement) {
+  toggleButton.addEventListener("click", () => {
+    const isOpen = mainElement.classList.contains("mm__isopen");
+    mainElement.classList.toggle("mm__isopen", !isOpen);
+    footerElement.classList.toggle("mm__isopen", !isOpen);
+  });
+}
 
-            // Play video on hover
-            li.addEventListener("mouseenter", function () {
-                video.play();
-            });
-
-            // Pause video when mouse leaves
-            li.addEventListener("mouseleave", function () {
-                video.pause();
-            });
-        } else {
-            // Ensure the element exists before removing it
-            const figure = li.querySelector("article a figure");
-            if (figure) {
-                figure.remove();
-            }
-        }
+document.querySelectorAll("ul.teasers.grd__gllry li").forEach((li) => {
+  if (!li.classList.contains("video")) {
+    li.querySelectorAll("article a figure video").forEach((video) => {
+      video.controls = false;
     });
-
-    // Fix for player controls error
-    const player = document.getElementById("player");
-    if (player) {
-        player.controls = false;
-    } else {
-        console.warn("⚠️ Element with ID 'player' not found in the DOM.");
-    }
+  }
 });
 
+function initVideoHover() {
+  document.querySelectorAll("ul.teasers.grd__gllry li").forEach((li) => {
+    const video = li.querySelector("article a figure div.vdo_fx video");
 
+    if (video) {
+      video.controls = false;
+      li.addEventListener("mouseenter", () => video.play());
+      li.addEventListener("mouseleave", () => video.pause());
+      return;
+    }
+
+    const figure = li.querySelector("article a figure");
+    if (figure) {
+      figure.remove();
+    }
+  });
+
+  const player = document.getElementById("player");
+  if (player) {
+    player.controls = false;
+  }
+}
+
+async function loadOptionalModules() {
+  const moduleLoads = [];
+
+  if (document.querySelector(".menu-button-links")) {
+    moduleLoads.push(import("./navigation.js"));
+  }
+  if (document.querySelector(".swiper, .hro__sldr")) {
+    moduleLoads.push(import("./swiper-sliders.js"));
+  }
+  if (!screenshotMode && document.querySelector(".oov, .lx")) {
+    moduleLoads.push(import("./gsap-triggers.js"));
+  }
+
+  if (moduleLoads.length > 0) {
+    await Promise.all(moduleLoads);
+  }
+}
+
+function init() {
+  initVideoHover();
+  loadOptionalModules();
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", init, { once: true });
+} else {
+  init();
+}

@@ -1,42 +1,20 @@
 [build]
-  CI= "npm run build"
+  command = "npm run build"
   publish = "dist"
-  NODE_ENV = "20.11.1"
+
+  [build.environment]
+  NODE_VERSION = "20.11.1"
 
 
 [dev]
-  command = 'npx @11ty/eleventy --serve'
+  command = "npx @11ty/eleventy --serve --watch --incremental --quiet"
+  publish = "dist"
+  targetPort = 8080
+  port = 8888
+
+  [dev.environment]
+  CONTEXT = "dev"
 
 
 [build.processing.html]
   pretty_urls = true
-
-
-[[redirects]]
-  from = "/assets/img/:file"
-  to = "/.netlify/images?url=/assets/img/:file"
-  status = 200
-
-[[redirects]]
-  from = "assets/img/:width/:file"
-  to = "/.netlify/images?url=/assets/img/:file&width=:width"
-  status = 200
-
-[[redirects]]
-  from = "/admin/*"
-  to = "/admin/index.html"
-  status = 200
-
-
-[[plugins]]
-package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-  buildDir = "dist"
-
-  exclude = [
-    "./dist/admin/**",            # exclude everything inside /dist/admin/
-    "./dist/index.html",    # extra safe
-    "./dist/admin",                # root-level folder if needed
-    "./dist/google20e2595b65a4949d"
-  ]

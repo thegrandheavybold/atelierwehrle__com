@@ -1,0 +1,16 @@
+# Keep canonical trailing slashes and locale entry points stable.
+/en    /en/    301
+/de    /       301
+/de/atelier/    /atelier/    301
+/de/gaerten/    /gaerten/    301
+/de/kontakt/    /kontakt/    301
+/de/impressum/    /impressum/    301
+/de/datenschutz/    /datenschutz/    301
+/gaerten_old/    /gaerten/    301
+/en/gaerten_old/    /en/gaerten/    301
+
+# Canonical host.
+https://www.atelierwehrle.com/*    https://atelierwehrle.com/:splat    301!
+
+# Netlify CMS single-page app fallback.
+/admin/*    /admin/index.html    200

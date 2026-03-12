@@ -16,8 +16,9 @@
 
     {%- include "partials/footer.njk" -%}
 
-
-    <script type="module" src="/js/main-min.js" defer></script>
+    {% if vite.js %}
+    <script type="module" src="/{{ vite.js }}" defer></script>
+    {% endif %}
 
   </body>
 </html>

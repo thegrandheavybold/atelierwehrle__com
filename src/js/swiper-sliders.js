@@ -1,8 +1,11 @@
 //SWIPER
 import Swiper from 'swiper';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/pagination';
 
-// import Swiper bundle with all modules installed
-import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
+// import Swiper modules used by this slider
+import { Autoplay, EffectFade } from 'swiper/modules';
 
 //Hero Slider
 const heroSwiper = new Swiper('.hro__sldr', {
@@ -28,5 +31,3 @@ const heroSwiper = new Swiper('.hro__sldr', {
   }
 
 });
-
-

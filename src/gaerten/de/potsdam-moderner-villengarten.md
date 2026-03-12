@@ -3,46 +3,43 @@ title: Potsdam DE – moderner Villengarten
 date: 2024-02-01T00:39
 urlSlug: potsdam-moderner-villengarten
 metaTags:
-  metatitle: Potsdam DE – moderner Villengarten
-  metaDescription: 'Der Gemüsegarten verbindet Tradition mit Inspiration: traditionelle Bauerngärten, englische „walled gardens“ und der „potager du roi“ in Versailles.'
+  metatitle: "Potsdam Villengarten - Naturnahe Gartenplanung"
+  metaDescription: "Moderner Villengarten in Potsdam mit biodiverser Pflanzung, Streuobstwiese und klimaresilientem Konzept. Von Atelier Wehrle geplant und umgesetzt."
 featured:
   featImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
-  alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+  alt: "Biodiversitätsorientierte Gartenplanung mit klimaresilienter Pflanzstruktur."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
-    alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+    alt: "Biodiversitätsorientierte Gartenplanung mit klimaresilienter Pflanzstruktur."
   galleryImages:
     - image: /assets/img/Gartenplanung-moderner-Garten-mit-Stauden.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Staudenpflanzung mit naturnaher Dynamik und langer Jahreszeitenwirkung."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Atelier-Wehrle.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
     - image: /assets/img/Gartengestaltung-Gemuesegarten-mit-Gewaechshaus.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Gemüsegarten mit Gewächshaus und funktionaler Beetstruktur."
     - image: /assets/img/Gartengestaltung-Blumenwiese-insektenfreundlich.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Blumenwiese als insektenfreundlicher Lebensraum mit hoher Artenvielfalt."
     - image: /assets/img/Gartenplanung-moderner-Garten.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
     - image: /assets/img/Gartenplanung-Gemuesegarten-eigene-Ernte.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung."
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet-mit-Graesern.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
     - image: /assets/img/Gartengestaltung-Obstwiese-im-Garten.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Obstwiese als naturnaher Übergang zwischen Garten und Landschaft."
     - image: /assets/img/Gartengestaltung-Blumenwiese-Artenvielfalt-insektenfreundlich.jpg
-      alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+      alt: "Blumenwiese als insektenfreundlicher Lebensraum mit hoher Artenvielfalt."
   copy: |-
-    Der ursprüngliche Garten bestand aus einer Rasenfläche, vier Säuleneichen und einem monotonen Efeuhang – dies war der Zustand bevor Manuel Wehrle den Garten ab 2020 grundlegend veränderte und dies nicht nur für das Auge sondern auch um der Natur wieder etwas zurückzugeben. 
-
-          Die Bewässerung wurde abgeschaltet, um einen nachhaltigen Schritt zu gehen. Anstelle der Rasenwüste erstreckt sich heute eine blühende Streuobstwiese, die Lebensraum für wiesenbrütende Vögel bietet. Der südliche Hang wurde in ein mediterranes Blütenmeer verwandelt, das das ganze Jahr über in Farbenpracht und winterlicher Struktur erstrahlt. Diese Pflanzung ist Atelier Wehrles Antwort auf den Klimawandel, indem widerstandsfähige Pflanzen gewählt wurden.
-
-          Der Gemüsegarten verbindet Tradition mit Inspiration: traditionelle Bauerngärten, englische „walled gardens“ und der „potager du roi“ in Versailles. Das Obstspalier ist funktional und ein gestalterisches Element, das den Charme dieses Gartens unterstreicht. Hier wurde ein Lebensraum geschaffen, der Tradition, Innovation und Nachhaltigkeit vereint.
+    Der ursprüngliche Garten bestand aus Rasen, vier Säuleneichen und einem monotonen Efeuhang. Seit 2020 wurde er von Manuel Wehrle grundlegend transformiert - nicht nur für ein stärkeres Gestaltungsbild, sondern auch als bewusster Beitrag zur Natur.
+    Die Bewässerung wurde abgeschaltet, die Rasenflächen deutlich reduziert. Stattdessen entstand eine blühende Streuobstwiese als Lebensraum für wiesenbrütende Vögel. Der südliche Hang wurde in ein mediterranes Blütenbild mit ganzjähriger Struktur übersetzt. Die Pflanzung ist klimaresilient und reagiert auf Hitze und Trockenheit.
+    Der Gemüsegarten verbindet traditionelle Bauerngartenmotive mit Einflüssen aus englischen Walled Gardens und dem Potager du Roi in Versailles. Obstspaliere sind funktional und räumlich prägend zugleich. So entsteht ein moderner Villengarten in Potsdam, der Tradition, Innovation und Nachhaltigkeit zusammenführt.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-Stauden.jpg
-    alt: Atelier Wehrle, Potsdam DE – moderner Villengarten
+    alt: "Staudenpflanzung mit naturnaher Dynamik und langer Jahreszeitenwirkung."
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: GPL – Ingo Kunde
     bilder: Vladyslav Pustovit
 ---
-

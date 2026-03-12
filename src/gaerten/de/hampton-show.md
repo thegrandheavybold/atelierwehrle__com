@@ -3,37 +3,33 @@ title: Hampton Court Palace UK – Flower Show
 date: 2016-07-01T00:16
 urlSlug: hampton-show
 metaTags:
-  metatitle: Hampton Court Palace UK – Flower Show
-  metaDescription: Der Garten selbst erzählte eine symbolische Geschichte des Lebenswegs.
+  metatitle: "Hampton Court Flower Show - Atelier Wehrle"
+  metaDescription: "Ausstellungsbeitrag von Atelier Wehrle bei der Hampton Court Flower Show mit symbolischer Erzählung, präziser Pflanzplanung und handwerklicher Tiefe."
 featured:
   featImage: /assets/img/Gartengestaltung-Showgarten-hampton-show.jpg
-  alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+  alt: "Showgarten mit dramaturgischer Pflanzkomposition und klarer Inszenierung."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartengestaltung-Showgarten-hampton-show.jpg
-    alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+    alt: "Showgarten mit dramaturgischer Pflanzkomposition und klarer Inszenierung."
   galleryImages:
     - image: /assets/img/Gartengestaltung-Showgarten-mit-Staudenbeet.jpg
-      alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+      alt: "Showgarten mit dramaturgischer Pflanzkomposition und klarer Inszenierung."
     - image: /assets/img/Gartengestaltung-Showgarten-hampton-show-England.jpg
-      alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+      alt: "Showgarten mit dramaturgischer Pflanzkomposition und klarer Inszenierung."
     - image: /assets/img/Manuel-Wehrle-Auszeichnung-chelsea-flower-show.jpg
-      alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+      alt: "Ausstellungsprojekt im Flower-Show-Kontext mit handwerklicher Präzision."
     - image: /assets/img/Gartengestaltung-Chelsea-flower-show.jpg
-      alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+      alt: "Ausstellungsprojekt im Flower-Show-Kontext mit handwerklicher Präzision."
     - image: /assets/img/Chelsea-Flower-Show-Garten.jpg
-      alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+      alt: "Ausstellungsprojekt im Flower-Show-Kontext mit handwerklicher Präzision."
   copy: |-
-    Im Jahr 2016 hatte ich die Ehre, zusammen mit meinem guten Freund und Kollegen Jasper Käßmann einen außergewöhnlichen Showgarten für die renommierte Hampton Court Palace Flower Show der Royal Horticultural Society in England zu gestalten. Dieser Garten war dem 400. Todestag des berühmten englischen Dichters William Shakespeare gewidmet und trug das Motto „All the world is a stage“.
-      
-          Der Garten selbst erzählte eine symbolische Geschichte des Lebenswegs: Zu Beginn erstrahlte er in üppigem Grün und reinen weißen Blüten, die den Anfang des Lebens symbolisierten. Im weiteren Verlauf wandelte sich die Gestaltung hin zu trockenen, kargen Bereichen mit dunklen, fast schwarzen Blüten, die das Ende des Lebens symbolisieren sollten. Diese durchdachte, tiefgründige Gestaltung ließ Besucher in eine visuelle Interpretation von Shakespeares Worten eintauchen.
-       
-          Der Bau dieses Gartens erstreckte sich über drei Wochen, und während der fünf Ausstellungstage zog er rund 130.000 Besucher in seinen Bann. Für unsere Arbeit wurden wir mit der „Silver Gilt Medal“ ausgezeichnet – eine Bestätigung der kreativen und handwerklichen Qualität, die in den Garten eingeflossen ist.
-         
-          Dieser Showgarten verdeutlicht, wie Gärten nicht nur visuell beeindrucken, sondern auch tiefere emotionale und philosophische Geschichten erzählen können.
+    2016 gestaltete ich gemeinsam mit Jasper Käßmann einen Showgarten für die Hampton Court Palace Flower Show der Royal Horticultural Society in England. Das Projekt war dem 400. Todestag William Shakespeares gewidmet und stand unter dem Leitmotiv „All the world is a stage“.
+    Der Garten erzählte den Lebensweg als räumliche Dramaturgie: vom üppigen Grün und weißen Blüten zu Beginn bis zu trockeneren, kargeren Partien mit dunklen, nahezu schwarzen Blüten am Ende. Die Gestaltung übersetzte Shakespeares Bildsprache in eine klare landschaftsarchitektonische Erzählung.
+    Nach drei Wochen Bauzeit erreichte der Garten während der fünf Ausstellungstage rund 130.000 Besucher und wurde mit der Silver Gilt Medal ausgezeichnet. Das Projekt zeigt, wie Gartenarchitektur neben visueller Qualität auch emotionale und philosophische Tiefe vermitteln kann.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-chelsea-flower-show.jpg
-    alt: Atelier Wehrle, Hampton Court Palace UK – Flower Show
+    alt: "Ausstellungsprojekt im Flower-Show-Kontext mit handwerklicher Präzision."
   articleCredits:
     entwurf: Manuel Wehrle und Jasper Käßmann
     bilder: Manuel Wehrle

@@ -3,28 +3,30 @@ title: Berlin DE – Courtyard
 date: 2022-01-01T23:57
 urlSlug: berlin-innenhof
 metaTags:
-  metatitle: Atelier Wehrle, Berlin DE – Courtyard
-  metaDescription: Berlin DE – Courtyard
+  metatitle: "Berlin Courtyard Garden - Bespoke Planning"
+  metaDescription: "Courtyard garden in Berlin with layered planting, strong atmosphere and bespoke landscape planning for compact urban space."
 featured:
   featImage: /assets/img/Hinterhof-Gestaltung-Bepflanzung.jpg
-  alt: Atelier Wehrle, Berlin DE – Innenhof
+  alt: "Urban courtyard garden with shade-tolerant planting design."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Hinterhof-Gestaltung-Bepflanzung.jpg
-    alt: Atelier Wehrle, Berlin DE – Innenhof
+    alt: "Urban courtyard garden with shade-tolerant planting design."
   galleryImages:
     - image: /assets/img/Hinterhofgestaltung-Schattengarten.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
+      alt: "Shade garden with white flowering perennials and layered planting."
     - image: /assets/img/Gartengestaltung-Hinterhof-begruenen.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
+      alt: "Urban courtyard garden with shade-tolerant planting design."
     - image: /assets/img/Gartengestaltung-Hinterhof-neu-anlegen.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
+      alt: "Urban courtyard garden with shade-tolerant planting design."
     - image: /assets/img/Gartenplanung-Hofgestaltung-mit-Wasser.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
-  copy: This previously unused, shady courtyard was transformed into a vibrant, inviting space through a redesign in collaboration with interior designer Maj van der Linden and Frieser Gartengestaltung, Swisspearl. Since the courtyard never receives direct sunlight, plants were selected that thrive in low light and still appear lush. The choice of exclusively white-flowering perennials brings freshness and brightness to the space, giving the formerly dark courtyard a new, friendly atmosphere.
+      alt: "Detail view of a naturalistic, carefully designed garden space."
+  copy: |-
+    This previously unused, shaded courtyard was transformed into a vibrant and welcoming space in collaboration with interior designer Maj van der Linden, Frieser Gartengestaltung and Swisspearl. As the courtyard receives no direct sunlight, the planting strategy focused on shade-tolerant species that remain lush and visually calm.
+    The predominantly white-flowering perennials bring brightness and freshness into the space. The result is a formerly dark courtyard turned into a refined, naturalistic urban garden in Berlin.
   articleFooter:
     closingImage: /assets/img/Hinterhof-Gestaltung-Schattenbepflanzung.jpg
-    alt: Atelier Wehrle, Berlin DE – Innenhof
+    alt: "Urban courtyard garden with shade-tolerant planting design."
   articleCredits:
     entwurf: Manuel Wehrle for the Königliche Gartenakademie
     ausfuehrung: Königliche Gartenakademie

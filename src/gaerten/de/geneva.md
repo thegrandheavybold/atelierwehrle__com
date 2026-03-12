@@ -3,35 +3,33 @@ title: Geneva CH – Balkon
 date: 2022-02-01T00:21
 urlSlug: geneva
 metaTags:
-  metatitle: Geneva CH – Balkon
-  metaDescription: Auf einem kleinen Balkon in Genf hat Atelier Wehrle ein Gartenparadies geschaffen.
+  metatitle: "Genf Balkon - Naturnahe Gartenplanung im kleinen Raum"
+  metaDescription: "Kleiner Balkon in Genf als hochwertiger, naturnaher Gartenraum mit präziser Pflanzplanung und starker räumlicher Wirkung."
 featured:
   featImage: /assets/img/Terrassengestaltung-Dachgarten-Stauden-in-Toepfen.jpg
-  alt: Atelier Wehrle, Geneva CH – Balkon
+  alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Pflanzplanung-Dachgarten-immergruen.jpg
-    alt: Atelier Wehrle, Geneva CH – Balkon
+    alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."
   galleryImages:
     - image: /assets/img/Terrassengestaltung-Moebelplanung-modern.jpg
-      alt: Atelier Wehrle, Geneva CH – Balkon
+      alt: "Moderne Terrassenmöblierung in eine naturnahe Pflanzplanung integriert."
     - image: /assets/img/Terrassengestaltung-Topfpflanzen-Stauden.jpg
-      alt: Atelier Wehrle, Geneva CH – Balkon
+      alt: "Terrassenbepflanzung mit Topfpflanzen und Stauden für urbane Freiräume."
     - image: /assets/img/Terrassengestaltung-Dachgarten-Pflanzen.jpg
-      alt: Atelier Wehrle, Geneva CH – Balkon
+      alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."
     - image: /assets/img/Balkongestaltung-Pflanzplanung-und-Sichtschutz.jpg
-      alt: Atelier Wehrle, Geneva CH – Balkon
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
     - image: /assets/img/Terrassengestaltung-Dachgarten-Gehoelze.jpg
-      alt: Atelier Wehrle, Geneva CH – Balkon
+      alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."
   copy: |-
-    Auf einem kleinen Balkon in Genf hat Atelier Wehrle ein Gartenparadies geschaffen, das trotz der begrenzten Fläche als Ruheoase inmitten des hektischen Stadtlebens dient. Der Außenbereich wurde als natürliche Erweiterung des Innenraums gestaltet – ein Wohnzimmer im Freien, das zum Entspannen einlädt. 
-
-          Offen gestaltet, bietet dieser Raum einen herrlichen Blick über den Genfer See bis hin zum Jura-Gebirge in Frankreich. Die lebendige, natürliche Pflanzenauswahl schafft eine einladende Atmosphäre, in der man gerne bei einem Glas Wein verweilt und die Aussicht genießt.
-
-          Der Schlafbereich hingegen ist durch eine geschützte, aber dennoch luftige Gestaltung geprägt. Ohne das Gefühl, sich hinter Mauern zu verstecken, bleibt der Raum privat und behaglich, ideal für Momente der Entspannung und Ruhe, abseits der Stadtblicke.
+    Auf einem kleinen Balkon in Genf entstand ein hochwertiger, naturnaher Gartenraum, der trotz begrenzter Fläche als Ruheoase im urbanen Kontext funktioniert. Der Aussenbereich wurde als Erweiterung des Innenraums konzipiert - ein Wohnzimmer im Freien.
+    Die offene Gestaltung ermöglicht den Blick über den Genfer See bis zum Jura. Eine lebendige, natürliche Pflanzenauswahl sorgt für Atmosphäre, Jahreszeitenwirkung und Aufenthaltsqualität.
+    Der Schlafbereich ist geschützt, aber luftig organisiert: privat, ohne abgeschottet zu wirken. So entsteht auf kleinem Raum ein präzise geplanter Balkon- und Terrassengarten mit hoher gestalterischer Wirkung.
   articleFooter:
     closingImage: /assets/img/Terrassengestaltung-Dachgarten-Stauden-in-Toepfen.jpg
-    alt: Atelier Wehrle, Geneva CH – Balkon
+    alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: Jacquet SA – Pépinière

@@ -3,22 +3,16 @@ title: Saint Tropez F – Villa Garden
 date: 2022-07-28T00:45
 urlSlug: saint-tropez
 metaTags:
-  metatitle: Saint Tropez F – Villa Garden
-  metaDescription: This garden, located in the "Les Parcs" villa district of
-    Saint-Tropez, remains unseen for reasons of discretion.
+  metatitle: "Saint-Tropez Villa Garden - Bespoke Mediterranean Design"
+  metaDescription: "Exclusive villa garden in Saint-Tropez with Mediterranean planting, spatial clarity and premium landscape craftsmanship."
 featured:
   featImage: /assets/img/atelier-wehrle__06.png
-  alt: Atelier Wehrle, Saint Tropez F – Villengarten
+  alt: "Detail view of a naturalistic, carefully designed garden space."
 mainArticle:
-  copy: 'This garden, located in the "Les Parcs" villa district of Saint-Tropez,
-    remains unseen for reasons of discretion. The design responds to the
-    increasing drought and heat in the Mediterranean region. The lawn area was
-    significantly reduced and replaced by a gravel garden with Mediterranean
-    perennials. After a three-year establishment phase, the garden now thrives
-    even in the height of summer without irrigation, remaining a blooming oasis
-    for both people and wildlife. This garden design is a response to climate
-    change while simultaneously celebrating the art and beauty of garden
-    culture. '
+  copy: |-
+    Located in the discreet “Les Parcs” villa district of Saint-Tropez, this project remains largely unpublished for privacy reasons. The design directly addresses increasing drought and heat in Mediterranean climates.
+    Lawn areas were significantly reduced and replaced by a gravel garden with Mediterranean perennials. After a three-year establishment phase, the planting now performs through peak summer without irrigation while remaining visually lush.
+    The project combines bespoke high-end garden design with climate-adaptive planting strategy as a contemporary response to environmental change.
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     bilder: Vladyslav Pustovit

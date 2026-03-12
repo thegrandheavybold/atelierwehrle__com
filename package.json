@@ -8,9 +8,17 @@
   "main": ".eleventy.mjs",
   "type": "module",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --quiet",
-    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy"
+    "build": "npm run clean:dist && npm run build:assets && npm run build:dist",
+    "start": "npm run build",
+    "dev": "npm run clean:dist && npm run dev:full",
+    "dev:noclean": "npm run dev:full",
+    "dev:full": "npm run build:assets:watch & netlify dev",
+    "clean:dist": "rm -rf dist",
+    "dev:site": "npx @11ty/eleventy --serve --watch --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+    "build:assets": "npx --no-install vite build || npx --yes vite build",
+    "build:assets:watch": "npx --no-install vite build --watch --mode development || npx --yes vite build --watch --mode development",
+    "build:dist": "npx @11ty/eleventy"
   },
   "dependencies": {
     "@sindresorhus/slugify": "^2.2.1",
@@ -23,6 +31,9 @@
     "swiper": "^11.1.12"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0"
+    "@11ty/eleventy": "3.0.0",
+    "playwright": "^1.58.2",
+    "sass-embedded": "^1.97.3",
+    "vite": "^6.3.5"
   }
 }

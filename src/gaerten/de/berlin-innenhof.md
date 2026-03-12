@@ -3,28 +3,30 @@ title: Berlin DE – Innenhof
 date: 2022-01-01T23:57
 urlSlug: berlin-innenhof
 metaTags:
-  metatitle: Atelier Wehrle, Berlin DE – Innenhof
-  metaDescription: Berlin DE – Innenhof
+  metatitle: "Berlin Innenhof - Gartenplanung"
+  metaDescription: "Innenhofgestaltung in Berlin: strukturierter, naturnaher Stadtgarten mit präziser Pflanzplanung und atmosphärischen Gartenräumen."
 featured:
   featImage: /assets/img/Hinterhof-Gestaltung-Bepflanzung.jpg
-  alt: Atelier Wehrle, Berlin DE – Innenhof
+  alt: "Urbaner Innenhofgarten mit schattenverträglicher Pflanzung."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Hinterhof-Gestaltung-Bepflanzung.jpg
-    alt: Atelier Wehrle, Berlin DE – Innenhof
+    alt: "Urbaner Innenhofgarten mit schattenverträglicher Pflanzung."
   galleryImages:
     - image: /assets/img/Hinterhofgestaltung-Schattengarten.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
+      alt: "Schattengarten mit weißen Blüten und fein abgestufter Staudenstruktur."
     - image: /assets/img/Gartengestaltung-Hinterhof-begruenen.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
+      alt: "Urbaner Innenhofgarten mit schattenverträglicher Pflanzung."
     - image: /assets/img/Gartengestaltung-Hinterhof-neu-anlegen.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
+      alt: "Urbaner Innenhofgarten mit schattenverträglicher Pflanzung."
     - image: /assets/img/Gartenplanung-Hofgestaltung-mit-Wasser.jpg
-      alt: Atelier Wehrle, Berlin DE – Innenhof
-  copy: Dieser zuvor ungenutzte, schattige Innenhof wurde durch die Umgestaltung in Zusammenarbeit mit der Interior Designerin Maj van der Linden und Frieser Gartengestaltung, Swisspearl, zu einem lebendigen, einladenden Raum. Da der Innenhof zu keiner Zeit direktes Sonnenlicht erhält, wurden Pflanzen ausgewählt, die auch bei wenig Licht gedeihen und dennoch üppig wirken. Die Wahl ausschließlich weißblühender Stauden bringt Frische und Helligkeit in den Raum, wodurch der ehemals dunkle Hof eine neue, freundliche Atmosphäre erhält.
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
+  copy: |-
+    Dieser zuvor ungenutzte, schattige Innenhof wurde in Zusammenarbeit mit der Interior Designerin Maj van der Linden, Frieser Gartengestaltung und Swisspearl zu einem lebendigen, einladenden Gartenraum transformiert. Da der Innenhof zu keiner Zeit direktes Sonnenlicht erhält, wurde die Pflanzplanung konsequent auf schattenverträgliche Arten abgestimmt, die auch bei wenig Licht übrig und präzise wirken.
+    Die Entscheidung für vorwiegend weiss blühende Stauden bringt Helligkeit und Ruhe in den Raum. So entstand aus einem dunklen Hof ein heller, naturnaher Berliner Innenhofgarten mit klarer Atmosphäre und hoher Aufenthaltsqualität.
   articleFooter:
     closingImage: /assets/img/Hinterhof-Gestaltung-Schattenbepflanzung.jpg
-    alt: Atelier Wehrle, Berlin DE – Innenhof
+    alt: "Urbaner Innenhofgarten mit schattenverträglicher Pflanzung."
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     ausfuehrung: Königliche Gartenakademie

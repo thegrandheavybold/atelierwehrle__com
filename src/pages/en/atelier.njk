@@ -1,16 +1,22 @@
 ---
 title: Atelier
 
-seoTitle: Atelier
-seoDescription: 
-metaImage: 
+seoTitle: "Boutique Landscape Atelier"
+seoDescription: "Atelier Wehrle designs high-end private gardens through concept, planting strategy and execution management across Germany, Switzerland and Europe."
+metaImage: Manuel-Wehrle-Gartendesigner-Gartengestaltung.jpg
+awards:
+  - image: Gaerten-des-Jahres-Atelier-Wehrle.png
+    alt: Gaerten des Jahres award for Atelier Wehrle
+    link: https://gaerten-des-jahres.com/planer/atelier-wehrle
+  - image: Manuel-Wehrle-Auszeichnung-chelsea-flower-show-medal.jpg
+    alt: Manuel Wehrle receiving an award at the Chelsea Flower Show
 ---
 
 <section class="opener lax">
 
   <div class="wrapper">
 
-    {% picture  "Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg", "Atelier Wehrle – Leopoldskron" %}
+    {% picture  "Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg", "Historic garden at Leopoldskron Castle in Salzburg" %}
 
   </div><!-- .wrapper -->
 
@@ -35,30 +41,52 @@ metaImage:
 
     <div class="item__2 oov">
 
-       {% picture  "Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg", "Atelier Wehrle – Bercherhof" %}
+       {% picture  "Gartenplanung-Gewaechshaus-im-Gemuesegarten.jpg", "Greenhouse in a structured kitchen garden" %}
 
     </div><!-- .item__2 -->
 
-    <div class="item__3 oov">
-
-       {% picture  "Manuel-Wehrle-Gartendesigner-Gartengestaltung.jpg", "Atelier Wehrle – Manuel Wehrle" %}
-
-    </div><!-- .item__3 -->
-
-    <div class="item__4 oov">
-
-       <h1 class="h5">Manuel Wehrle</h1>
-      <p>
-        Growing up on a farm in the third generation with three siblings, a large farm garden, and a sustainable relationship with nature are part of his personality’s roots. These have shaped him and grounded him for the challenges of his work. 
-        <br /><br />
-        Manuel Wehrle was internationally trained by the world’s best garden Designers in England, France, India, Switzerland, and Germany. He has received several awards for his designs. In 2024, two of his gardens were voted the best garden designs in Germany, Switzerland and Austria. 
-        <br /><br />
-        In a climatically challenging age, Manuel Wehrle defines his work as a responsibility towards natural resources.
-      </p>
-
-    </div><!-- .item__4 -->
-
   </div><!-- .wrapper -->
+
+  <section class="awards">
+    <div class="wrapper">
+      <h1 class="h6 oov">{{ translate[locale].award }}</h1>
+      {% set awardsList = awards or [] %}
+      <ol class="award_list">
+        {% for award in awardsList %}
+        <li class="item__{{ loop.index }} oov">
+          {% if award.link %}
+          <a href="{{ award.link }}" target="_blank" rel="noopener noreferrer">
+            {% picture award.image, award.alt %}
+          </a>
+          {% else %}
+            {% picture award.image, award.alt %}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  {% set teamMembers = collections.team_de if locale == "de" else collections.team_en %}
+
+  <div class="wrapper team-list">
+    {% for member in teamMembers %}
+    <article class="team-member{% if loop.index is even %} team-member--reverse{% endif %}">
+      <div class="team-member__image oov">
+        {% if member.data.image %}
+          {% picture member.data.image, member.data.alt %}
+        {% endif %}
+      </div>
+      <div class="team-member__content oov">
+        <h3 class="h5">{{ member.data.name }}</h3>
+        {% if member.data.role %}
+        <p class="role">{{ member.data.role }}</p>
+        {% endif %}
+        {{ member.templateContent | safe }}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
 
 </section><!-- .about -->
 
@@ -79,25 +107,3 @@ metaImage:
 </section>
 
 -->
-
-<section class="awards">
-
-  <div class="wrapper">
-    <h1 class="h6 oov">{{ translate[locale].award }}</h1>
-    <ol class="award_list">
-      
-      <li class="item__1 oov">
-        <a href="https://gaerten-des-jahres.com/planer/atelier-wehrle" target="_blank" rel="noopener noreferrer">
-          {% picture  "Gaerten-des-Jahres-Atelier-Wehrle.png", "Atelier Wehrle – Award" %}
-        </a>
-      </li>
-
-       <li class="item__2 oov">
-        {% picture  "Manuel-Wehrle-Auszeichnung-chelsea-flower-show-medal.jpg", "Atelier Wehrle – Award" %}
-      </li>
-
-    </ol><!-- .awards -->
-
-  </div><!-- .wrapper -->
-
-</section><!-- .awards -->

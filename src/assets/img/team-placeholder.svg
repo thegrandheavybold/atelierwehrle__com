@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1920" viewBox="0 0 1920 1920" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Placeholder image for a missing team portrait.</desc>
+  <rect width="1920" height="1920" fill="#ececec" />
+  <circle cx="960" cy="700" r="300" fill="#c9c9c9" />
+  <rect x="480" y="1080" width="960" height="620" rx="310" fill="#c9c9c9" />
+</svg>

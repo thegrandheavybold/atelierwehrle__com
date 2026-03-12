@@ -1,0 +1,32 @@
+---
+permalink: "/sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for entry in collections.all -%}
+  {%- if entry.url and entry.url != "/sitemap.xml" and entry.url != "/robots.txt" and entry.url.indexOf("/admin/") !== 0 and entry.url.indexOf("/google20e2595b65a4949d/") !== 0 and entry.url.indexOf(".") === -1 and not entry.data.noindex -%}
+  <url>
+    <loc>{{ site.url }}{{ entry.url }}</loc>
+    {%- set entryLang = entry.data.lang or entry.data.locale or "de" -%}
+    {%- set defaultLocalePath = entry.url -%}
+    {%- if entryLang != "de" -%}
+      {%- set defaultLocalePath = "/" -%}
+      {%- for link in entry.url | locale_links -%}
+        {%- if link.lang == "de" -%}
+          {%- set defaultLocalePath = link.url -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    <xhtml:link rel="alternate" hreflang="{{ entryLang }}" href="{{ site.url }}{{ entry.url }}"/>
+    {%- for link in entry.url | locale_links -%}
+      {%- if link.lang != entryLang -%}
+    <xhtml:link rel="alternate" hreflang="{{ link.lang }}" href="{{ site.url }}{{ link.url }}"/>
+      {%- endif -%}
+    {%- endfor -%}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ defaultLocalePath }}"/>
+    <lastmod>{{ site.buildTime | date("YYYY-MM-DD") }}</lastmod>
+  </url>
+  {%- endif -%}
+{%- endfor -%}
+</urlset>

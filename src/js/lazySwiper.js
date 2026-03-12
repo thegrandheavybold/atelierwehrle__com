@@ -1,28 +1,25 @@
-// Generate an picture tag with image src URLs which use Neltify image transforms
-export default function lazySwiper(ImageName, ImageAlt) {
-  return `<picture>
-            <img
-            
-            loading="lazy"
-          
-              srcset="
-                /assets/img/200/${ImageName}   200w,
-                /assets/img/400/${ImageName}   400w,
-                /assets/img/800/${ImageName}   800w,
-                /assets/img/1200/${ImageName} 1200w"
+import imageMarkup from "./imageMarkup.js";
 
-              sizes=" 
-                (max-width: 450px) 200px,
-                (max-width: 850px) 400px,
-                (max-width: 1000px) 800px,
-                1200px"
-
-              src="/assets/img/1200/${ImageName}"
-              alt="${ImageAlt}"
-            />
-          </picture>
-          `;
+// Slider images: lazy by default, with optional eager/fetchpriority overrides.
+export default function lazySwiper(
+  ImageName,
+  ImageAlt,
+  loading = "lazy",
+  fetchPriority = "auto",
+  width = 1600,
+  height = 900
+) {
+  return imageMarkup({
+    imageName: ImageName,
+    imageAlt: ImageAlt,
+    loading,
+    fetchPriority,
+    width,
+    height,
+    fallbackWidth: 1600,
+    widths: [480, 800, 1200, 1600, 1920],
+    sizes: "(max-width: 767px) 100vw, (max-width: 1439px) 92vw, 1600px",
+  });
 }
-
 
 

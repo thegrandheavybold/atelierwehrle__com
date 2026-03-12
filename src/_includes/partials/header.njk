@@ -11,7 +11,7 @@
       </div><!-- .header_bar__left -->
 
       <div class="site-branding">
-      {% set homeLink = "/" if locale == "de" else "/" + locale + "/" %}
+      {%- set homeLink = "/" if locale == "de" else "/" + locale + "/" -%}
 
         <a id="logo" href="{{ homeLink | url }}" rel="home" title="Atelier Wehrle" aria-label="This is the Logo of Atelier Wehrle">
           <svg class="atelier-wehrle_logo" alt="Atelier Wehrle">

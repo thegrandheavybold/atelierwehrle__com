@@ -1,22 +1,72 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{lang}}" id="{{ page.fileSlug }}">
   <head>
+    {% set resolvedSeoTitle = seoTitle or title or site.title %}
+    {% set resolvedSeoDescription = seoDescription or site.defaultSeoDescription[locale] or site.metaDescription %}
+    {% set rawMetaImage = metaImage or site.metaImage %}
+    {% set resolvedMetaImage = rawMetaImage %}
+    {% if rawMetaImage and rawMetaImage.indexOf("http") !== 0 %}
+      {% if rawMetaImage.indexOf("/") === 0 %}
+        {% set resolvedMetaImage = site.url + rawMetaImage %}
+      {% else %}
+        {% set resolvedMetaImage = site.url + "/assets/img/" + rawMetaImage %}
+      {% endif %}
+    {% endif %}
+    {% set currentUrl = site.url + page.url %}
+    {% set currentLang = lang or locale or "de" %}
+    {% set defaultLocalePath = page.url %}
+    {% if currentLang != "de" %}
+      {% set defaultLocalePath = "/" %}
+      {% for link in page.url | locale_links %}
+        {% if link.lang == "de" %}
+          {% set defaultLocalePath = link.url %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% set defaultLocaleUrl = site.url + defaultLocalePath %}
+    {% set isGardenPage = page.url.indexOf("/gaerten/") !== -1 or page.url.indexOf("/gardens/") !== -1 %}
+    {% set ogType = "website" %}
+    {% if isGardenPage %}
+      {% set ogType = "article" %}
+    {% endif %}
+    {% set ogLocale = site.ogLocale[locale] or "de_DE" %}
+
     <meta charset="utf-8">
-    <title>{{site.title}} · {{ seoTitle }}</title>
-    <meta name="description" content="{{seoDescription}}">
+    <title>{{ site.title }} · {{ resolvedSeoTitle }}</title>
+    <meta name="description" content="{{ resolvedSeoDescription }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% if noindex %}
+    <meta name="robots" content="noindex,follow">
+    {% else %}
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    {% endif %}
+    <meta name="author" content="{{ site.author }}">
 
     <!-- i18n SEO alternate Link-->
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}{{page.url}}">
+    <link rel="canonical" href="{{ currentUrl }}">
+    <link rel="alternate" hreflang="{{ currentLang }}" href="{{ currentUrl }}">
     {% for link in page.url | locale_links %}
     <link rel="alternate" hreflang="{{link.lang}}" href="{{site.url}}{{link.url}}">
     {% endfor %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ defaultLocaleUrl }}">
+    <link rel="sitemap" type="application/xml" href="{{ site.url }}/sitemap.xml">
 
-    <!-- ccm19 cookie consent -->
-    <script src="https://cloud.ccm19.de/app.js?apiKey=90e58e760ef4bc9ed7cbe9d0238d998da28d3489dc84daf7&amp;domain=691c6133778bbf12cb020682" referrerpolicy="origin"></script>
+    <!-- ccm19 cookie consent (disabled only in screenshot mode) -->
+    <script>
+      (function () {
+        try {
+          var isScreenshot = new URLSearchParams(window.location.search).has("screenshot");
+          if (isScreenshot) return;
+          var script = document.createElement("script");
+          script.src = "https://cloud.ccm19.de/app.js?apiKey=90e58e760ef4bc9ed7cbe9d0238d998da28d3489dc84daf7&domain=691c6133778bbf12cb020682";
+          script.referrerPolicy = "origin";
+          document.head.appendChild(script);
+        } catch (e) {
+          // no-op
+        }
+      })();
+    </script>
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="/assets/fav/favicon-96x96.png" sizes="96x96" />
@@ -33,35 +83,75 @@
 
     <link rel="preload" href="/assets/fonts/poppins-v21-latin-200italic.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/poppins-v21-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/style.css">
+    
+    <!-- styles -->
+    {% for cssFile in vite.css %}
+    <link rel="stylesheet" href="/{{ cssFile }}">
+    {% endfor %}
+    {% for preloadFile in vite.imports %}
+    <link rel="modulepreload" href="/{{ preloadFile }}">
+    {% endfor %}
 
     <!-- Preconnect Fonts -->
+    <link rel="dns-prefetch" href="//use.typekit.net" />
+    <link rel="dns-prefetch" href="//p.typekit.net" />
     <link rel="preconnect" href="https://use.typekit.net" crossorigin />
     <link rel="preconnect" href="https://p.typekit.net" crossorigin />
 
-    <!-- Preload Fonts -->
-    <link rel="preload" as="style" href="https://use.typekit.net/lyi3uli.css" />
+    <!-- Non-blocking external font stylesheet -->
     <link rel="stylesheet" href="https://use.typekit.net/lyi3uli.css" media="print" onload="this.media='all'" />
     <noscript>
         <link rel="stylesheet" href="https://use.typekit.net/lyi3uli.css" />
     </noscript>
 
     <!-- open graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ seoTitle }} · {{ site[locale].metaTitle }}">
-    <meta property="og:image" content="{{ site.url }}/assets/img/{{ metaImage }}">
-    <meta property="og:image:secure_url" content="{{ site.url }}/assets/img/{{ metaImage }}}">
+    <meta property="og:type" content="{{ ogType }}">
+    <meta property="og:title" content="{{ site.title }} · {{ resolvedSeoTitle }}">
+    <meta property="og:image" content="{{ resolvedMetaImage }}">
+    <meta property="og:image:secure_url" content="{{ resolvedMetaImage }}">
+    <meta property="og:image:alt" content="{{ resolvedSeoTitle }}">
     <meta property="og:site_name" content="{{ site.name }}">
-    <meta property="og:description" content="{{ seoDescription }}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:description" content="{{ resolvedSeoDescription }}">
+    <meta property="og:url" content="{{ currentUrl }}">
+    <meta property="og:locale" content="{{ ogLocale }}">
+    {% for link in page.url | locale_links %}
+    <meta property="og:locale:alternate" content="{{ site.ogLocale[link.lang] }}">
+    {% endfor %}
 
     <!-- twitter -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    {% if site.authorTwitter %}
     <meta name="twitter:site" content="{{ site.authorTwitter }}">
     <meta name="twitter:creator" content="{{ site.authorTwitter }}">
-    <meta name="twitter:title" content="{{ seoTitle }} · {{ site[locale].metaTitle }}">
-    <meta name="twitter:description" content="{{ seoDescription }}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/img/{{ metaImage }}">
-    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    <meta name="twitter:title" content="{{ site.title }} · {{ resolvedSeoTitle }}">
+    <meta name="twitter:description" content="{{ resolvedSeoDescription }}">
+    <meta name="twitter:image" content="{{ resolvedMetaImage }}">
+    <meta property="twitter:url" content="{{ currentUrl }}">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.name }}",
+        "url": "{{ site.url }}",
+        "logo": "{{ site.url }}/assets/img/atelier-wehrle_logo.svg",
+        "email": "{{ site.email }}",
+        "telephone": "{{ site.phone }}",
+        "sameAs": [
+          "{{ site.instagram }}",
+          "{{ site.pinterest }}",
+          "{{ site.linkedin }}"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}"
+      }
+    </script>
 
   </head>

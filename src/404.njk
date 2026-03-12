@@ -1,0 +1,129 @@
+---
+permalink: "/404.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 · Atelier Wehrle</title>
+    <meta name="robots" content="noindex,follow">
+    <style>
+      :root {
+        --bg: #0d1112;
+        --text: #f6f3ee;
+        --muted: #d9d2c8;
+        --accent: #e7ded0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+
+      .not-found {
+        position: relative;
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 2rem;
+        overflow: hidden;
+      }
+
+      .not-found::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(to bottom, rgba(6, 10, 10, 0.35), rgba(6, 10, 10, 0.65)),
+          url("/assets/img/Atelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg");
+        background-size: cover;
+        background-position: center;
+        transform: scale(1.04);
+      }
+
+      .not-found__content {
+        position: relative;
+        z-index: 1;
+        max-width: 52rem;
+      }
+
+      .code {
+        margin: 0;
+        font-size: clamp(5rem, 22vw, 16rem);
+        line-height: 0.85;
+        letter-spacing: 0.04em;
+        font-weight: 600;
+        text-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+      }
+
+      .title {
+        margin: 0.8rem 0 0;
+        font-size: clamp(1.1rem, 2.2vw, 1.7rem);
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .subtitle {
+        margin: 1rem auto 0;
+        max-width: 40ch;
+        color: var(--muted);
+        font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+        line-height: 1.6;
+      }
+
+      .actions {
+        margin-top: 2rem;
+        display: inline-flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        color: #0f1414;
+        background: var(--accent);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        padding: 0.85rem 1.2rem;
+        border-radius: 999px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
+      .btn--ghost {
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.08);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="not-found">
+      <div class="not-found__content">
+        <p class="code">404</p>
+        <h1 class="title">Gartenpfad nicht gefunden</h1>
+        <p class="subtitle">Diese Seite existiert nicht oder wurde verschoben. Wir bringen dich zurück zu Atelier Wehrle.</p>
+        <div class="actions">
+          <a class="btn" href="/">Zur Startseite</a>
+          <a class="btn btn--ghost" href="/en/">To English Home</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

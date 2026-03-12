@@ -1,32 +1,64 @@
-
-.about 
-    @include pt-30 
+.about
+    @include pt-30
     @include pb-30
 
     .grd__a
-        grid-template-areas: 'a b' 'c d '
+        grid-template-columns: 1fr 1fr
         align-items: center
         grid-row-gap: 80px
 
-        .item__1
-            grid-area: a
+    .team-list
+        margin-top: 80px
 
-        .item__2
-            grid-area: b
+    .team-member
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 32px
+        align-items: center
+        margin-bottom: 80px
 
-        .item__3
-            grid-area: c
+        &:last-child
+            margin-bottom: 0
 
-        .item__4
-            grid-area: d
+        &--reverse
+            .team-member__image
+                order: 2
+            .team-member__content
+                order: 1
 
+    .role
+        margin: -6px 0 16px
+        font-size: 1rem
+        line-height: 1.4
+        text-transform: none
+        hyphens: none
 
 @include m
-    .about 
+    .about
         .grd__a
-            grid-template-areas: 'a a' 'b b' 'd d' 'c c'
+            grid-template-columns: 1fr
+
+        .team-member
+            grid-template-columns: 1fr
+            grid-row-gap: 24px
+            margin-bottom: 64px
+
+            .team-member__image
+                order: 1
+            .team-member__content
+                order: 2
 
 @include s
-    .about 
+    .about
         .grd__a
-            grid-template-areas: 'a a' 'b b' 'd d' 'c c'
+            grid-template-columns: 1fr
+
+        .team-member
+            grid-template-columns: 1fr
+            grid-row-gap: 24px
+            margin-bottom: 64px
+
+            .team-member__image
+                order: 1
+            .team-member__content
+                order: 2

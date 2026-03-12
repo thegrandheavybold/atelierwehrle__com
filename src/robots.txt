@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /admin/
+Disallow: /backup/
 Allow: /
 
 Sitemap: https://atelierwehrle.com/sitemap.xml

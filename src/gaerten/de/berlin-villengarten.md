@@ -3,38 +3,37 @@ title: Berlin DE – Villen Garten
 date: 2024-01-01T00:03
 urlSlug: berlin-villengarten
 metaTags:
-  metatitle: Atelier Wehrle, Berlin DE – Villengarten
-  metaDescription: Berlin DE – Villengarten
+  metatitle: "Berlin Villengarten - Exklusive Gartengestaltung"
+  metaDescription: "Villengarten in Berlin mit klarer Architektur, naturnaher Pflanzplanung und hochwertiger Materialität. Individuelle Gartenarchitektur von Atelier Wehrle."
 featured:
   featImage: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
-  alt: Atelier Wehrle, Berlin DE – Villengarten
+  alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartengestaltung-moderner-Garten-im-Herbst.jpg
-    alt: Atelier Wehrle, Berlin DE – Villengarten
+    alt: "Detailansicht eines naturnah gestalteten Gartenraums."
   galleryImages:
     - image: /assets/img/Gartenplanung-moderner-Garten-mit-Formschnitt.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
     - image: /assets/img/Gartengestaltung-moderner-Garten.jpg
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
     - image: /assets/img/Gartengestaltung-Formschnittgehoelze-integrieren.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
     - image: /assets/img/Gartenplanung-Schattengarten-mit-Stauden.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Schattengarten mit weißen Blüten und fein abgestufter Staudenstruktur."
     - image: /assets/img/Gartengestaltung-Designgarten-mit-Formschnitt.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
     - image: /assets/img/Gartengestaltung-moderne-Bepflanzung.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Detailansicht eines naturnah gestalteten Gartenraums."
     - image: /assets/img/Gartengestaltung-Formschnitt-grafische-Gestaltung.jpg
-      alt: Atelier Wehrle, Berlin DE – Villengarten
+      alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
   copy: |-
-    Dieser Stadtgarten in Berlin ist ein wahrer Ort der Inspiration und Erholung. Im Zentrum des Gartens liegt eine ovale Rasenfläche, umgeben von einer sanft schwingenden Gräserlandschaft aus Molinia. Diese harmonische Komposition wird durch kunstvoll geschnittene Formgehölze, die sogenannten Topiaries, ergänzt, die an die strengen Formen französischer Barockgärten erinnern.
-
-          Der Kontrast zwischen der natürlichen Leichtigkeit der Gräser und der eleganten Strenge der Topiaries schafft eine zeitlose Atmosphäre, die den Besucher einlädt, durch den Garten zu flanieren. Auf diesem Weg kann man vom offenen Rasen durch die kunstvoll gestaltete Gräserlandschaft bis in den beruhigenden Waldgarten eintauchen.
-
-          Dieser Garten ist nicht nur ein ästhetisches Erlebnis, sondern auch ein Ort der Kreativität und inneren Einkehr. Hier kann der Kunde Kraft tanken und sich vom hektischen Alltag erholen. Besonders im Herbst, wenn der Garten in goldene Farben getaucht ist, entfaltet er seine ganze Schönheit und lädt zu Momenten der Ruhe und Besinnung ein.
+    Dieser Stadt- und Villengarten in Berlin ist ein Ort der Inspiration und Erholung. Im Zentrum liegt eine ovale Rasenfläche, eingefasst von einer weich schwingenden Graserlandschaft aus Molinia. Die Komposition wird durch präzise geschnittene Formgehölze - Topiaries - ergänzt, die an die strenge Eleganz französischer Barockgärten erinnern.
+    Der Kontrast aus natürlicher Leichtigkeit und architektonischer Form schafft eine zeitlose, hochwertige Gartenatmosphäre. Besucher bewegen sich vom offenen Rasen durch die Graserstruktur bis in den ruhigeren Waldgarten - eine klare Raumfolge, die den Garten lesbar und zugleich emotional macht.
+    Der Garten ist nicht nur ein ästhetisches Statement, sondern auch ein Rückzugsort für Kreativität und innere Ruhe. Besonders im Herbst entfaltet die Pflanzung mit ihren goldenen Tönen ihre ganze Stärke und prägt den Ort als naturnahen Designgarten in Berlin.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Formschnittgehoelze-im-Garten.jpg
-    alt: Atelier Wehrle, Berlin DE – Villengarten
+    alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     ausfuehrung: Käding Gartenbau

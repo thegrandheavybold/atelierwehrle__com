@@ -7,13 +7,8 @@ import lazySwiper from "./src/js/lazySwiper.js";
 
 
 export default function (eleventyConfig) {
-
-  eleventyConfig.addPassthroughCopy("./src/js/main.js");
-  eleventyConfig.addPassthroughCopy("./src/js/main-min.js");
-  eleventyConfig.addPassthroughCopy("./src/js/main-min.js.map");
+  eleventyConfig.addPassthroughCopy({"./src/_generated/assets": "./assets"});
   eleventyConfig.addPassthroughCopy("./src/assets");
-  eleventyConfig.addPassthroughCopy("./src/style.css");
-  eleventyConfig.addPassthroughCopy("./src/style.css.map");
   eleventyConfig.addPassthroughCopy("./src/icon.svg");
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
   eleventyConfig.addPassthroughCopy("./src/icon-192.png");
@@ -47,6 +42,18 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addCollection("gardens_en", (collection) => 
     collection.getFilteredByGlob("./src/gaerten/en/*.md")
+  );
+
+  eleventyConfig.addCollection("team_de", (collection) =>
+    collection
+      .getFilteredByGlob("./src/team/de/*.md")
+      .sort((a, b) => (a.data.order || 999) - (b.data.order || 999))
+  );
+
+  eleventyConfig.addCollection("team_en", (collection) =>
+    collection
+      .getFilteredByGlob("./src/team/en/*.md")
+      .sort((a, b) => (a.data.order || 999) - (b.data.order || 999))
   );
 
   // i18n
