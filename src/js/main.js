@@ -2,6 +2,14 @@ import "../sass/style.sass";
 
 const screenshotMode = new URLSearchParams(window.location.search).has("screenshot");
 
+if ("serviceWorker" in navigator && !screenshotMode) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").catch(() => {
+      // Keep the page resilient even if SW registration fails.
+    });
+  });
+}
+
 function decodeNetlifyTransformToOriginal(urlValue) {
   if (!urlValue || !urlValue.includes("/.netlify/images")) {
     return urlValue;

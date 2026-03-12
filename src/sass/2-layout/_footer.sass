@@ -23,6 +23,10 @@ footer
                 margin-right: 2rem
                 &:last-child
                     margin-right: 0
+            a
+                display: inline-flex
+                align-items: center
+                min-height: 48px
 
 
     @include l
@@ -39,9 +43,13 @@ footer
 
             .__copyright
                 font-family: $font__light
-                font-size: min(max(3vw), 13px)
+                font-size: clamp(12px, 3vw, 13px)
 
             .__links
                 display: block
+                li
+                    margin-right: 0
+                a
+                    min-height: 48px
 
                     
