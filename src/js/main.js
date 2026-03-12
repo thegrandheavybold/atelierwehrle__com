@@ -68,18 +68,42 @@ if (screenshotMode) {
 
 const parallaxTarget = document.querySelector(".parallax");
 if (parallaxTarget && !screenshotMode) {
-  window.addEventListener("scroll", () => {
+  let parallaxTicking = false;
+  const updateParallax = () => {
     const rate = window.pageYOffset * 0.35;
     parallaxTarget.style.transform = `translate3D(0px, ${rate}px, 0px)`;
-  });
+    parallaxTicking = false;
+  };
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (parallaxTicking) return;
+      parallaxTicking = true;
+      window.requestAnimationFrame(updateParallax);
+    },
+    { passive: true }
+  );
 }
 
 const headerTarget = document.querySelector("header");
 if (headerTarget && !screenshotMode) {
   const stickyOffset = headerTarget.offsetTop + 100;
-  window.addEventListener("scroll", () => {
+  let stickyTicking = false;
+  const updateStickyState = () => {
     headerTarget.classList.toggle("sticky", window.pageYOffset > stickyOffset);
-  });
+    stickyTicking = false;
+  };
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (stickyTicking) return;
+      stickyTicking = true;
+      window.requestAnimationFrame(updateStickyState);
+    },
+    { passive: true }
+  );
 }
 
 const mainElement = document.querySelector("main");
@@ -125,21 +149,53 @@ function initVideoHover() {
   }
 }
 
-async function loadOptionalModules() {
-  const moduleLoads = [];
+function scheduleIdle(callback, timeout = 1500) {
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(callback, { timeout });
+    return;
+  }
+  window.setTimeout(callback, 1);
+}
 
+function loadOptionalModules() {
   if (document.querySelector(".menu-button-links")) {
-    moduleLoads.push(import("./navigation.js"));
-  }
-  if (document.querySelector(".swiper, .hro__sldr")) {
-    moduleLoads.push(import("./swiper-sliders.js"));
-  }
-  if (!screenshotMode && document.querySelector(".oov, .lx")) {
-    moduleLoads.push(import("./gsap-triggers.js"));
+    import("./navigation.js");
   }
 
-  if (moduleLoads.length > 0) {
-    await Promise.all(moduleLoads);
+  const swiperTarget = document.querySelector(".swiper, .hro__sldr");
+  if (swiperTarget) {
+    let swiperRequested = false;
+    const requestSwiperModule = () => {
+      if (swiperRequested) return;
+      swiperRequested = true;
+      import("./swiper-sliders.js");
+    };
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (!entries.some((entry) => entry.isIntersecting)) return;
+          observer.disconnect();
+          requestSwiperModule();
+        },
+        { rootMargin: "300px 0px" }
+      );
+      observer.observe(swiperTarget);
+    } else {
+      requestSwiperModule();
+    }
+  }
+
+  if (!screenshotMode && document.querySelector(".oov, .lx")) {
+    window.addEventListener(
+      "load",
+      () => {
+        scheduleIdle(() => {
+          import("./gsap-triggers.js");
+        }, 2000);
+      },
+      { once: true }
+    );
   }
 }
 

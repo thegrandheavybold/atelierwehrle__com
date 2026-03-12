@@ -84,6 +84,17 @@
 
     <link rel="preload" href="/assets/fonts/poppins-v21-latin-200italic.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/poppins-v21-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+
+    {% if page.url == "/" or page.url == "/en/" %}
+    <link
+      rel="preload"
+      as="image"
+      href="/.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1600"
+      imagesrcset="/.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=320 320w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=480 480w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=640 640w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=800 800w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1200 1200w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1600 1600w"
+      imagesizes="(max-width: 767px) 100vw, (max-width: 1439px) 92vw, 1600px"
+      fetchpriority="high"
+    >
+    {% endif %}
     
     <!-- styles -->
     {% for cssFile in vite.css %}
@@ -99,8 +110,32 @@
     <link rel="preconnect" href="https://use.typekit.net" crossorigin />
     <link rel="preconnect" href="https://p.typekit.net" crossorigin />
 
-    <!-- Non-blocking external font stylesheet -->
-    <link rel="stylesheet" href="https://use.typekit.net/lyi3uli.css" media="print" onload="this.media='all'" />
+    <!-- External font stylesheet, injected after load to avoid render blocking -->
+    <script>
+      (function () {
+        var loadTypekit = function () {
+          var existing = document.querySelector('link[data-typekit="lyi3uli"]');
+          if (existing) return;
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.href = "https://use.typekit.net/lyi3uli.css";
+          link.setAttribute("data-typekit", "lyi3uli");
+          document.head.appendChild(link);
+        };
+
+        if ("requestIdleCallback" in window) {
+          window.addEventListener(
+            "load",
+            function () {
+              window.requestIdleCallback(loadTypekit, { timeout: 1500 });
+            },
+            { once: true }
+          );
+        } else {
+          window.addEventListener("load", loadTypekit, { once: true });
+        }
+      })();
+    </script>
     <noscript>
         <link rel="stylesheet" href="https://use.typekit.net/lyi3uli.css" />
     </noscript>

@@ -42,13 +42,16 @@ function resolveImageAlt(imageAlt = "", imageName = "") {
 
 const isDevContext = process.env.CONTEXT === "dev";
 
-function buildTransformSrc(imageName, width) {
+function buildTransformSrc(imageName, width, format = "") {
   const sourcePath = encodeURIComponent(`/assets/img/${imageName}`);
-  return `/.netlify/images?url=${sourcePath}&width=${width}`;
+  const formatParam = format ? `&fm=${encodeURIComponent(format)}` : "";
+  return `/.netlify/images?url=${sourcePath}&width=${width}${formatParam}`;
 }
 
-function buildSrcSet(imageName, widths) {
-  return widths.map((width) => `${buildTransformSrc(imageName, width)} ${width}w`).join(",\n                ");
+function buildSrcSet(imageName, widths, format = "") {
+  return widths
+    .map((width) => `${buildTransformSrc(imageName, width, format)} ${width}w`)
+    .join(",\n                ");
 }
 
 export default function imageMarkup({
@@ -74,12 +77,29 @@ export default function imageMarkup({
   const plainSrc = `/assets/img/${encodedName}`;
   const transformedSrc = buildTransformSrc(imageName, fallbackWidth);
   const defaultSrcSet = buildSrcSet(imageName, widths);
+  const avifSrcSet = buildSrcSet(imageName, widths, "avif");
+  const webpSrcSet = buildSrcSet(imageName, widths, "webp");
   const src = isDevContext ? plainSrc : transformedSrc;
   const srcsetAttr = isDevContext
     ? ""
     : `srcset="
                 ${defaultSrcSet}"`;
   const sizesAttr = isDevContext ? "" : `sizes="${safeSizes}"`;
+  const sourceMarkup = isDevContext
+    ? ""
+    : `
+            <source
+              type="image/avif"
+              srcset="
+                ${avifSrcSet}"
+              ${sizesAttr}
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ${webpSrcSet}"
+              ${sizesAttr}
+            />`;
   const detectedSize = getImageDimensions(imageName);
   const resolvedWidth = Number(width) || detectedSize?.width || null;
   const resolvedHeight = Number(height) || detectedSize?.height || null;
@@ -89,6 +109,7 @@ export default function imageMarkup({
       : "";
 
   return `<picture${safeClass ? ` class="${safeClass}"` : ""}>
+            ${sourceMarkup}
             <img
               ${srcsetAttr}
               ${sizesAttr}
