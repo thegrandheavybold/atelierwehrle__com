@@ -12,7 +12,7 @@ mainArticle:
   copy: |-
     Located in the discreet “Les Parcs” villa district of Saint-Tropez, this project remains largely unpublished for privacy reasons. The design directly addresses increasing drought and heat in Mediterranean climates.
     Lawn areas were significantly reduced and replaced by a gravel garden with Mediterranean perennials. After a three-year establishment phase, the planting now performs through peak summer without irrigation while remaining visually lush.
-    The project combines bespoke high-end garden design with climate-adaptive planting strategy as a contemporary response to environmental change.
+    The project combines bespoke high-end garden design with climate-adaptive planting strategy as a contemporary response to environmental change. In Saint-Tropez, the concept aligns Mediterranean landscape architecture with robust garden design for high-end private gardens.
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     bilder: Vladyslav Pustovit

@@ -26,7 +26,7 @@ mainArticle:
   copy: |-
     A small balcony in Geneva was transformed into a calm, high-quality green retreat despite very limited space. The outdoor area was designed as an extension of the interior - an open-air living room for everyday use.
     Its open layout frames views over Lake Geneva to the Jura Mountains. A vibrant natural planting palette creates atmosphere and seasonal richness.
-    The sleeping zone remains sheltered yet airy, offering privacy without enclosure. The result is a compact but fully articulated balcony garden with strong spatial effect.
+    The sleeping zone remains sheltered yet airy, offering privacy without enclosure. The result is a compact but fully articulated balcony garden with strong spatial effect. In Geneva, the project combines landscape architecture, precise garden design and the quality of private gardens on compact space.
   articleFooter:
     closingImage: /assets/img/Terrassengestaltung-Dachgarten-Stauden-in-Toepfen.jpg
     alt: "Rooftop garden with structural planting and generous terrace character."

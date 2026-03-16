@@ -22,8 +22,8 @@ mainArticle:
     - image: /assets/img/Gartenplanung-Hofgestaltung-mit-Wasser.jpg
       alt: "Detailansicht eines naturnah gestalteten Gartenraums."
   copy: |-
-    Dieser zuvor ungenutzte, schattige Innenhof wurde in Zusammenarbeit mit der Interior Designerin Maj van der Linden, Frieser Gartengestaltung und Swisspearl zu einem lebendigen, einladenden Gartenraum transformiert. Da der Innenhof zu keiner Zeit direktes Sonnenlicht erhält, wurde die Pflanzplanung konsequent auf schattenverträgliche Arten abgestimmt, die auch bei wenig Licht übrig und präzise wirken.
-    Die Entscheidung für vorwiegend weiss blühende Stauden bringt Helligkeit und Ruhe in den Raum. So entstand aus einem dunklen Hof ein heller, naturnaher Berliner Innenhofgarten mit klarer Atmosphäre und hoher Aufenthaltsqualität.
+    Dieser zuvor ungenutzte, schattige Innenhof wurde in Zusammenarbeit mit der Interior Designerin Maj van der Linden, Frieser Gartengestaltung und Swisspearl zu einem lebendigen, einladenden Gartenraum transformiert. Da der Innenhof zu keiner Zeit direktes Sonnenlicht erhält, wurde die Pflanzplanung konsequent auf schattenverträgliche Arten abgestimmt, die auch bei wenig Licht üppig und präzise wirken.
+    Die Entscheidung für vorwiegend weiß blühende Stauden bringt Helligkeit und Ruhe in den Raum. So entstand aus einem dunklen Hof ein heller, naturnaher Berliner Innenhofgarten mit klarer Atmosphäre und hoher Aufenthaltsqualität. Damit zeigt das Projekt beispielhaft hochwertige Landschaftsarchitektur in Berlin und eine präzise Gartenplanung für anspruchsvolle Innenhofsituationen.
   articleFooter:
     closingImage: /assets/img/Hinterhof-Gestaltung-Schattenbepflanzung.jpg
     alt: "Urbaner Innenhofgarten mit schattenverträglicher Pflanzung."
@@ -32,4 +32,3 @@ mainArticle:
     ausfuehrung: Königliche Gartenakademie
     bilder: Valadyslav Pustovit
 ---
-

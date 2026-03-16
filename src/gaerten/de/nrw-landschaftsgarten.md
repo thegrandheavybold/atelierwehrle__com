@@ -34,9 +34,9 @@ mainArticle:
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Gunnera.jpg
       alt: "Gunnera als markanter Blattschmuck in naturnaher Pflanzkomposition."
   copy: |-
-    Dieser Landschaftsgarten in Nordrhein-Westfalen umschliesst ein Landhaus im englischen Jugendstil, das von Innenarchitekt Gisbert Pöppler neu interpretiert wurde. Das Herzstück ist ein Schwimmteich inmitten einer farbigen Staudenlandschaft.
+    Dieser Landschaftsgarten in Nordrhein-Westfalen umschließt ein Landhaus im englischen Jugendstil, das von Innenarchitekt Gisbert Pöppler neu interpretiert wurde. Das Herzstück ist ein Schwimmteich inmitten einer farbigen Staudenlandschaft.
     Breite Rasenwege führen durch saisonal wechselnde Blütenbilder und insektenfreundliche Pflanzungen. Der Garten zeigt, wie auch private Anlagen konkrete Beiträge zu Biodiversität und Klimaresilienz leisten können.
-    Der Teich dient als Rückzugsort und Habitat für Molche, Libellen, Vögel und zahlreiche Insekten. Ein ehemaliges Betonbecken wurde renaturiert und über einen Wasserlauf mit Trittsteinen angebunden. Gemüsegarten, Rosengarten, Wiesenbereiche, Waldgarten und formaler Hof vervollständigen das Konzept.
+    Der Teich dient als Rückzugsort und Habitat für Molche, Libellen, Vögel und zahlreiche Insekten. Ein ehemaliges Betonbecken wurde renaturiert und über einen Wasserlauf mit Trittsteinen angebunden. Gemüsegarten, Rosengarten, Wiesenbereiche, Waldgarten und formaler Hof vervollständigen das Konzept. So entsteht in NRW ein zukunftsfähiger Garten, der Landschaftsarchitektur, naturnahe Pflanzplanung und langfristig gedachte Gartenplanung vereint.
   articleFooter:
     closingImage: /assets/img/Gartenpanung-Pflanzplanung-fuer-Waldgarten.jpg
     alt: "Waldgarten mit vielschichtiger Bepflanzung und natürlicher Tiefenwirkung."

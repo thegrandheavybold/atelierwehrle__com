@@ -34,7 +34,7 @@ mainArticle:
   copy: |-
     Der ursprüngliche Garten bestand aus Rasen, vier Säuleneichen und einem monotonen Efeuhang. Seit 2020 wurde er von Manuel Wehrle grundlegend transformiert - nicht nur für ein stärkeres Gestaltungsbild, sondern auch als bewusster Beitrag zur Natur.
     Die Bewässerung wurde abgeschaltet, die Rasenflächen deutlich reduziert. Stattdessen entstand eine blühende Streuobstwiese als Lebensraum für wiesenbrütende Vögel. Der südliche Hang wurde in ein mediterranes Blütenbild mit ganzjähriger Struktur übersetzt. Die Pflanzung ist klimaresilient und reagiert auf Hitze und Trockenheit.
-    Der Gemüsegarten verbindet traditionelle Bauerngartenmotive mit Einflüssen aus englischen Walled Gardens und dem Potager du Roi in Versailles. Obstspaliere sind funktional und räumlich prägend zugleich. So entsteht ein moderner Villengarten in Potsdam, der Tradition, Innovation und Nachhaltigkeit zusammenführt.
+    Der Gemüsegarten verbindet traditionelle Bauerngartenmotive mit Einflüssen aus englischen Walled Gardens und dem Potager du Roi in Versailles. Obstspaliere sind funktional und räumlich prägend zugleich. So entsteht ein moderner Villengarten in Potsdam, der Tradition, Innovation und Nachhaltigkeit zusammenführt. Damit steht das Projekt in Potsdam für klimaangepasste Landschaftsarchitektur, strategische Gartenplanung und hochwertige Privatgärten.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-Stauden.jpg
     alt: "Staudenpflanzung mit naturnaher Dynamik und langer Jahreszeitenwirkung."

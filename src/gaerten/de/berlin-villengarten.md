@@ -28,9 +28,9 @@ mainArticle:
     - image: /assets/img/Gartengestaltung-Formschnitt-grafische-Gestaltung.jpg
       alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
   copy: |-
-    Dieser Stadt- und Villengarten in Berlin ist ein Ort der Inspiration und Erholung. Im Zentrum liegt eine ovale Rasenfläche, eingefasst von einer weich schwingenden Graserlandschaft aus Molinia. Die Komposition wird durch präzise geschnittene Formgehölze - Topiaries - ergänzt, die an die strenge Eleganz französischer Barockgärten erinnern.
-    Der Kontrast aus natürlicher Leichtigkeit und architektonischer Form schafft eine zeitlose, hochwertige Gartenatmosphäre. Besucher bewegen sich vom offenen Rasen durch die Graserstruktur bis in den ruhigeren Waldgarten - eine klare Raumfolge, die den Garten lesbar und zugleich emotional macht.
-    Der Garten ist nicht nur ein ästhetisches Statement, sondern auch ein Rückzugsort für Kreativität und innere Ruhe. Besonders im Herbst entfaltet die Pflanzung mit ihren goldenen Tönen ihre ganze Stärke und prägt den Ort als naturnahen Designgarten in Berlin.
+    Dieser Stadt- und Villengarten in Berlin ist ein Ort der Inspiration und Erholung. Im Zentrum liegt eine ovale Rasenfläche, eingefasst von einer weich schwingenden Gräserlandschaft aus Molinia. Die Komposition wird durch präzise geschnittene Formgehölze - Topiaries - ergänzt, die an die strenge Eleganz französischer Barockgärten erinnern.
+    Der Kontrast aus natürlicher Leichtigkeit und architektonischer Form schafft eine zeitlose, hochwertige Gartenatmosphäre. Besucher bewegen sich vom offenen Rasen durch die Gräserstruktur bis in den ruhigeren Waldgarten - eine klare Raumfolge, die den Garten lesbar und zugleich emotional macht.
+    Der Garten ist nicht nur ein ästhetisches Statement, sondern auch ein Rückzugsort für Kreativität und innere Ruhe. Besonders im Herbst entfaltet die Pflanzung mit ihren goldenen Tönen ihre ganze Stärke und prägt den Ort als naturnahen Designgarten in Berlin. Der Entwurf steht zugleich für zeitgemäße Landschaftsarchitektur, differenzierte Gartenplanung und exklusive Privatgärten in Berlin.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Formschnittgehoelze-im-Garten.jpg
     alt: "Formschnittgehölze als prägendes Gestaltungselement im Villengarten."
@@ -39,4 +39,3 @@ mainArticle:
     ausfuehrung: Käding Gartenbau
     bilder: Vladyslav Pustovit
 ---
-

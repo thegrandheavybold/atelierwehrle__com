@@ -36,7 +36,7 @@ mainArticle:
   copy: |-
     This landscape garden in North Rhine-Westphalia surrounds a country house in the English Arts and Crafts tradition, reactivated together with interior designer Gisbert Poeppler. Its central element is a swimming pond embedded in a rich perennial landscape.
     Wide lawn paths lead through seasonal flower compositions and pollinator-friendly habitats. The project demonstrates how private gardens can actively support biodiversity and climate resilience.
-    A former concrete basin was renaturalized and linked to the new pond by a stream with stepping stones. Additional rooms - kitchen garden, rose garden, meadows, woodland planting and a formal courtyard - complete the spatial concept.
+    A former concrete basin was renaturalized and linked to the new pond by a stream with stepping stones. Additional rooms - kitchen garden, rose garden, meadows, woodland planting and a formal courtyard - complete the spatial concept. The NRW project unites biodiversity, landscape architecture and long-term garden design for climate-aware private gardens.
   articleFooter:
     closingImage: /assets/img/Gartenpanung-Pflanzplanung-fuer-Waldgarten.jpg
     alt: "Woodland garden with layered planting and natural depth."

@@ -40,7 +40,7 @@ mainArticle:
   copy: |-
     Located on a ridge above the Upper Rhine, this landscape garden opens broad views across the surrounding hills and river valley. The project is defined by a natural sequence of garden rooms shaped by the site itself.
     Visitors move from a traditional kitchen garden into a romantic rose garden and finally into a wider landscape park with mature trees and pear trees wrapped in white rambler roses. Raised Corten-steel beds add a contemporary layer to the productive garden.
-    A swimming pond integrated into the terrain forms the project’s centerpiece, overlooking orchard meadow structures and species-rich grassland. The result combines naturalistic planning, productive use and high-end private garden design.
+    A swimming pond integrated into the terrain forms the project’s centerpiece, overlooking orchard meadow structures and species-rich grassland. The result combines naturalistic planning, productive use and high-end private garden design. The Bodensee project combines naturalistic planting with landscape architecture, strategic garden design and enduring private gardens.
   articleFooter:
     closingImage: /assets/img/Gartenplanung-Schwimmteich-naturnah.jpg
     alt: "Natural swimming pond with structured planted edges."

@@ -23,7 +23,7 @@ mainArticle:
       alt: "Detail view of a naturalistic, carefully designed garden space."
   copy: |-
     This previously unused, shaded courtyard was transformed into a vibrant and welcoming space in collaboration with interior designer Maj van der Linden, Frieser Gartengestaltung and Swisspearl. As the courtyard receives no direct sunlight, the planting strategy focused on shade-tolerant species that remain lush and visually calm.
-    The predominantly white-flowering perennials bring brightness and freshness into the space. The result is a formerly dark courtyard turned into a refined, naturalistic urban garden in Berlin.
+    The predominantly white-flowering perennials bring brightness and freshness into the space. The result is a formerly dark courtyard turned into a refined, naturalistic urban garden in Berlin. The project represents high-quality landscape architecture in Berlin, careful garden design and resilient private gardens in dense urban contexts.
   articleFooter:
     closingImage: /assets/img/Hinterhof-Gestaltung-Schattenbepflanzung.jpg
     alt: "Urban courtyard garden with shade-tolerant planting design."

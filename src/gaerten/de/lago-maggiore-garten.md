@@ -38,7 +38,7 @@ mainArticle:
     Der Eingangsbereich wirkt ruhig und elegant. In halbschattiger Lage entfalten sich Strauchpfingstrosen, Tetrapanax, Clematis armandii, Osmanthus, Farne, Kamelien und Acanthus mollis. Eine markante Magnolie aus der Baumschule Eisenhut verankert den Ort und verleiht ihm gewachsene Selbstverständlichkeit.
     Rund um Pool und Terrasse dominiert eine mediterrane, klimaresiliente Pflanzung, die Hitze und Sonne standhält und die Architektur mit der Landschaft verbindet. Korkeichen, Tulbaghia violacea, Gaura lindheimeri, Trachelospermum jasminoides und Romneya coulteri schaffen Leichtigkeit und sommerliche Präsenz.
     Die Hauptterrasse wird von einer mit Blauregen berankten Pergola überdeckt - ein typisches Motiv im Tessin. Rosen, Lavendel, winterharte Zitronenbäumchen und Magnolia grandiflora prägen den Raum. Im oberen, waldartigen Bereich setzen Palmen, Granatapfel, Feigen und Pinie einen naturnahen Abschluss.  
-    Ein Garten, der verführt, überrascht und dauerhaft zum Verweilen einlädt.
+    Ein Garten, der verführt, überrascht und dauerhaft zum Verweilen einlädt. Am Lago Maggiore verbindet das Projekt anspruchsvolle Landschaftsarchitektur mit präziser Gartenplanung und der Atmosphäre exklusiver Privatgärten.
   articleFooter:
     closingImage: /assets/img/Atelier-Wehrle-Gartengestaltung-seeblick-mediterraner-gartenwe.jpg
     alt: "Terrassierter Gartenbereich mit weitem Blick über den See."

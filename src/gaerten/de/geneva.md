@@ -24,9 +24,9 @@ mainArticle:
     - image: /assets/img/Terrassengestaltung-Dachgarten-Gehoelze.jpg
       alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."
   copy: |-
-    Auf einem kleinen Balkon in Genf entstand ein hochwertiger, naturnaher Gartenraum, der trotz begrenzter Fläche als Ruheoase im urbanen Kontext funktioniert. Der Aussenbereich wurde als Erweiterung des Innenraums konzipiert - ein Wohnzimmer im Freien.
+    Auf einem kleinen Balkon in Genf entstand ein hochwertiger, naturnaher Gartenraum, der trotz begrenzter Fläche als Ruheoase im urbanen Kontext funktioniert. Der Außenbereich wurde als Erweiterung des Innenraums konzipiert - ein Wohnzimmer im Freien.
     Die offene Gestaltung ermöglicht den Blick über den Genfer See bis zum Jura. Eine lebendige, natürliche Pflanzenauswahl sorgt für Atmosphäre, Jahreszeitenwirkung und Aufenthaltsqualität.
-    Der Schlafbereich ist geschützt, aber luftig organisiert: privat, ohne abgeschottet zu wirken. So entsteht auf kleinem Raum ein präzise geplanter Balkon- und Terrassengarten mit hoher gestalterischer Wirkung.
+    Der Schlafbereich ist geschützt, aber luftig organisiert: privat, ohne abgeschottet zu wirken. So entsteht auf kleinem Raum ein präzise geplanter Balkon- und Terrassengarten mit hoher gestalterischer Wirkung. Das Projekt in Genf verbindet Landschaftsarchitektur, präzise Gartenplanung und die Qualität privater Gartenräume auf kleinem Raum.
   articleFooter:
     closingImage: /assets/img/Terrassengestaltung-Dachgarten-Stauden-in-Toepfen.jpg
     alt: "Dachgarten mit strukturgebender Pflanzung und großzügiger Terrassenwirkung."

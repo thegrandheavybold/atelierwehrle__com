@@ -12,7 +12,7 @@ mainArticle:
   copy: |-
     Dieser Garten im diskreten Villenviertel „Les Parcs“ in Saint-Tropez wird aus Gründen der Vertraulichkeit nicht vollständig gezeigt. Die Gestaltung reagiert gezielt auf zunehmende Trockenheit und Hitze im mediterranen Raum.
     Die Rasenfläche wurde deutlich reduziert und in einen Kiesgarten mit mediterranen Stauden überführt. Nach einer dreijährigen Etablierungsphase funktioniert der Garten selbst im Hochsommer ohne zusätzliche Bewässerung und bleibt dennoch eine blühende Oase für Mensch und Tier.
-    Das Projekt verbindet exklusive Gartengestaltung mit klimaresilienter Pflanzstrategie - als zeitgemässe Antwort auf den Klimawandel und als Bekenntnis zur Gartenkultur.
+    Das Projekt verbindet exklusive Gartengestaltung mit klimaresilienter Pflanzstrategie - als zeitgemäße Antwort auf den Klimawandel und als Bekenntnis zur Gartenkultur. In Saint-Tropez zeigt sich, wie exklusive Gartengestaltung mit belastbarer Gartenplanung und mediterraner Landschaftsarchitektur zusammenwirkt.
   articleCredits:
     entwurf: Manuel Wehrle für die Königliche Gartenakademie
     bilder: Vladyslav Pustovit

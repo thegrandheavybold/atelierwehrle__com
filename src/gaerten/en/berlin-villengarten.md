@@ -30,7 +30,7 @@ mainArticle:
   copy: |-
     This urban villa garden in Berlin is a place of inspiration and retreat. At its center lies an oval lawn framed by a gently undulating Molinia grass landscape. The composition is complemented by carefully clipped topiaries, referencing the formal language of French Baroque gardens.
     The contrast between the natural lightness of grasses and the architectural precision of topiary creates a timeless atmosphere. Visitors move from open lawn areas through structured planting into the quieter woodland garden, following a clear spatial sequence.
-    Beyond aesthetics, the garden supports reflection and everyday calm. Especially in autumn, when warm tones dominate, the planting reaches its full expressive quality.
+    Beyond aesthetics, the garden supports reflection and everyday calm. Especially in autumn, when warm tones dominate, the planting reaches its full expressive quality. It exemplifies contemporary landscape architecture, refined garden design and premium private gardens within Berlin.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Formschnittgehoelze-im-Garten.jpg
     alt: "Topiary shrubs as a defining element in the villa garden composition."

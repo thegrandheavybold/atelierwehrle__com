@@ -35,8 +35,8 @@ mainArticle:
       alt: "Schlossgarten am Schloss Leopoldskron mit historischer Gartenarchitektur."
   copy: |-
     Das Parterre am Schloss Leopoldskron in Salzburg, dem ehemaligen Zuhause Max Reinhardts, verbindet historische Pracht mit zeitloser Eleganz. Das Schloss - auch bekannt als Kulisse für internationale Produktionen und Events - war Ausgangspunkt für die Neugestaltung des Gartens.
-    Die barocke Architektur wurde in eine zeitgemässe Gartenkomposition übersetzt. Anstelle des monotonen Kiesparterres prägen heute Rosen und Stauden in lebendigen Farben das Bild. Kranker Buchs wurde durch eine prägende Eibe ersetzt und strukturell neu geordnet. Brunnen und Bänke nach Entwurf von Manuel Wehrle integrieren sich harmonisch.
-    Der Schlossgarten zeigt, wie historische Gartenkultur und zeitgenössische Landschaftsarchitektur zusammenwirken können - präzise, respektvoll und mit hoher atmosphärischer Wirkung.
+    Die barocke Architektur wurde in eine zeitgemäße Gartenkomposition übersetzt. Anstelle des monotonen Kiesparterres prägen heute Rosen und Stauden in lebendigen Farben das Bild. Kranker Buchs wurde durch eine prägende Eibe ersetzt und strukturell neu geordnet. Brunnen und Bänke nach Entwurf von Manuel Wehrle integrieren sich harmonisch.
+    Der Schlossgarten zeigt, wie historische Gartenkultur und zeitgenössische Landschaftsarchitektur zusammenwirken können - präzise, respektvoll und mit hoher atmosphärischer Wirkung. In Salzburg wurde so historische Identität mit zeitgemäßer Landschaftsarchitektur und sorgfältiger Gartenplanung verbunden.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-fuer-Schlosspark.jpg
     alt: "Detailansicht eines naturnah gestalteten Gartenraums."

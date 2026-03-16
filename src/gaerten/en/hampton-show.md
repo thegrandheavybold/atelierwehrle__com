@@ -26,7 +26,7 @@ mainArticle:
   copy: |-
     In 2016, together with Jasper Kaessmann, I designed a show garden for the Hampton Court Palace Flower Show of the Royal Horticultural Society. The project marked the 400th anniversary of William Shakespeare’s death under the theme “All the world is a stage.”
     The garden translated life’s journey into spatial narrative: lush greenery and white bloom at the beginning, transitioning toward drier zones with dark, near-black flowers toward the end. The composition offered a visual reading of Shakespeare’s words through planting and atmosphere.
-    Built in three weeks, the garden welcomed around 130,000 visitors during the five exhibition days and received the Silver Gilt Medal. It demonstrates how gardens can carry emotional and philosophical depth beyond visual impact alone.
+    Built in three weeks, the garden welcomed around 130,000 visitors during the five exhibition days and received the Silver Gilt Medal. It demonstrates how gardens can carry emotional and philosophical depth beyond visual impact alone. The show garden demonstrates narrative landscape architecture, conceptual garden design and the standards of international private gardens discourse.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-chelsea-flower-show.jpg
     alt: "Flower show project with crafted detailing and expressive planting."

@@ -39,8 +39,8 @@ mainArticle:
       alt: "Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition."
   copy: |-
     Dieser Landschaftsgarten am Hochrhein liegt auf einem Bergrücken und öffnet weite Ausblicke in die umliegende Kulturlandschaft. Der Blick folgt dem Rhein durch die sanften Hügel - ein Standort mit starker landschaftlicher Präsenz.
-    Besonders prägend ist die natürliche Abfolge der Gartenräume: vom traditionellen Gemüsegarten in den romantischen Rosengarten bis zum weitläufigen Landschaftspark mit altem Baumbestand und Birnbäumen, die von weißen Ramblerrosen begleitet werden. Der moderne Gemüsegarten mit Cortenstahl-Hochbeeten setzt einen zeitgemässen Kontrast.
-    Das Herzstück ist der in die Topografie eingebettete Schwimmteich mit Blick auf Obstwiese und Magerrasen. So verbindet das Projekt naturnahe Gartenplanung, funktionale Nutzung und hochwertige Gestaltung in einem stimmigen Gesamtbild.
+    Besonders prägend ist die natürliche Abfolge der Gartenräume: vom traditionellen Gemüsegarten in den romantischen Rosengarten bis zum weitläufigen Landschaftspark mit altem Baumbestand und Birnbäumen, die von weißen Ramblerrosen begleitet werden. Der moderne Gemüsegarten mit Cortenstahl-Hochbeeten setzt einen zeitgemäßen Kontrast.
+    Das Herzstück ist der in die Topografie eingebettete Schwimmteich mit Blick auf Obstwiese und Magerrasen. So verbindet das Projekt naturnahe Gartenplanung, funktionale Nutzung und hochwertige Gestaltung in einem stimmigen Gesamtbild. So verbindet der Garten am Bodensee naturnahe Gartenplanung mit qualitätsvoller Landschaftsarchitektur und der Gestaltung langlebiger Privatgärten.
   articleFooter:
     closingImage: /assets/img/Gartenplanung-Schwimmteich-naturnah.jpg
     alt: "Naturnaher Schwimmteich mit strukturierter Uferbepflanzung."

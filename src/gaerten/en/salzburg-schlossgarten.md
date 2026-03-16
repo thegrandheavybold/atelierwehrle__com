@@ -36,7 +36,7 @@ mainArticle:
   copy: |-
     The parterre at Leopoldskron Palace in Salzburg - former home of Max Reinhardt - combines heritage atmosphere with contemporary landscape design. The palace context became the foundation for a careful reinterpretation of the garden.
     Baroque geometry was translated into a modern planting framework. Instead of monotonous gravel, roses and perennials now provide color and seasonal depth. Diseased boxwood was replaced by a defining yew structure, while fountains and benches designed by Manuel Wehrle integrate into the overall composition.
-    This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality.
+    This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality. In Salzburg, heritage context and contemporary landscape architecture are aligned through precise garden design for representative private gardens.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-fuer-Schlosspark.jpg
     alt: "Detail view of a naturalistic, carefully designed garden space."
