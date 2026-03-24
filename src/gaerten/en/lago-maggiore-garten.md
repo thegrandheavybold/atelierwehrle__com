@@ -1,10 +1,10 @@
 ---
-title: Lake Maggiore CH – Terraced Garden
+title: Lake Maggiore Terraced Garden
 date: 2025-10-24T14:58
-urlSlug: gartengestaltung-lago-maggiore
+urlSlug: lago-maggiore-gartengestaltung
 metaTags:
   metatitle: Landscape Architecture Lago Maggiore | Garden Design Ticino | Atelier Wehrle
-  metaDescription: A high-end residential landscape project on Lake Maggiore, Ticino. Featuring naturalistic planting, stone topography management, and contemporary garden design.
+  metaDescription: Contemporary lendscape architecture in Ascona with terraces, natural stone walls and climate-resilient planting on a steep hillside by Atelier Wehrle.
 featured:
   featImage: /assets/img/Atelier-Wehrle-Gartengestaltung-pool-terrassengarten-lago-maggiore.jpg
   alt: Pool within a terraced garden and naturalistic Mediterranean planting.
@@ -34,15 +34,13 @@ mainArticle:
     - image: /assets/img/Atelier-Wehrle-Gartengestaltung-natursteinweg-mediterraner-garten.jpg
       alt: Natural stone path through Mediterranean planting in a terraced setting.
   copy: |-
-    A terraced villa garden full of views and surprises: this project above **Lago Maggiore** grew out of a demanding topographical challenge. Within a plot depth of just 16 metres, a height difference of around ten metres had to be resolved — resulting in a dynamic sequence of distinct garden spaces with views across the lake and towards the Swiss Alps.
+    <p>High above Lago Maggiore, this garden unfolds across a steep hillside, where light, stone and planting come together in a calm and finely balanced composition. The site itself is dramatic: narrow in depth, strongly inclined, and fully exposed to the southern sun. Rather than resisting these conditions, the design draws its character from them. What emerged is a quietly confident example of <strong>Lago Maggiore garden design</strong>, shaped as much by the atmosphere of the place as by the practical realities of building on the slope.</p>
 
-    The entrance area feels calm and elegant. In its semi-shaded setting, tree peonies, Tetrapanax, Clematis armandii, Osmanthus, ferns, camellias and Acanthus mollis unfold their full presence. A striking magnolia from the Eisenhut nursery anchors the space and gives it a sense of maturity and permanence.
+    <p>The garden is organised as a series of terraces, each one opening the view a little further and establishing its own relationship to the house, the lake and the mountains beyond. Dry-stone walls of local natural stone lend structure and permanence, holding the terrain with a sense of effortlessness that belies the complexity of the site. Steps and transitions are carefully composed so that movement through the garden feels gradual and fluid, never abrupt. This is where the project finds its clarity: in turning a technically difficult plot into an elegant and highly resolved form of <strong>hillside garden design</strong>.</p>
 
-    Around the pool and terrace, a Mediterranean, climate-resilient planting scheme dominates — one that withstands heat and intense sun while connecting the architecture to the surrounding landscape. Cork oaks, Tulbaghia violacea, Gaura lindheimeri, Trachelospermum jasminoides and Romneya coulteri bring lightness and a distinctly summery character.
+    <p>The planting belongs entirely to the setting. Influenced by naturalistic composition yet rooted in the mild southern climate of Ascona and Locarno, it brings together evergreen mass, soft perennial layers and ornamental grasses that shift with the light and season. The atmosphere is unmistakably that of a contemporary <strong>Mediterranean garden</strong>, though one interpreted with restraint rather than excess. Within this broader language of <strong>Ticino landscape design</strong>, the planting was also developed for durability. Carefully selected <strong>climate-resilient planting</strong> helps the garden endure heat, dry periods and long summers while retaining a sense of generosity, texture and visual calm.</p>
 
-    The main terrace is sheltered by a pergola covered in wisteria — a typical motif in Ticino. Roses, lavender, hardy lemon trees and Magnolia grandiflora define the space. In the upper, woodland-like part of the garden, palms, pomegranate, fig and pine create a naturalistic conclusion.
-
-    A garden that seduces, surprises and invites lingering for years to come.
+    <p>On such a steep and narrow slope, execution demanded exceptional control: terraces, drainage, stonework and planting all had to be coordinated with care so that the finished garden would feel inevitable rather than engineered. The logistics were especially complex during the planting phase, when mature trees of up to ten metres in height had to be brought onto the site and established safely on the hillside. Their placement required specialist handling, exact timing and a carefully staged process, yet they were essential in giving the garden its immediate sense of maturity and depth. The result is a landscape that feels settled, expansive and entirely at ease in its surroundings — a composed expression of <strong>Ticino landscape design</strong> in which topography, architecture and planting are held in perfect balance.</p>
   articleFooter:
     closingImage: /assets/img/Atelier-Wehrle-Gartengestaltung-seeblick-mediterraner-gartenwe.jpg
     alt: Terraced garden area with wide views across the lake.
