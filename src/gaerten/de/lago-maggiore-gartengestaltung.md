@@ -1,7 +1,7 @@
 ---
 title: Lago Maggiore Terrassierter Garten
 date: 2025-10-24T14:58
-urlSlug: lago-maggiore-gartengestaltung
+urlSlug: lago-maggiore-garten
 metaTags:
   metatitle: Gartengestaltung Lago Maggiore | Mediterraner Hanggarten| Atelier Wehrle
   metaDescription: 'Exklusive Gartengestaltung Lago Maggiore: mediterraner Hanggarten mit Naturstein, Terrassen und klimaresilienter Bepflanzung im Tessin von Atelier Wehrle.'
