@@ -122,12 +122,12 @@ collections:
       - { label: "Platzhalter aktiv", name: "placeholder", widget: "boolean", default: false, i18n: duplicate }
       - { label: "Profiltext", name: "body", widget: "markdown", i18n: true, required: false }
 
-  - label: "Atelier Seite (Awards)"
-    name: "atelier_page_awards"
+  - label: "Seiten"
+    name: "pages"
     i18n: false
     files:
-      - label: "Atelier DE Awards"
-        name: "atelier_de_awards"
+      - label: "Atelier DE"
+        name: "atelier_de"
         file: "src/pages/de/atelier.njk"
         fields:
           - { label: "Titel", name: "title", widget: "string", required: true }
@@ -143,8 +143,8 @@ collections:
               - { label: "Bild", name: "image", widget: "image", choose_url: false, required: true, media_folder: "/src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", required: true }
               - { label: "Link (optional)", name: "link", widget: "string", required: false }
-      - label: "Atelier EN Awards"
-        name: "atelier_en_awards"
+      - label: "Atelier EN"
+        name: "atelier_en"
         file: "src/pages/en/atelier.njk"
         fields:
           - { label: "Title", name: "title", widget: "string", required: true }
@@ -160,11 +160,6 @@ collections:
               - { label: "Image", name: "image", widget: "image", choose_url: false, required: true, media_folder: "/src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", required: true }
               - { label: "Link (optional)", name: "link", widget: "string", required: false }
-
-  - label: "Kontaktseiten"
-    name: "contact_pages"
-    i18n: false
-    files:
       - label: "Kontakt DE"
         name: "contact_de"
         file: "src/pages/de/kontakt.njk"
