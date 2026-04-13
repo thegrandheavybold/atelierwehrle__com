@@ -84,7 +84,7 @@ collections:
               - { label: "Image", name: "image", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", required: false }
 
-          - { label: "Article Copy", name: "copy", widget: "text", i18n: true, required: false }
+          - { label: "Article Copy", name: "copy", widget: "markdown", i18n: true, required: false }
 
           - label: "Article Footer"
             name: "articleFooter"
@@ -134,6 +134,7 @@ collections:
           - { label: "SEO Title", name: "seoTitle", widget: "string", required: false }
           - { label: "SEO Description", name: "seoDescription", widget: "text", required: false }
           - { label: "Meta Image", name: "metaImage", widget: "string", required: false }
+          - { label: "Einleitungstext", name: "introCopy", widget: "markdown", required: false }
           - label: "Awards"
             name: "awards"
             widget: "list"
@@ -150,6 +151,7 @@ collections:
           - { label: "SEO Title", name: "seoTitle", widget: "string", required: false }
           - { label: "SEO Description", name: "seoDescription", widget: "text", required: false }
           - { label: "Meta Image", name: "metaImage", widget: "string", required: false }
+          - { label: "Intro Copy", name: "introCopy", widget: "markdown", required: false }
           - label: "Awards"
             name: "awards"
             widget: "list"
@@ -158,3 +160,28 @@ collections:
               - { label: "Image", name: "image", widget: "image", choose_url: false, required: true, media_folder: "/src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", required: true }
               - { label: "Link (optional)", name: "link", widget: "string", required: false }
+
+  - label: "Kontaktseiten"
+    name: "contact_pages"
+    i18n: false
+    files:
+      - label: "Kontakt DE"
+        name: "contact_de"
+        file: "src/pages/de/kontakt.njk"
+        fields:
+          - { label: "Titel", name: "title", widget: "string", required: true }
+          - { label: "SEO Title", name: "seoTitle", widget: "string", required: false }
+          - { label: "SEO Description", name: "seoDescription", widget: "text", required: false }
+          - { label: "Meta Image", name: "metaImage", widget: "string", required: false }
+          - { label: "Kontaktblock links", name: "contactPrimary", widget: "markdown", required: false }
+          - { label: "Kontaktblock rechts", name: "contactSecondary", widget: "markdown", required: false }
+      - label: "Contact EN"
+        name: "contact_en"
+        file: "src/pages/en/kontakt.njk"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "SEO Title", name: "seoTitle", widget: "string", required: false }
+          - { label: "SEO Description", name: "seoDescription", widget: "text", required: false }
+          - { label: "Meta Image", name: "metaImage", widget: "string", required: false }
+          - { label: "Primary Contact Block", name: "contactPrimary", widget: "markdown", required: false }
+          - { label: "Secondary Contact Block", name: "contactSecondary", widget: "markdown", required: false }

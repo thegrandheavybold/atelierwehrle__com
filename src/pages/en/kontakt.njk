@@ -4,6 +4,32 @@ title: Contact
 seoTitle: "Contact for Bespoke Garden Design"
 seoDescription: "Atelier Wehrle GmbH - contact for bespoke garden design, landscape architecture and implementation support."
 metaImage: Atelier-Wehrle-Gartengestaltung-haus-am-see-terrassengarten.jpg
+contactPrimary: |-
+  **Atelier Wehrle GmbH**
+
+  Manuel Wehrle
+
+  [+49 331 8700 0968](tel:+4933187000968)
+
+  Mo-Fr between 9:00 am – 4:00 pm
+
+  [info@atelierwehrle.com](mailto:info@atelierwehrle.com)  
+  atelierwehrle.com
+
+  **Office and Headquarters:**  
+  Eichbergstraße 2  
+  14469 Potsdam  
+  Deutschland
+
+  **Showroom:**  
+  Via Vorame 64a  
+  6612 Ascona  
+  Schweiz
+contactSecondary: |-
+  **Showroom:**  
+  Via Vorame 64a  
+  6612 Ascona  
+  Schweiz
 ---
 
 <section class="contact">
@@ -18,41 +44,17 @@ metaImage: Atelier-Wehrle-Gartengestaltung-haus-am-see-terrassengarten.jpg
 
 
     <div class="item__2 oov'">
-
-      <p>
-        <strong>Atelier Wehrle GmbH</strong><br /><br />
-        Manuel Wehrle<br /><br />
-        
-        <a class="" href="tel:{{ site.phone }}">{{ site.phone }}</a><br /><br />
-
-        <span>Mo-Fr between 9:00 am – 4:00 pm</span><br /><br />
-
-        <a class="" href="mailto:{{ site.email }}">{{ site.email }}</a><br />
-        atelierwehrle.com
-
-        <br /><br />
-        <strong>Office and Headquarters:</strong><br />
-        Eichbergstraße 2<br />
-        14469 Potsdam<br />
-        Deutschland<br /><br />
-
-        <strong>Showroom:</strong><br />
-        Via Vorame 64a<br />
-        6612 Ascona<br />
-        Schweiz
-      </p>
+      <div class="contact-copy">
+        {{ contactPrimary | markdown | safe }}
+      </div>
 
     </div><!-- .item__2 -->
 
 
     <div class="item__3 oov'">
-
-      <p>
-        <strong>Showroom:</strong><br />
-        Via Vorame 64a<br />
-        6612 Ascona<br />
-        Schweiz
-      </p>
+      <div class="contact-copy">
+        {{ contactSecondary | markdown | safe }}
+      </div>
 
     </div><!-- .item__3 -->
 

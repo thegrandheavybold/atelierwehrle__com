@@ -1,5 +1,6 @@
 import moment from "moment";
 import { EleventyI18nPlugin } from "@11ty/eleventy";
+import markdownIt from "markdown-it";
 
 import picture from "./src/js/picture.js";
 import lazyPicture from "./src/js/lazyPicture.js";
@@ -7,6 +8,12 @@ import lazySwiper from "./src/js/lazySwiper.js";
 
 
 export default function (eleventyConfig) {
+  const md = markdownIt({
+    html: true,
+    breaks: false,
+    linkify: true
+  });
+
   eleventyConfig.addPassthroughCopy({"./src/_generated/assets": "./assets"});
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/icon.svg");
@@ -34,6 +41,10 @@ export default function (eleventyConfig) {
     locale = locale ? locale : "en";
     moment.locale(locale);
     return moment(date).format(format);
+  });
+
+  eleventyConfig.addNunjucksFilter("markdown", function (content = "") {
+    return md.render(content);
   });
 
    // Collections New for Gardens
