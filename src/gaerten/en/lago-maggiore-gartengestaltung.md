@@ -1,7 +1,7 @@
 ---
 title: Lake Maggiore Terraced Garden
 date: 2025-10-24T14:58
-urlSlug: lago-maggiore-gartengestaltung
+urlSlug: lago-maggiore-garten
 metaTags:
   metatitle: Landscape Architecture Lago Maggiore | Garden Design Ticino | Atelier Wehrle
   metaDescription: Contemporary lendscape architecture in Ascona with terraces, natural stone walls and climate-resilient planting on a steep hillside by Atelier Wehrle.
