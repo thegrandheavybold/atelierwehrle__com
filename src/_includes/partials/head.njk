@@ -89,9 +89,11 @@
     <link
       rel="preload"
       as="image"
-      href="/.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1600"
+      href="{% if isDevContext %}/assets/img/Atelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg{% else %}/.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1600{% endif %}"
+      {% if not isDevContext %}
       imagesrcset="/.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=320 320w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=480 480w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=640 640w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=800 800w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1200 1200w, /.netlify/images?url=%2Fassets%2Fimg%2FAtelier-Wehrle-Gartengestaltung-pool-landschaftsarchitektur-olivenbaeume.jpg&width=1600 1600w"
       imagesizes="(max-width: 767px) 100vw, (max-width: 1439px) 92vw, 1600px"
+      {% endif %}
       fetchpriority="high"
     >
     {% endif %}

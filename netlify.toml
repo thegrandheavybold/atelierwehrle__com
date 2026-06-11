@@ -7,7 +7,7 @@
 
 
 [dev]
-  command = "npx @11ty/eleventy --serve --watch --incremental --quiet"
+  command = "CONTEXT=dev npx @11ty/eleventy --serve --watch --incremental --quiet"
   publish = "dist"
   targetPort = 8080
   port = 8888

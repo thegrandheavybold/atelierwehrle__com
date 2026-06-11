@@ -8,6 +8,7 @@ import lazySwiper from "./src/js/lazySwiper.js";
 
 
 export default function (eleventyConfig) {
+  const isDevContext = process.env.CONTEXT === "dev";
   const md = markdownIt({
     html: true,
     breaks: false,
@@ -33,6 +34,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("lazyswiper", lazySwiper);
   //Shortcode for ©copyrights year output
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addGlobalData("isDevContext", isDevContext);
 
   // date filter (localized)
   eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
