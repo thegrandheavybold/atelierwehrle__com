@@ -4,6 +4,7 @@ dist
 src/_generated
 .DS_Store
 .BridgeSort
+.playwright-cli
 
 # Local Netlify folder
 .netlify

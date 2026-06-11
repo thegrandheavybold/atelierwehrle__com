@@ -1,12 +1,14 @@
 import "../sass/style.sass";
 
 const screenshotMode = new URLSearchParams(window.location.search).has("screenshot");
+const localHostnames = new Set(["localhost", "127.0.0.1", "::1"]);
+const localRuntime = localHostnames.has(window.location.hostname);
 
-if ("serviceWorker" in navigator && !screenshotMode) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/sw.js").catch(() => {
-      // Keep the page resilient even if SW registration fails.
-    });
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.getRegistrations().then((registrations) => {
+    registrations.forEach((registration) => registration.unregister());
+  }).catch(() => {
+    // Ignore SW cleanup failures.
   });
 }
 
@@ -25,32 +27,59 @@ function decodeNetlifyTransformToOriginal(urlValue) {
 }
 
 function normalizeImagesForScreenshots() {
+  const rewriteSrcsetAttribute = (element, attrName) => {
+    const rawValue = element.getAttribute(attrName);
+    if (!rawValue || !rawValue.includes("/.netlify/images")) return;
+
+    const rewritten = rawValue
+      .split(",")
+      .map((entry) => {
+        const trimmed = entry.trim();
+        if (!trimmed) return trimmed;
+        const [urlPart, descriptor] = trimmed.split(/\s+/, 2);
+        const normalized = decodeNetlifyTransformToOriginal(urlPart);
+        return descriptor ? `${normalized} ${descriptor}` : normalized;
+      })
+      .join(", ");
+
+    element.setAttribute(attrName, rewritten);
+  };
+
+  document.querySelectorAll("source").forEach((source) => {
+    rewriteSrcsetAttribute(source, "srcset");
+  });
+
   const images = document.querySelectorAll("img");
   images.forEach((img) => {
     const rawSrc = img.getAttribute("src");
-    const rawSrcset = img.getAttribute("srcset");
 
     const normalizedSrc = decodeNetlifyTransformToOriginal(rawSrc);
     if (normalizedSrc && normalizedSrc !== rawSrc) {
       img.setAttribute("src", normalizedSrc);
     }
 
-    if (rawSrcset && rawSrcset.includes("/.netlify/images")) {
-      const rewritten = rawSrcset
-        .split(",")
-        .map((entry) => {
-          const trimmed = entry.trim();
-          if (!trimmed) return trimmed;
-          const [urlPart, descriptor] = trimmed.split(/\s+/, 2);
-          const normalized = decodeNetlifyTransformToOriginal(urlPart);
-          return descriptor ? `${normalized} ${descriptor}` : normalized;
-        })
-        .join(", ");
-      img.setAttribute("srcset", rewritten);
-    }
+    rewriteSrcsetAttribute(img, "srcset");
 
     img.loading = "eager";
     img.decoding = "sync";
+
+    img.addEventListener("error", () => {
+      const fallbackSrc = decodeNetlifyTransformToOriginal(img.currentSrc || img.src);
+      if (!fallbackSrc || fallbackSrc === img.getAttribute("src")) return;
+      img.setAttribute("src", fallbackSrc);
+      img.removeAttribute("srcset");
+      const pictureSources = img.closest("picture")?.querySelectorAll("source");
+      pictureSources?.forEach((source) => source.removeAttribute("srcset"));
+    }, { once: true });
+  });
+
+  document.querySelectorAll('link[rel="preload"][href*="/.netlify/images"]').forEach((link) => {
+    const rawHref = link.getAttribute("href");
+    const normalizedHref = decodeNetlifyTransformToOriginal(rawHref);
+    if (normalizedHref && normalizedHref !== rawHref) {
+      link.setAttribute("href", normalizedHref);
+    }
+    rewriteSrcsetAttribute(link, "imagesrcset");
   });
 }
 
@@ -62,7 +91,7 @@ if (html) {
   html.classList.toggle("screenshot-mode", screenshotMode);
 }
 
-if (screenshotMode) {
+if (screenshotMode || localRuntime) {
   normalizeImagesForScreenshots();
 }
 

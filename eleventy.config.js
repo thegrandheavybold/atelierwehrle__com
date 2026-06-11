@@ -27,8 +27,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/admin");
   eleventyConfig.addPassthroughCopy("./src/google20e2595b65a4949d.html");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
-  eleventyConfig.addPassthroughCopy("./src/sw.js");
-  
   // Shortcodes for Pictures
   eleventyConfig.addShortcode("picture", picture);
   eleventyConfig.addShortcode("lazypicture", lazyPicture);

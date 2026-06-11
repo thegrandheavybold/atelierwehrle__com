@@ -6,17 +6,26 @@
     overflow: hidden
 
     .swiper-wrapper,
-    .swiper-slide,
-    picture,
-    img
+    .swiper-slide
       height: 100%
+
+    .swiper-slide
+      position: relative
 
     picture
       display: block
+      width: 100%
+      height: 100%
 
     img
+      width: 100%
+      height: 100%
+      display: block
       object-fit: cover
       object-position: center
+
+    .swiper-slide:has(.caption) picture
+      height: calc(100% - 1.25rem)
 
 span.caption
   width: 100%
