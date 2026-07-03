@@ -100,9 +100,9 @@ collections:
             widget: "object"
             i18n: true
             fields:
-              - { label: "Entwurf & Ausführungsplanung", name: "entwurf", widget: "string", i18n: true, required: false }
-              - { label: "Ausführung", name: "ausfuehrung", widget: "string", i18n: true, required: false }
-              - { label: "Bilder", name: "bilder", widget: "string", i18n: true, required: false }
+              - { label: "Entwurf & Ausführungsplanung", name: "entwurf", widget: "markdown", i18n: true, required: false }
+              - { label: "Ausführung", name: "ausfuehrung", widget: "markdown", i18n: true, required: false }
+              - { label: "Bilder", name: "bilder", widget: "markdown", i18n: true, required: false }
 
   - label: "Team"
     name: "team"
