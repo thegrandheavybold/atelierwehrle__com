@@ -1,5 +1,5 @@
 ---
-title: Lago Maggiore Terrassierter Garten
+title: Lago Maggiore CH - Terrassierter Garten
 date: 2025-10-24T14:58
 urlSlug: lago-maggiore-garten
 metaTags:
