@@ -13,9 +13,9 @@ mainArticle:
     openerImage: /assets/img/Atelier-Wehrle-Gartengestaltung-pool-terrassengarten-lago-maggiore.jpg
     alt: Pool im terrassierten Garten mit naturnaher, mediterraner Bepflanzung.
   galleryImages:
-    - image: /assets/img/Atelier-Wehrle-Gartengestaltung-natursteinplatten-mediterrane-bepflanzung.jpg
+    - image: ../lago-maggiore-gartengestaltung/20260504-DSC06675-Edit.jpg
       alt: Natursteinweg durch mediterrane Pflanzung mit terrassierter Raumwirkung.
-    - image: /assets/img/Atelier-Wehrle-Gartengestaltung-naturgarten-olivenbaeume-und-schatten.jpg
+    - image: ../lago-maggiore-gartengestaltung/20260501-_DSC6794.jpg
       alt: Detailansicht eines naturnah gestalteten Gartenraums.
     - image: /assets/img/Atelier-Wehrle-Gartengestaltung-infinity-pool-lago-maggiore.jpg
       alt: Infinity-Pool mit mediterraner Bepflanzung und Blick in die Landschaft.
@@ -31,8 +31,12 @@ mainArticle:
       alt: Terrassierter Gartenbereich mit weitem Blick über den See.
     - image: /assets/img/Atelier-Wehrle-Gartengestaltung-moderne-architektur-und-natursteinmauer.jpg
       alt: Natursteinmauer mit mediterraner Bepflanzung und klarer Architektursprache.
-    - image: /assets/img/Atelier-Wehrle-Gartengestaltung-natursteinweg-mediterraner-garten.jpg
-      alt: Natursteinweg durch mediterrane Pflanzung mit terrassierter Raumwirkung.
+    - image: ../lago-maggiore-gartengestaltung/20260501-_DSC7088-Edit.jpg
+      alt: Mediterrane Pflanzung mit terrassierter Raumwirkung.
+    - image: ../lago-maggiore-gartengestaltung/20260501-_DSC7176.jpg
+      alt: Mediterraner Garten mit blühenden Kletterpflanzen, Kiesbeet, violett blühenden Stauden und steingefasstem Wasserbecken neben einer Terrassentreppe.
+    - image: ../lago-maggiore-gartengestaltung/20260501-_DSC6825.jpg
+      alt: Gartenpool mit heller Beckeneinfassung, Glasschutzwand, geschnittenen Sträuchern und weiß blühender Bepflanzung unter alten Bäumen.
   copy: |-
     Hoch über dem Lago Maggiore entfaltet sich dieser Garten über einen steilen Hang und verbindet Licht, Naturstein und Bepflanzung zu einer ruhigen, fein ausbalancierten Gesamtkomposition. Das Grundstück ist in seiner Topografie ebenso anspruchsvoll wie prägend: schmal in der Tiefe, stark geneigt und der südlichen Sonne in vollem Umfang ausgesetzt. Statt diese Bedingungen auszugleichen, entwickelt die Planung ihre Qualität gerade aus ihnen. So entstand eine ebenso präzise wie atmosphärische Form der Gartengestaltung Lago Maggiore, die sowohl von der landschaftlichen Stimmung des Ortes als auch von den technischen Anforderungen des Hanggrundstücks bestimmt wird.
 
@@ -42,8 +46,8 @@ mainArticle:
 
     Die besondere Qualität des Gartens liegt nicht nur im Entwurf, sondern ebenso in der Präzision seiner Umsetzung. Auf dem steilen und schmalen Hang erforderte die Ausführung ein hohes Maß an Kontrolle, da Terrassen, Entwässerung, Natursteinarbeiten und Pflanzung exakt aufeinander abgestimmt werden mussten, damit der fertige Garten selbstverständlich und nicht konstruiert wirkt. Besonders anspruchsvoll war die Logistik während der Pflanzarbeiten: Mehrere Solitärbäume mit einer Höhe von bis zu zehn Metern mussten sicher an den Hang transportiert, dort positioniert und fachgerecht eingebaut werden. Dafür waren spezialisierte Abläufe, exaktes Timing und eine sorgfältig abgestimmte Baukoordination notwendig. Gerade diese reifen Gehölze verleihen dem Garten jedoch von Beginn an jene räumliche Tiefe und Selbstverständlichkeit, die seinen Charakter ausmachen. So entstand eine Anlage, die ruhig, gewachsen und vollkommen im Ort verankert wirkt — eine hochwertige Gartengestaltung Lago Maggiore, in der Topografie, Architektur und Pflanzung in ein stimmiges Gleichgewicht gebracht wurden.
   articleFooter:
-    closingImage: /assets/img/Atelier-Wehrle-Gartengestaltung-seeblick-mediterraner-gartenwe.jpg
-    alt: Terrassierter Gartenbereich mit weitem Blick über den See.
+    closingImage: ../lago-maggiore-gartengestaltung/20260501-_DSC7140.jpg
+    alt: Stepping-stone garden path through lush green planting beneath mature trees, with a glimpse of the lake beyond.
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: Giovanni Schober
