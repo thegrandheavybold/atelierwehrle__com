@@ -13,27 +13,31 @@ mainArticle:
     openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
     alt: Biodiversitätsorientierte Gartenplanung mit klimaresilienter Pflanzstruktur.
   galleryImages:
-    - image: /assets/img/Gartenplanung-moderner-Garten-mit-Stauden.jpg
+    - image: ../potsdam-moderner-villengarten/DSC07156.jpg
       alt: Staudenpflanzung mit naturnaher Dynamik und langer Jahreszeitenwirkung.
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Atelier-Wehrle.jpg
       alt: Detailansicht eines naturnah gestalteten Gartenraums.
     - image: /assets/img/Gartengestaltung-Gemuesegarten-mit-Gewaechshaus.jpg
       alt: Gemüsegarten mit Gewächshaus und funktionaler Beetstruktur.
-    - image: /assets/img/Gartengestaltung-Blumenwiese-insektenfreundlich.jpg
+    - image: ../potsdam-moderner-villengarten/DSC07204.jpg
       alt: Blumenwiese als insektenfreundlicher Lebensraum mit hoher Artenvielfalt.
-    - image: /assets/img/Gartenplanung-moderner-Garten.jpg
+    - image: ../potsdam-moderner-villengarten/DSC07362.jpg
       alt: Detailansicht eines naturnah gestalteten Gartenraums.
     - image: /assets/img/Gartenplanung-Gemuesegarten-eigene-Ernte.jpg
       alt: Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung.
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet-mit-Graesern.jpg
       alt: Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition.
-    - image: /assets/img/Gartengestaltung-Obstwiese-im-Garten.jpg
+    - image: ../potsdam-moderner-villengarten/DSC07242.jpg
       alt: Obstwiese als naturnaher Übergang zwischen Garten und Landschaft.
-    - image: /assets/img/Gartengestaltung-Blumenwiese-Artenvielfalt-insektenfreundlich.jpg
-      alt: Blumenwiese als insektenfreundlicher Lebensraum mit hoher Artenvielfalt.
+    - image: ../potsdam-moderner-villengarten/DSC07167.jpg
+      alt: Naturnahe Staudenpflanzung mit rosa und violett blühenden Stauden, filigranen Samenständen und geschnittener Hecke im weichen Abendlicht.
   copy: |-
     Der ursprüngliche Garten bestand aus Rasen, vier Säuleneichen und einem monotonen Efeuhang. Seit 2020 wurde er von Manuel Wehrle grundlegend transformiert - nicht nur für ein stärkeres Gestaltungsbild, sondern auch als bewusster Beitrag zur Natur.
+
+
     Die Bewässerung wurde abgeschaltet, die Rasenflächen deutlich reduziert. Stattdessen entstand eine blühende Streuobstwiese als Lebensraum für wiesenbrütende Vögel. Der südliche Hang wurde in ein mediterranes Blütenbild mit ganzjähriger Struktur übersetzt. Die Pflanzung ist klimaresilient und reagiert auf Hitze und Trockenheit.
+
+
     Der Gemüsegarten verbindet traditionelle Bauerngartenmotive mit Einflüssen aus englischen Walled Gardens und dem Potager du Roi in Versailles. Obstspaliere sind funktional und räumlich prägend zugleich. So entsteht ein moderner Villengarten in Potsdam, der Tradition, Innovation und Nachhaltigkeit zusammenführt. Damit steht das Projekt in Potsdam für klimaangepasste Landschaftsarchitektur, strategische Gartenplanung und hochwertige Privatgärten.
   articleFooter:
     closingImage: /assets/img/Gartengestaltung-Pflanzplanung-Stauden.jpg
