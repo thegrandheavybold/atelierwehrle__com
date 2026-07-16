@@ -5,7 +5,7 @@ backend:
   
 publish_mode: editorial_workflow
 
-media_folder: "/src/assets/img"
+media_folder: "src/assets/img"
 public_folder: "/assets/img"
 
 i18n:
@@ -56,7 +56,7 @@ collections:
         widget: "object"
         i18n: true  
         fields:
-          - { label: "Featured Image", name: "featImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+          - { label: "Featured Image", name: "featImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "src/assets/img", public_folder: "/assets/img" }
           - { label: "Alt Text", name: "alt", widget: "string", i18n: true }
 
 
@@ -72,7 +72,7 @@ collections:
             required: false
             i18n: true
             fields:
-              - { label: "Opener Image", name: "openerImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+              - { label: "Opener Image", name: "openerImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", i18n: true, required: false }
 
           - label: "Gallery"
@@ -81,7 +81,7 @@ collections:
             i18n: true
             required: false
             fields:
-              - { label: "Image", name: "image", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+              - { label: "Image", name: "image", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", required: false }
 
           - { label: "Article Copy", name: "copy", widget: "markdown", i18n: true, required: false }
@@ -92,7 +92,7 @@ collections:
             i18n: true
             required: false
             fields:
-              - { label: "Closing Image", name: "closingImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+              - { label: "Closing Image", name: "closingImage", widget: "image", i18n: true, choose_url: false, required: false, media_folder: "src/assets/img", public_folder: "/assets/img" }
               - { label: "Alt Text", name: "alt", widget: "string", i18n: true, required: false }
 
           - label: "Article Credits"
@@ -117,7 +117,7 @@ collections:
       - { label: "Name", name: "name", widget: "string", i18n: true }
       - { label: "Rolle / Jobtitel", name: "role", widget: "string", i18n: true, required: false }
       - { label: "Sortierung", name: "order", widget: "number", value_type: "int", min: 1, step: 1, i18n: duplicate }
-      - { label: "Bild", name: "image", widget: "image", i18n: true, required: false, choose_url: false, media_folder: "/src/assets/img", public_folder: "/assets/img" }
+      - { label: "Bild", name: "image", widget: "image", i18n: true, required: false, choose_url: false, media_folder: "src/assets/img", public_folder: "/assets/img" }
       - { label: "Alt Text", name: "alt", widget: "string", i18n: true, required: false }
       - { label: "Platzhalter aktiv", name: "placeholder", widget: "boolean", default: false, i18n: duplicate }
       - { label: "Profiltext", name: "body", widget: "markdown", i18n: true, required: false }
@@ -142,7 +142,7 @@ collections:
             required: false
             i18n: true
             fields:
-              - { label: "Bild", name: "image", widget: "image", choose_url: false, required: true, media_folder: "/src/assets/img", public_folder: "/assets/img", i18n: duplicate }
+              - { label: "Bild", name: "image", widget: "image", choose_url: false, required: true, media_folder: "src/assets/img", public_folder: "/assets/img", i18n: duplicate }
               - { label: "Alt Text", name: "alt", widget: "string", required: true, i18n: true }
               - { label: "Link (optional)", name: "link", widget: "string", required: false, i18n: duplicate }
       - label: "Kontakt"

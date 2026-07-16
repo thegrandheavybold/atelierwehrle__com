@@ -1,7 +1,2 @@
-import CMS from "decap-cms-app";
-
-// Initialize the CMS object
-CMS.init();
-
-// Now the registry is available via the CMS object.
-CMS.registerPreviewTemplate("AtelierWehrleCMS", AtelierWehrleCMS);
+// Sveltia CMS is loaded directly from src/admin/index.html.
+// This file intentionally stays empty unless custom admin extensions are added later.
