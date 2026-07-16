@@ -15,6 +15,8 @@ mainArticle:
   galleryImages:
     - image: lago-maggiore-gartengestaltung/lago-maggiore-hanggarten-natursteinweg-schattengarten.jpg
       alt: Natursteinweg durch mediterrane Pflanzung mit terrassierter Raumwirkung.
+    - image: ../lago-maggiore-gartengestaltung/lago-maggiore-hanggarten-natursteinweg-schattengarten.jpg
+      alt: Natursteinweg durch mediterrane Pflanzung mit terrassierter Raumwirkung.
     - image: ../lago-maggiore-gartengestaltung/lago-maggiore-naturnahe-staudenpflanzung-lounge.jpg
       alt: Vielschichtige naturnahe Staudenpflanzung vor einer erhöhten Lounge im terrassierten Garten am Lago Maggiore.
     - image: /assets/img/Atelier-Wehrle-Gartengestaltung-infinity-pool-olivenbaeume-natursteinmauer.jpg
@@ -33,6 +35,8 @@ mainArticle:
       alt: Mediterraner Garten mit blühenden Kletterpflanzen, Kiesbeet, violett blühenden Stauden und steingefasstem Wasserbecken neben einer Terrassentreppe.
     - image: ../lago-maggiore-gartengestaltung/lago-maggiore-poolgarten-weisse-stauden.jpg
       alt: Gartenpool mit heller Beckeneinfassung, Glasschutzwand, geschnittenen Sträuchern und weiß blühender Bepflanzung unter alten Bäumen.
+    - image: ''
+      alt: ''
   copy: |-
     Hoch über dem Lago Maggiore entfaltet sich dieser Garten über einen steilen Hang und verbindet Licht, Naturstein und Bepflanzung zu einer ruhigen, fein ausbalancierten Gesamtkomposition. Das Grundstück ist in seiner Topografie ebenso anspruchsvoll wie prägend: schmal in der Tiefe, stark geneigt und der südlichen Sonne in vollem Umfang ausgesetzt. Statt diese Bedingungen auszugleichen, entwickelt die Planung ihre Qualität gerade aus ihnen. So entstand eine ebenso präzise wie atmosphärische Form der Gartengestaltung Lago Maggiore, die sowohl von der landschaftlichen Stimmung des Ortes als auch von den technischen Anforderungen des Hanggrundstücks bestimmt wird.
 
