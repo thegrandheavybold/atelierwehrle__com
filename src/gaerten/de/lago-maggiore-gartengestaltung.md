@@ -13,7 +13,7 @@ mainArticle:
     openerImage: /assets/img/Atelier-Wehrle-Gartengestaltung-pool-terrassengarten-lago-maggiore.jpg
     alt: Pool im terrassierten Garten mit naturnaher, mediterraner Bepflanzung.
   galleryImages:
-    - image: ../lago-maggiore-gartengestaltung/lago-maggiore-hanggarten-natursteinweg-schattengarten.jpg
+    - image: lago-maggiore-gartengestaltung/lago-maggiore-hanggarten-natursteinweg-schattengarten.jpg
       alt: Natursteinweg durch mediterrane Pflanzung mit terrassierter Raumwirkung.
     - image: ../lago-maggiore-gartengestaltung/lago-maggiore-naturnahe-staudenpflanzung-lounge.jpg
       alt: Vielschichtige naturnahe Staudenpflanzung vor einer erhöhten Lounge im terrassierten Garten am Lago Maggiore.
