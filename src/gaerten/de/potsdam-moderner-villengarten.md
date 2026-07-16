@@ -31,8 +31,6 @@ mainArticle:
       alt: Obstwiese als naturnaher Übergang zwischen Garten und Landschaft.
     - image: ../potsdam-moderner-villengarten/DSC07167.jpg
       alt: Naturnahe Staudenpflanzung mit rosa und violett blühenden Stauden, filigranen Samenständen und geschnittener Hecke im weichen Abendlicht.
-    - image: /assets/img/20260501-_DSC7140.jpg
-      alt: ''
   copy: |-
     Der ursprüngliche Garten bestand aus Rasen, vier Säuleneichen und einem monotonen Efeuhang. Seit 2020 wurde er von Manuel Wehrle grundlegend transformiert - nicht nur für ein stärkeres Gestaltungsbild, sondern auch als bewusster Beitrag zur Natur.
 
