@@ -37,10 +37,16 @@ mainArticle:
       alt: Schmaler Rasenweg im verwunschenen Schattengarten führt vorbei an Japanischem Ahorn und Eibenhecken zum Gartenhaus im Villengarten München.
     - image: /assets/img/villengarten-muenchen-bogenhausen-gartenhaus-rueckzugsort.webp
       alt: Verstecktes Gartenhaus mit salbeigrünen Flügeltüren und goldenen Beschlägen, eingebettet in Japanischen Ahorn und Eibenhecken im Villengarten München.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-loungeliegen-gartenecke.webp
+      alt: uhige Gartenecke mit zwei weißen Loungeliegen auf einem Holzdeck, umrahmt von Hortensien und einer hohen Hainbuchenhecke
+    - image: /assets/img/villengarten-muenchen-bogenhausen-sonnendeck-liegen.webp
+      alt: Sonnendeck mit zwei Loungeliegen unter einem Blumen-Hartriegel, eingerahmt von einer dichten Eibenhecke im Villengarten München.
   copy: ''
-  articleFooter: null
+  articleFooter:
+    closingImage: /assets/img/villengarten-muenchen-bogenhausen-staudenbeet-katzenminze.webp
+    alt: Nahaufnahme der lockeren Staudenpflanzung mit blauer Katzenminze und Frauenmantel im Villengarten München-Bogenhausen.
   articleCredits:
-    entwurf: ''
-    ausfuehrung: ''
-    bilder: ''
+    entwurf: Manuel Wehrle
+    ausfuehrung: BUK Garten- und Landschaftsbau
+    bilder: Vladyslav Pustovit
 ---

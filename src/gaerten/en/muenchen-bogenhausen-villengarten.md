@@ -25,10 +25,14 @@ mainArticle:
     - image: /assets/img/villengarten-muenchen-bogenhausen-gartenweg-treillage.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-schattengarten-rasenweg.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-gartenhaus-rueckzugsort.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-loungeliegen-gartenecke.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-sonnendeck-liegen.webp
   copy: ''
-  articleFooter: null
+  articleFooter:
+    closingImage: /assets/img/villengarten-muenchen-bogenhausen-staudenbeet-katzenminze.webp
+    alt: Close-up of the informal perennial bed featuring blue catnip and lady's mantle in the villa garden in Munich-Bogenhausen.
   articleCredits:
-    entwurf: ''
-    ausfuehrung: ''
-    bilder: ''
+    entwurf: Manuel Wehrle
+    ausfuehrung: BUK Garten- und Landschaftsbau
+    bilder: Vladyslav Pustovit
 ---
