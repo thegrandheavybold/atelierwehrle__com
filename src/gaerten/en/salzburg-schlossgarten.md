@@ -3,44 +3,50 @@ title: Salzburg A – Castle Garden
 date: 2024-04-01T00:49
 urlSlug: salzburg-schlossgarten
 metaTags:
-  metatitle: "Salzburg Castle Garden - Heritage Landscape Design"
-  metaDescription: "Sound of Music Castle Garden in Salzburg combining historic character with contemporary planting strategy and high-end landscape execution."
+  metatitle: Salzburg Castle Garden - Heritage Landscape Design
+  metaDescription: Sound of Music Castle Garden in Salzburg combining historic character with contemporary planting strategy and high-end landscape execution.
 featured:
-  featImage: /assets/img/Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg
-  alt: "Castle garden at Schloss Leopoldskron with historic landscape character."
+  featImage: /assets/img/schlossgarten-leopoldskron-salzburg-alpenblick-rosengarten.webp
+  alt: View from the rose garden at Leopoldskron Palace across the palace pond toward the Salzburg Alps at sunrise.
 mainArticle:
   articleHeader:
     openerImage: /assets/img/Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg
-    alt: "Castle garden at Schloss Leopoldskron with historic landscape character."
+    alt: Castle garden at Schloss Leopoldskron with historic landscape character.
   galleryImages:
-    - image: /assets/img/Gartengestaltung-Schlossgarten-verwunschen.jpg
-      alt: "Romantic castle garden section with dense atmospheric planting."
-    - image: /assets/img/Gartenplanung-Schlossgarten-historisch-modern.jpg
-      alt: "Historically influenced castle garden with clear spatial structure."
-    - image: /assets/img/Gartenplanung-historischer-Schlossgarten.jpg
-      alt: "Castle garden with differentiated perennial planting and classical order."
-    - image: /assets/img/Gartengestaltung-Schloss-Leopoldskron-sound-of-music.jpg
-      alt: "Castle garden at Schloss Leopoldskron with historic landscape character."
-    - image: /assets/img/Gartenplanung-Schlossgarten-modern-interpretiert.jpg
-      alt: "Contemporary reinterpretation of a historic castle garden."
-    - image: /assets/img/Gartengestaltung-Schloss-Leopoldskron-Salzburg-Parterre.jpg
-      alt: "Castle garden at Schloss Leopoldskron with historic landscape character."
-    - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet-Schlossgarten.jpg
-      alt: "Castle garden with differentiated perennial planting and classical order."
-    - image: /assets/img/Gartengestaltung-Pflanzplanung-Schlossgarten.jpg
-      alt: "Castle garden with differentiated perennial planting and classical order."
-    - image: /assets/img/Gartengestaltung-Schlossgarten-modern-interpretiert.jpg
-      alt: "Contemporary reinterpretation of a historic castle garden."
-    - image: /assets/img/Gartenplanung-Schloss-Leopoldskron.jpg
-      alt: "Castle garden at Schloss Leopoldskron with historic landscape character."
+    - image: /assets/img/schlossgarten-leopoldskron-rosengarten-schlossfassade.webp
+      alt: Romantic castle garden section with dense atmospheric planting.
+    - image: /assets/img/schlossgarten-leopoldskron-steinbrunnen-buchsbaumhecken.webp
+      alt: Historically influenced castle garden with clear spatial structure.
+    - image: /assets/img/schlossgarten-leopoldskron-rosengarten-zypressen.webp
+      alt: Castle garden with differentiated perennial planting and classical order.
+    - image: /assets/img/schlossgarten-leopoldskron-rosengarten-abendlicht.webp
+      alt: Castle garden at Schloss Leopoldskron with historic landscape character.
+    - image: /assets/img/sound-of-music-garten-salzburg-schlossteich-abendlicht.webp
+      alt: Castle garden with differentiated perennial planting and classical order.
+    - image: /assets/img/schlossgarten-leopoldskron-gartenweg-abendstimmung.webp
+      alt: Castle garden with differentiated perennial planting and classical order.
+    - image: /assets/img/schlossgarten-leopoldskron-margeriten-gegenlicht.webp
+      alt: Contemporary reinterpretation of a historic castle garden.
+    - image: /assets/img/schlossgarten-leopoldskron-margeriten-gegenlicht.webp
+      alt: Castle garden at Schloss Leopoldskron with historic landscape character.
+    - image: /assets/img/sound-of-music-garten-salzburg-pavillon-schlossteich.webp
+    - image: /assets/img/sound-of-music-garten-salzburg-schlossteich-abendlicht.webp
+    - image: /assets/img/schlossgarten-leopoldskron-wildblumenwiese-gartenweg.webp
+    - image: /assets/img/schlossgarten-leopoldskron-staudenbeet-margeriten.webp
+    - image: /assets/img/schlossgarten-leopoldskron-salzburg-untersberg-wildblumenwiese.webp
+    - image: /assets/img/schlossgarten-leopoldskron-salzburg-schlossteich-alpenblick.webp
   copy: |-
     The parterre at Leopoldskron Palace in Salzburg - former home of Max Reinhardt - combines heritage atmosphere with contemporary landscape design. The palace context became the foundation for a careful reinterpretation of the garden.
     Baroque geometry was translated into a modern planting framework. Instead of monotonous gravel, roses and perennials now provide color and seasonal depth. Diseased boxwood was replaced by a defining yew structure, while fountains and benches designed by Manuel Wehrle integrate into the overall composition.
     This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality. In Salzburg, heritage context and contemporary landscape architecture are aligned through precise garden design for representative private gardens.
   articleFooter:
-    closingImage: /assets/img/Gartengestaltung-Pflanzplanung-fuer-Schlosspark.jpg
-    alt: "Detail view of a naturalistic, carefully designed garden space."
+    closingImage: /assets/img/schlossgarten-leopoldskron-jungbaeume-wildblumenwiese.webp
+    alt: Newly planted trees with support stakes in a wildflower meadow by the castle pond in the Leopoldskron Castle Gardens, with the Salzburg Alps in the background.
   articleCredits:
-    entwurf: Manuel Wehrle for the Königliche Gartenakademie
+    entwurf: |-
+      Manuel Wehrle
+
+      _The Partee garden designed by Manuel Wehrle as Head of Design at Königliche Gartenakademie_
+    ausfuehrung: BUK Garten- und Landschaftsbau GmbH
     bilder: Vladyslav Pustovit
 ---
