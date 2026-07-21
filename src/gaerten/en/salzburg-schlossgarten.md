@@ -30,7 +30,7 @@ mainArticle:
     - image: /assets/img/schlossgarten-leopoldskron-margeriten-gegenlicht.webp
       alt: Castle garden at Schloss Leopoldskron with historic landscape character.
     - image: /assets/img/sound-of-music-garten-salzburg-pavillon-schlossteich.webp
-    - image: /assets/img/sound-of-music-garten-salzburg-schlossteich-abendlicht.webp
+    - image: /assets/img/schlossgarten-leopoldskron-schlossteich-abendlicht.webp
     - image: /assets/img/schlossgarten-leopoldskron-wildblumenwiese-gartenweg.webp
     - image: /assets/img/schlossgarten-leopoldskron-staudenbeet-margeriten.webp
     - image: /assets/img/schlossgarten-leopoldskron-salzburg-untersberg-wildblumenwiese.webp
