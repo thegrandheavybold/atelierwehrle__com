@@ -46,7 +46,8 @@ mainArticle:
     entwurf: |-
       Manuel Wehrle
 
-      _The Partee garden designed by Manuel Wehrle as Head of Design at Königliche Gartenakademie_
+      _The Partee garden designed by Manuel Wehrle as_ 
+      _Head of Design at Königliche Gartenakademie_
     ausfuehrung: BUK Garten- und Landschaftsbau GmbH
     bilder: Vladyslav Pustovit
 ---
