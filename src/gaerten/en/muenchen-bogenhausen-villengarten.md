@@ -19,6 +19,9 @@ mainArticle:
     - image: /assets/img/villengarten-muenchen-bogenhausen-schattiger-gartenweg.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-gartentor.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-heckeneinfassung.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-nachbarschutz.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-balkon-loungeterrasse.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-gartentisch.webp
   copy: ''
   articleFooter: null
   articleCredits:

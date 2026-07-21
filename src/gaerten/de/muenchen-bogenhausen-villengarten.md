@@ -25,6 +25,12 @@ mainArticle:
       alt: Straßenansicht der weißen Stadtvilla mit grünem Gartentor, Steinkugeln auf den Torpfosten und dichter Heckenbepflanzung.
     - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-heckeneinfassung.webp
       alt: Straßenansicht der Villenfassade mit geschnittener Heckeneinfassung, jungem Blütenbaum und integrierten Mülltonnenboxen in der Gartenmauer.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-nachbarschutz.webp
+      alt: Essplatz auf der Terrasse mit Blick auf blühende Rispenhortensien, die dezent Sichtschutz zur Nachbarbebauung bieten.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-balkon-loungeterrasse.webp
+      alt: Gerundeter Fassadenerker mit schmiedeeisernem Balkon und weißen Hortensien, darunter eine Loungeterrasse mit gepolsterten Sitzmöbeln.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-gartentisch.webp
+      alt: Großzügige Terrasse mit langer Tafel, Lounge-Sitzgruppe und Sonnenschirm vor der klassischen Stadtvilla im Villengarten München-Bogenhausen.
   copy: ''
   articleFooter: null
   articleCredits:
