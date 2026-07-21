@@ -13,23 +13,23 @@ mainArticle:
     openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
     alt: Biodiversitätsorientierte Gartenplanung mit klimaresilienter Pflanzstruktur.
   galleryImages:
-    - image: ../potsdam-moderner-villengarten/DSC07156.jpg
+    - image: /assets/img/gartengestaltung-pflanzplanung-staudenbeet-abendlicht.webp
       alt: Staudenpflanzung mit naturnaher Dynamik und langer Jahreszeitenwirkung.
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Atelier-Wehrle.jpg
       alt: Detailansicht eines naturnah gestalteten Gartenraums.
     - image: /assets/img/Gartengestaltung-Gemuesegarten-mit-Gewaechshaus.jpg
       alt: Gemüsegarten mit Gewächshaus und funktionaler Beetstruktur.
-    - image: ../potsdam-moderner-villengarten/DSC07204.jpg
+    - image: /assets/img/naturnahgarten-pflanzplanung-streuobstwiese-mohnblumen.webp
       alt: Blumenwiese als insektenfreundlicher Lebensraum mit hoher Artenvielfalt.
-    - image: ../potsdam-moderner-villengarten/DSC07362.jpg
+    - image: /assets/img/gartengestaltung-staudenbeet-rittersporn-gewaechshaus.webp
       alt: Detailansicht eines naturnah gestalteten Gartenraums.
     - image: /assets/img/Gartenplanung-Gemuesegarten-eigene-Ernte.jpg
       alt: Gemüsegarten mit klarer Gliederung und produktiver Bepflanzung.
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet-mit-Graesern.jpg
       alt: Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition.
-    - image: ../potsdam-moderner-villengarten/DSC07242.jpg
+    - image: /assets/img/naturnahgarten-gartendesign-sitzplatz-wildblumenwiese.jpg
       alt: Obstwiese als naturnaher Übergang zwischen Garten und Landschaft.
-    - image: ../potsdam-moderner-villengarten/DSC07167.jpg
+    - image: /assets/img/pflanzplanung-naturnahgarten-gartendesign-abendstimmung.webp
       alt: Naturnahe Staudenpflanzung mit rosa und violett blühenden Stauden, filigranen Samenständen und geschnittener Hecke im weichen Abendlicht.
   copy: |-
     Der ursprüngliche Garten bestand aus Rasen, vier Säuleneichen und einem monotonen Efeuhang. Seit 2020 wurde er von Manuel Wehrle grundlegend transformiert - nicht nur für ein stärkeres Gestaltungsbild, sondern auch als bewusster Beitrag zur Natur.

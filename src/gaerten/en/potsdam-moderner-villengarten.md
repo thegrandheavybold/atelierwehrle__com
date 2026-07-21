@@ -34,9 +34,7 @@ mainArticle:
   copy: |-
     The original garden consisted of lawn, four columnar oaks and a monotonous ivy slope. From 2020 onward, Manuel Wehrle fundamentally transformed it - not only for visual quality, but to restore ecological value.
 
-
     Irrigation was switched off and extensive lawn areas were replaced by a flowering orchard meadow, now providing habitat for meadow birds. The southern slope was reworked as a Mediterranean planting scheme with year-round structure, designed to cope with heat and drought.
-
 
     The kitchen garden combines traditions of cottage gardens, English walled gardens and the Potager du Roi in Versailles. Espalier fruit trees serve both productive and spatial roles. The result is a modern Potsdam villa garden uniting tradition, innovation and sustainability.
   articleFooter:
