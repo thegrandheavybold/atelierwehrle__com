@@ -40,8 +40,8 @@ mainArticle:
     Baroque geometry was translated into a modern planting framework. Instead of monotonous gravel, roses and perennials now provide color and seasonal depth. Diseased boxwood was replaced by a defining yew structure, while fountains and benches designed by Manuel Wehrle integrate into the overall composition.
     This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality. In Salzburg, heritage context and contemporary landscape architecture are aligned through precise garden design for representative private gardens.
   articleFooter:
-    closingImage: /assets/img/schlossgarten-leopoldskron-jungbaeume-wildblumenwiese.webp
-    alt: Newly planted trees with support stakes in a wildflower meadow by the castle pond in the Leopoldskron Castle Gardens, with the Salzburg Alps in the background.
+    closingImage: /assets/img/schlossgarten-leopoldskron-terrasse-seeblick-alpen.webp
+    alt: View from a cozy garden terrace with a seating area and sun umbrellas across a wildflower meadow and the castle pond toward the Salzburg Alps, in the Leopoldskron Palace Garden.
   articleCredits:
     entwurf: |-
       Manuel Wehrle
