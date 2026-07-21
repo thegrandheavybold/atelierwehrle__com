@@ -43,11 +43,7 @@ mainArticle:
     closingImage: /assets/img/schlossgarten-leopoldskron-terrasse-seeblick-alpen.webp
     alt: View from a cozy garden terrace with a seating area and sun umbrellas across a wildflower meadow and the castle pond toward the Salzburg Alps, in the Leopoldskron Palace Garden.
   articleCredits:
-    entwurf: |-
-      Manuel Wehrle
-
-      _The Partee garden designed by Manuel Wehrle as_ 
-      _Head of Design at Königliche Gartenakademie_
-    ausfuehrung: BUK Garten- und Landschaftsbau GmbH
+    entwurf: Manuel Wehrle
+    ausfuehrung: The Partee garden designed by Manuel Wehrle as Head of Design at Königliche Gartenakademie
     bilder: Vladyslav Pustovit
 ---

@@ -49,11 +49,7 @@ mainArticle:
     closingImage: /assets/img/schlossgarten-leopoldskron-terrasse-seeblick-alpen.webp
     alt: Blick von einer gemütlichen Gartenterrasse mit Sitzgruppe und Sonnenschirmen über eine Wildblumenwiese und den Schlossteich auf die Salzburger Alpen im Schlossgarten Leopoldskron.
   articleCredits:
-    entwurf: |-
-      Manuel Wehrle
-
-      _Der Partee-Garten, entworfen von Manuel Wehrle als_ 
-      _Head of Design an der Königlichen Gartenakademie_
-    ausfuehrung: BUK Garten- und Landschaftsbau GmbH
+    entwurf: Manuel Wehrle
+    ausfuehrung: Der Partee-Garten, entworfen von Manuel Wehrle als Head of Design an der Königlichen Gartenakademie
     bilder: Vladyslav Pustovit
 ---
