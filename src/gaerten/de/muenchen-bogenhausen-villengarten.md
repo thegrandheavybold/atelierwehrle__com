@@ -19,6 +19,12 @@ mainArticle:
       alt: opfsteinpflasterweg führt durch schmale, von Eibenhecken und Hortensien gesäumte Gartenräume zu einem versteckten Sitzplatz im Villengarten München.
     - image: /assets/img/villengarten-muenchen-bogenhausen-sitzplatz-sichtschutz.webp
       alt: Kleiner, geschützter Sitzplatz mit schmiedeeisernem Bistro-Tisch zwischen hohen Eibensäulen und dichter Hainbuchenhecke im klassischen Villengarten München-Bogenhausen.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-schattiger-gartenweg.webp
+      alt: Schattiger Gartenweg zwischen blühenden Hortensien und geschnittenen Hecken führt zu einer kleinen Sitzecke an der Villenfassade.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-gartentor.webp
+      alt: Straßenansicht der weißen Stadtvilla mit grünem Gartentor, Steinkugeln auf den Torpfosten und dichter Heckenbepflanzung.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-heckeneinfassung.webp
+      alt: Straßenansicht der Villenfassade mit geschnittener Heckeneinfassung, jungem Blütenbaum und integrierten Mülltonnenboxen in der Gartenmauer.
   copy: ''
   articleFooter: null
   articleCredits:

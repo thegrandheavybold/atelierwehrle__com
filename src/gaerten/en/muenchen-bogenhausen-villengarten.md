@@ -16,6 +16,9 @@ mainArticle:
     - image: /assets/img/villengarten-muenchen-bogenhausen-hortensien-gartenpfad.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-gartenweg-kopfsteinpflaster.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-sitzplatz-sichtschutz.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-schattiger-gartenweg.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-gartentor.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-strassenansicht-heckeneinfassung.webp
   copy: ''
   articleFooter: null
   articleCredits:
