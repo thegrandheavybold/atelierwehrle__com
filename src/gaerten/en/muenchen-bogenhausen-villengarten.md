@@ -22,6 +22,9 @@ mainArticle:
     - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-nachbarschutz.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-balkon-loungeterrasse.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-gartentisch.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-gartenweg-treillage.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-schattengarten-rasenweg.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-gartenhaus-rueckzugsort.webp
   copy: ''
   articleFooter: null
   articleCredits:

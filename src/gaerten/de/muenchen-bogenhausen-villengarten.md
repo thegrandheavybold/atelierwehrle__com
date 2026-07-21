@@ -31,6 +31,12 @@ mainArticle:
       alt: Gerundeter Fassadenerker mit schmiedeeisernem Balkon und weißen Hortensien, darunter eine Loungeterrasse mit gepolsterten Sitzmöbeln.
     - image: /assets/img/villengarten-muenchen-bogenhausen-terrasse-gartentisch.webp
       alt: Großzügige Terrasse mit langer Tafel, Lounge-Sitzgruppe und Sonnenschirm vor der klassischen Stadtvilla im Villengarten München-Bogenhausen.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-gartenweg-treillage.webp
+      alt: Gepflegter Rasenweg zwischen Hortensien und Eibenhecken führt zu einer filigranen Metall-Treillage, die den Garten räumlich gliedert.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-schattengarten-rasenweg.webp
+      alt: Schmaler Rasenweg im verwunschenen Schattengarten führt vorbei an Japanischem Ahorn und Eibenhecken zum Gartenhaus im Villengarten München.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-gartenhaus-rueckzugsort.webp
+      alt: Verstecktes Gartenhaus mit salbeigrünen Flügeltüren und goldenen Beschlägen, eingebettet in Japanischen Ahorn und Eibenhecken im Villengarten München.
   copy: ''
   articleFooter: null
   articleCredits:
