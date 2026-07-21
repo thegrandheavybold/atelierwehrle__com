@@ -25,7 +25,7 @@ mainArticle:
       alt: Castle garden with differentiated perennial planting and classical order.
     - image: /assets/img/sound-of-music-garten-salzburg-schlossteich-abendlicht.webp
       alt: Castle garden with differentiated perennial planting and classical order.
-    - image: /assets/img/schlossgarten-leopoldskron-margeriten-gegenlicht.webp
+    - image: /assets/img/schlossgarten-leopoldskron-gartenweg-abendstimmung.webp
       alt: Contemporary reinterpretation of a historic castle garden.
     - image: /assets/img/schlossgarten-leopoldskron-margeriten-gegenlicht.webp
       alt: Castle garden at Schloss Leopoldskron with historic landscape character.
