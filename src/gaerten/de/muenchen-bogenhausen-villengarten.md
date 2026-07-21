@@ -15,6 +15,10 @@ mainArticle:
   galleryImages:
     - image: /assets/img/villengarten-muenchen-bogenhausen-hortensien-gartenpfad.webp
       alt: Verschlungener Gartenpfad mit Hortensien, Katzenminze und geschnittenen Hecken vor der klassischen Fassade der Münchner Stadtvilla.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-gartenweg-kopfsteinpflaster.webp
+      alt: opfsteinpflasterweg führt durch schmale, von Eibenhecken und Hortensien gesäumte Gartenräume zu einem versteckten Sitzplatz im Villengarten München.
+    - image: /assets/img/villengarten-muenchen-bogenhausen-sitzplatz-sichtschutz.webp
+      alt: Kleiner, geschützter Sitzplatz mit schmiedeeisernem Bistro-Tisch zwischen hohen Eibensäulen und dichter Hainbuchenhecke im klassischen Villengarten München-Bogenhausen.
   copy: ''
   articleFooter: null
   articleCredits:

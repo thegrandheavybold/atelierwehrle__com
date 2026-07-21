@@ -14,6 +14,8 @@ mainArticle:
     alt: A view through dense hydrangeas and hedges onto a small terrace with bistro furniture in front of the white facade of the city villa.
   galleryImages:
     - image: /assets/img/villengarten-muenchen-bogenhausen-hortensien-gartenpfad.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-gartenweg-kopfsteinpflaster.webp
+    - image: /assets/img/villengarten-muenchen-bogenhausen-sitzplatz-sichtschutz.webp
   copy: ''
   articleFooter: null
   articleCredits:
