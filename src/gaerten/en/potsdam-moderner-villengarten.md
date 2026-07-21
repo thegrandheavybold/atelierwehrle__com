@@ -13,23 +13,23 @@ mainArticle:
     openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
     alt: Biodiversity-focused garden planning with climate-resilient planting.
   galleryImages:
-    - image: ../potsdam-moderner-villengarten/DSC07156.jpg
+    - image: /assets/img/gartengestaltung-pflanzplanung-staudenbeet-abendlicht.webp
       alt: Perennial planting with naturalistic dynamics and long seasonal interest.
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Atelier-Wehrle.jpg
       alt: Detail view of a naturalistic, carefully designed garden space.
     - image: /assets/img/Gartengestaltung-Gemuesegarten-mit-Gewaechshaus.jpg
       alt: Kitchen garden with greenhouse and functional bed layout.
-    - image: ../potsdam-moderner-villengarten/DSC07204.jpg
+    - image: /assets/img/naturnahgarten-pflanzplanung-streuobstwiese-mohnblumen.webp
       alt: Flower meadow as a pollinator-friendly habitat with high biodiversity.
-    - image: ../potsdam-moderner-villengarten/DSC07362.jpg
+    - image: /assets/img/gartengestaltung-staudenbeet-rittersporn-gewaechshaus.webp
       alt: Detail view of a naturalistic, carefully designed garden space.
     - image: /assets/img/Gartenplanung-Gemuesegarten-eigene-Ernte.jpg
       alt: Kitchen garden with clear structure and productive planting.
     - image: /assets/img/Gartengestaltung-Pflanzplanung-Staudenbeet-mit-Graesern.jpg
       alt: Perennial bed with seasonal bloom sequence and structural depth.
-    - image: ../potsdam-moderner-villengarten/DSC07242.jpg
+    - image: /assets/img/naturnahgarten-gartendesign-sitzplatz-wildblumenwiese.jpg
       alt: Orchard meadow as a natural transition between garden and landscape.
-    - image: ../potsdam-moderner-villengarten/DSC07167.jpg
+    - image: /assets/img/pflanzplanung-naturnahgarten-gartendesign-abendstimmung.webp
       alt: Flower meadow as a pollinator-friendly habitat with high biodiversity.
   copy: |-
     The original garden consisted of lawn, four columnar oaks and a monotonous ivy slope. From 2020 onward, Manuel Wehrle fundamentally transformed it - not only for visual quality, but to restore ecological value.
