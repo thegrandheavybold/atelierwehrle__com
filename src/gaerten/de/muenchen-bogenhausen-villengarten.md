@@ -41,7 +41,12 @@ mainArticle:
       alt: uhige Gartenecke mit zwei weißen Loungeliegen auf einem Holzdeck, umrahmt von Hortensien und einer hohen Hainbuchenhecke
     - image: /assets/img/villengarten-muenchen-bogenhausen-sonnendeck-liegen.webp
       alt: Sonnendeck mit zwei Loungeliegen unter einem Blumen-Hartriegel, eingerahmt von einer dichten Eibenhecke im Villengarten München.
-  copy: ''
+  copy: |-
+    Das **Gartenkonzept München**-Bogenhausen entstand auf einem kleinen Grundstück in dichter Villenbebauung mit unmittelbaren Einblicken der Nachbarn. Statt einer hohen Hecke entstand ein differenziertes Konzept, bei dem jede Blickbeziehung einzeln analysiert wurde.
+
+    Effektiver **Sichtschutz im Garten** entsteht hier nicht durch eine einzelne Hecke, sondern durch eine goldlaubige Säulenbuche, Fagus sylvatica 'Dawyck Gold', ergänzt durch skulptural geschnittene Wolkenhecken aus Taxus baccata. So entsteht eine räumliche Abfolge, die das Grundstück größer wirken lässt, als es ist.
+
+    Besonders gelungen: der schmale Nordbereich mit geschwungenem Rasenweg und filigraner Metall-Treillage, sowie ein ehemaliger Lüftungsschacht als erhöhtes Sonnendeck. Dieser **Villengarten** in München steht für präzise Landschaftsarchitektur und diskrete Privatgärten.
   articleFooter:
     closingImage: /assets/img/villengarten-muenchen-bogenhausen-staudenbeet-katzenminze.webp
     alt: Nahaufnahme der lockeren Staudenpflanzung mit blauer Katzenminze und Frauenmantel im Villengarten München-Bogenhausen.

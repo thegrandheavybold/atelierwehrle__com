@@ -27,7 +27,12 @@ mainArticle:
     - image: /assets/img/villengarten-muenchen-bogenhausen-gartenhaus-rueckzugsort.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-loungeliegen-gartenecke.webp
     - image: /assets/img/villengarten-muenchen-bogenhausen-sonnendeck-liegen.webp
-  copy: ''
+  copy: |-
+    This **garden design in Munich**-Bogenhausen was created on a small plot in a dense villa quarter with close neighbouring views. Instead of a tall hedge, a differentiated concept emerged in which every sightline was analysed individually.
+
+    Effective **garden privacy screening** here comes not from a single hedge but from a golden-leaved columnar beech, Fagus sylvatica 'Dawyck Gold', complemented by sculptural cloud-pruned Taxus baccata hedges — creating a spatial sequence that makes the plot feel larger than it is.
+
+    A particular highlight: the narrow north strip with its curving lawn path and delicate metal trellis, plus a former ventilation shaft reinterpreted as a raised sun deck. This **villa garden** in Munich stands for precise landscape architecture and discreet private gardens.
   articleFooter:
     closingImage: /assets/img/villengarten-muenchen-bogenhausen-staudenbeet-katzenminze.webp
     alt: Close-up of the informal perennial bed featuring blue catnip and lady's mantle in the villa garden in Munich-Bogenhausen.
