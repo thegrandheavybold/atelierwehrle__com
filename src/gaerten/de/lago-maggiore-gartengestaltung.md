@@ -27,7 +27,7 @@ mainArticle:
       alt: Poolbereich mit Olivenbäumen, Naturstein und mediterranen Stauden.
     - image: /assets/img/Atelier-Wehrle-Gartengestaltung-terrassengarten-seeblick.jpg
       alt: Terrassierter Gartenbereich mit weitem Blick über den See.
-    - image: /assets/img/Atelier-Wehrle-Gartengestaltung-moderne-architektur-und-natursteinmauer.jpg
+    - image: /assets/img/lago-maggiore-villengarten-terrassen-naturstein.jpg
       alt: Natursteinmauer mit mediterraner Bepflanzung und klarer Architektursprache.
     - image: /assets/img/lago-maggiore-mediterraner-poolgarten-terrasse.jpg
       alt: Mediterraner Garten mit blühenden Kletterpflanzen, Kiesbeet, violett blühenden Stauden und steingefasstem Wasserbecken neben einer Terrassentreppe.
