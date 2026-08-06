@@ -6,7 +6,7 @@ metaTags:
   metatitle: Salzburg Castle Garden - Heritage Landscape Design
   metaDescription: Sound of Music Castle Garden in Salzburg combining historic character with contemporary planting strategy and high-end landscape execution.
 featured:
-  featImage: /assets/img/schlossgarten-leopoldskron-salzburg-alpenblick-rosengarten.webp
+  featImage: /assets/img/LPK_Cover.webp
   alt: View from the rose garden at Leopoldskron Palace across the palace pond toward the Salzburg Alps at sunrise.
 mainArticle:
   articleHeader:
@@ -40,8 +40,8 @@ mainArticle:
     Baroque geometry was translated into a modern planting framework. Instead of monotonous gravel, roses and perennials now provide color and seasonal depth. Diseased boxwood was replaced by a defining yew structure, while fountains and benches designed by Manuel Wehrle integrate into the overall composition.
     This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality. In Salzburg, heritage context and contemporary landscape architecture are aligned through precise garden design for representative private gardens.
   articleFooter:
-    closingImage: /assets/img/schlossgarten-leopoldskron-terrasse-seeblick-alpen.webp
-    alt: View from a cozy garden terrace with a seating area and sun umbrellas across a wildflower meadow and the castle pond toward the Salzburg Alps, in the Leopoldskron Palace Garden.
+    closingImage: ../salzburg-schlossgarten/03_Siegel_GdJ_2027_RGB_Basic_nominiert_500px.png
+    alt: Garten des Jahres 2027
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: The Partee garden designed by Manuel Wehrle as Head of Design at Königliche Gartenakademie

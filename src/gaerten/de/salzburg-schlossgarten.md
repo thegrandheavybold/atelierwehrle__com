@@ -6,7 +6,7 @@ metaTags:
   metatitle: Salzburg Schlossgarten - Historische Gartenkultur
   metaDescription: 'Sound of Music-Garten in Salzburg: historische Gartenkultur neu interpretiert – mit zeitgemäßer Pflanzplanung und präziser landschaftsarchitektonischer Gestaltung.'
 featured:
-  featImage: /assets/img/schlossgarten-leopoldskron-salzburg-alpenblick-rosengarten.webp
+  featImage: /assets/img/LPK_Cover.webp
   alt: Blick vom Rosengarten des Schlossgarten Leopoldskron über den Schlossteich auf die Salzburger Alpen bei Sonnenaufgang.
 mainArticle:
   articleHeader:
@@ -46,8 +46,8 @@ mainArticle:
     Die barocke Architektur wurde in eine zeitgemäße Gartenkomposition übersetzt. Anstelle des monotonen Kiesparterres prägen heute Rosen und Stauden in lebendigen Farben das Bild. Kranker Buchs wurde durch eine prägende Eibe ersetzt und strukturell neu geordnet. Brunnen und Bänke nach Entwurf von Manuel Wehrle integrieren sich harmonisch.
     Der Schlossgarten zeigt, wie historische Gartenkultur und zeitgenössische Landschaftsarchitektur zusammenwirken können - präzise, respektvoll und mit hoher atmosphärischer Wirkung. In Salzburg wurde so historische Identität mit zeitgemäßer Landschaftsarchitektur und sorgfältiger Gartenplanung verbunden.
   articleFooter:
-    closingImage: /assets/img/schlossgarten-leopoldskron-terrasse-seeblick-alpen.webp
-    alt: Blick von einer gemütlichen Gartenterrasse mit Sitzgruppe und Sonnenschirmen über eine Wildblumenwiese und den Schlossteich auf die Salzburger Alpen im Schlossgarten Leopoldskron.
+    closingImage: ../salzburg-schlossgarten/03_Siegel_GdJ_2027_RGB_Basic_nominiert_500px.png
+    alt: Garten des Jahres 2027
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: Der Partee-Garten, entworfen von Manuel Wehrle als Head of Design an der Königlichen Gartenakademie
