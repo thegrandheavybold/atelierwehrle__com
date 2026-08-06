@@ -48,7 +48,7 @@ mainArticle:
 
     Besonders gelungen: der schmale Nordbereich mit geschwungenem Rasenweg und filigraner Metall-Treillage, sowie ein ehemaliger Lüftungsschacht als erhöhtes Sonnendeck. Dieser **Villengarten** in München steht für präzise Landschaftsarchitektur und diskrete Privatgärten.
   articleFooter:
-    closingImage: /assets/img/04_Siegel_GdJ_2027_RGB_Basic_Longlist_500px.png
+    closingImage: /assets/img/villengarten-muenchen-bogenhausen-staudenbeet-katzenminze.webp
     alt: ''
   articleCredits:
     entwurf: Manuel Wehrle
