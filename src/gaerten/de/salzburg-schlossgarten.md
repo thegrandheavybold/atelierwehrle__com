@@ -10,7 +10,7 @@ featured:
   alt: Blick vom Rosengarten des Schlossgarten Leopoldskron über den Schlossteich auf die Salzburger Alpen bei Sonnenaufgang.
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/schlossgarten-leopoldskron-salzburg-alpenblick-rosengarten.webp
+    openerImage: /assets/img/LPK_Cover.webp
     alt: Schlossgarten am Schloss Leopoldskron mit historischer Gartenarchitektur.
   galleryImages:
     - image: /assets/img/schlossgarten-leopoldskron-rosengarten-schlossfassade.webp

@@ -10,7 +10,7 @@ featured:
   alt: View from the rose garden at Leopoldskron Palace across the palace pond toward the Salzburg Alps at sunrise.
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/Gartengestaltung-Schloss-Leopoldskron-Salzburg.jpg
+    openerImage: /assets/img/LPK_Cover.webp
     alt: Castle garden at Schloss Leopoldskron with historic landscape character.
   galleryImages:
     - image: /assets/img/schlossgarten-leopoldskron-rosengarten-schlossfassade.webp
