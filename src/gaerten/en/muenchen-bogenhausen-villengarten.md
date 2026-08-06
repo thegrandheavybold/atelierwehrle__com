@@ -34,8 +34,8 @@ mainArticle:
 
     A particular highlight: the narrow north strip with its curving lawn path and delicate metal trellis, plus a former ventilation shaft reinterpreted as a raised sun deck. This **villa garden** in Munich stands for precise landscape architecture and discreet private gardens.
   articleFooter:
-    closingImage: /assets/img/villengarten-muenchen-bogenhausen-staudenbeet-katzenminze.webp
-    alt: Close-up of the informal perennial bed featuring blue catnip and lady's mantle in the villa garden in Munich-Bogenhausen.
+    closingImage: /assets/img/04_Siegel_GdJ_2027_RGB_Basic_Longlist_500px.png
+    alt: ''
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: BUK Garten- und Landschaftsbau
