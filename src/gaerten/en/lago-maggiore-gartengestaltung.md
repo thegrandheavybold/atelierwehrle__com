@@ -6,7 +6,7 @@ metaTags:
   metatitle: Landscape Architecture Lago Maggiore | Garden Design Ticino | Atelier Wehrle
   metaDescription: Contemporary lendscape architecture in Ascona with terraces, natural stone walls and climate-resilient planting on a steep hillside by Atelier Wehrle.
 featured:
-  featImage: /assets/img/Atelier-Wehrle-Gartengestaltung-pool-terrassengarten-lago-maggiore.jpg
+  featImage: /assets/img/LM_cover.webp
   alt: Pool within a terraced garden and naturalistic Mediterranean planting.
 mainArticle:
   articleHeader:
@@ -43,8 +43,8 @@ mainArticle:
 
     On such a steep and narrow slope, execution demanded exceptional control: terraces, drainage, stonework and planting all had to be coordinated with care so that the finished garden would feel inevitable rather than engineered. The logistics were especially complex during the planting phase, when mature trees of up to ten metres in height had to be brought onto the site and established safely on the hillside. Their placement required specialist handling, exact timing and a carefully staged process, yet they were essential in giving the garden its immediate sense of maturity and depth. The result is a landscape that feels settled, expansive and entirely at ease in its surroundings — a composed expression of Ticino landscape design in which topography, architecture and planting are held in perfect balance.
   articleFooter:
-    closingImage: /assets/img/20260501-_DSC7140.jpg
-    alt: Trittsteinweg durch üppige grüne Bepflanzung unter alten Bäumen mit Blick auf den See im Hintergrund.
+    closingImage: salzburg-schlossgarten/03_Siegel_GdJ_2027_RGB_Basic_nominiert_500px.png
+    alt: ''
   articleCredits:
     entwurf: Manuel Wehrle
     ausfuehrung: Giovanni Schober
