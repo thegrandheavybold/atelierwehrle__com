@@ -42,7 +42,7 @@ mainArticle:
 
     Die besondere Qualität des Gartens liegt nicht nur im Entwurf, sondern ebenso in der Präzision seiner Umsetzung. Auf dem steilen und schmalen Hang erforderte die Ausführung ein hohes Maß an Kontrolle, da Terrassen, Entwässerung, Natursteinarbeiten und Pflanzung exakt aufeinander abgestimmt werden mussten, damit der fertige Garten selbstverständlich und nicht konstruiert wirkt. Besonders anspruchsvoll war die Logistik während der Pflanzarbeiten: Mehrere Solitärbäume mit einer Höhe von bis zu zehn Metern mussten sicher an den Hang transportiert, dort positioniert und fachgerecht eingebaut werden. Dafür waren spezialisierte Abläufe, exaktes Timing und eine sorgfältig abgestimmte Baukoordination notwendig. Gerade diese reifen Gehölze verleihen dem Garten jedoch von Beginn an jene räumliche Tiefe und Selbstverständlichkeit, die seinen Charakter ausmachen. So entstand eine Anlage, die ruhig, gewachsen und vollkommen im Ort verankert wirkt — eine hochwertige Gartengestaltung Lago Maggiore, in der Topografie, Architektur und Pflanzung in ein stimmiges Gleichgewicht gebracht wurden.
   articleFooter:
-    closingImage: salzburg-schlossgarten/03_Siegel_GdJ_2027_RGB_Basic_nominiert_500px.png
+    closingImage: /assets/img/20260501-_DSC7140.jpg
     alt: ''
   articleCredits:
     entwurf: Manuel Wehrle
