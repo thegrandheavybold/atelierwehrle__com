@@ -6,11 +6,11 @@ metaTags:
   metatitle: Potsdam Modern Villa Garden - Naturalistic Planning
   metaDescription: Modern villa garden in Potsdam with biodiversity-led planting, orchard meadow and climate-resilient concept, designed by Atelier Wehrle.
 featured:
-  featImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
+  featImage: /assets/img/Eichbergstrasse.jpg
   alt: Biodiversity-focused garden planning with climate-resilient planting.
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
+    openerImage: /assets/img/Eichbergstrasse.jpg
     alt: Biodiversity-focused garden planning with climate-resilient planting.
   galleryImages:
     - image: /assets/img/gartengestaltung-pflanzplanung-staudenbeet-abendlicht.webp

@@ -6,11 +6,11 @@ metaTags:
   metatitle: Potsdam Villengarten - Naturnahe Gartenplanung
   metaDescription: Moderner Villengarten in Potsdam mit biodiverser Pflanzung, Streuobstwiese und klimaresilientem Konzept. Von Atelier Wehrle geplant und umgesetzt.
 featured:
-  featImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
+  featImage: /assets/img/Eichbergstrasse.jpg
   alt: Biodiversitätsorientierte Gartenplanung mit klimaresilienter Pflanzstruktur.
 mainArticle:
   articleHeader:
-    openerImage: /assets/img/Gartenplanung-moderner-Garten-Biodiversitaet.jpg
+    openerImage: /assets/img/Eichbergstrasse.jpg
     alt: Biodiversitätsorientierte Gartenplanung mit klimaresilienter Pflanzstruktur.
   galleryImages:
     - image: /assets/img/gartengestaltung-pflanzplanung-staudenbeet-abendlicht.webp
