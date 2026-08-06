@@ -6,7 +6,7 @@ metaTags:
   metatitle: Bodensee Bauerngarten - Naturnahe Gartengestaltung
   metaDescription: Bauerngarten am Bodensee mit Gemüsegarten, Rosengarten und landschaftlichem Übergang. Naturnahe, hochwertige Gartengestaltung von Atelier Wehrle.
 featured:
-  featImage: /assets/img/Bercherhof.jpg
+  featImage: /assets/img/Bercherhof-1.jpg
   alt: Staudenbeet mit saisonaler Blütenabfolge und strukturreicher Komposition.
 mainArticle:
   articleHeader:

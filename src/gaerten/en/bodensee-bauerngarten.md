@@ -6,7 +6,7 @@ metaTags:
   metatitle: Lake Constance Cottage Garden - Naturalistic Design
   metaDescription: Cottage garden at Lake Constance combining productive beds, rose garden character and naturalistic landscape transitions.
 featured:
-  featImage: /assets/img/Bercherhof.jpg
+  featImage: /assets/img/Bercherhof-1.jpg
   alt: Perennial bed with seasonal bloom sequence and structural depth.
 mainArticle:
   articleHeader:
