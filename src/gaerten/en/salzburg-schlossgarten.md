@@ -40,7 +40,7 @@ mainArticle:
     Baroque geometry was translated into a modern planting framework. Instead of monotonous gravel, roses and perennials now provide color and seasonal depth. Diseased boxwood was replaced by a defining yew structure, while fountains and benches designed by Manuel Wehrle integrate into the overall composition.
     This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality. In Salzburg, heritage context and contemporary landscape architecture are aligned through precise garden design for representative private gardens.
   articleFooter:
-    closingImage: ../salzburg-schlossgarten/03_Siegel_GdJ_2027_RGB_Basic_nominiert_500px.png
+    closingImage: /assets/img/03_Siegel_GdJ_2027_RGB_Basic_nominiert_500px.png
     alt: Garten des Jahres 2027
   articleCredits:
     entwurf: Manuel Wehrle
