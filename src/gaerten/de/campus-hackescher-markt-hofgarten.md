@@ -20,7 +20,13 @@ mainArticle:
     - image: /assets/img/hackescher-markt-hofgarten-natursteinquader-graeser-sitzterrasse.webp
       alt: Natursteinquader und Gräser säumen den Weg zur Sitzterrasse mit gelb blühenden Kletterrosen
     - image: /assets/img/hackescher-markt-hofgarten-zwei-sitzterrassen-plattenbelag.webp
-      alt: ''
+      alt: Zwei Sitzterrassen aus großformatigen Platten, verbunden durch einen Klinkerweg im Hofinneren
+    - image: /assets/img/hackescher-markt-hofgarten-hortensie-durchblick-sitzplatz.webp
+      alt: Durchblick über limonengrüne Hortensienblüten auf die Sitzplätze im schattigen Hofbereich
+    - image: /assets/img/hackescher-markt-hofgarten-tisch-tetrapanax-rispenhortensie.webp
+      alt: Langer Gartentisch vor Tetrapanax papyrifer und weiß blühender Rispenhortensie an der Fassade
+    - image: /assets/img/hackescher-markt-hofgarten-persicaria-bodendecker-sitzplatz.webp
+      alt: Weiß blühende Persicaria und dichte Bodendecker reichen bis an die Kante der Plattenterrasse
   copy: ''
   articleFooter: null
   articleCredits:

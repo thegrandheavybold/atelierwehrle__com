@@ -17,6 +17,9 @@ mainArticle:
     - image: /assets/img/hackescher-markt-hofgarten-klinkerweg-persicaria-staudensaum.webp
     - image: /assets/img/hackescher-markt-hofgarten-natursteinquader-graeser-sitzterrasse.webp
     - image: /assets/img/hackescher-markt-hofgarten-zwei-sitzterrassen-plattenbelag.webp
+    - image: /assets/img/hackescher-markt-hofgarten-hortensie-durchblick-sitzplatz.webp
+    - image: /assets/img/hackescher-markt-hofgarten-tisch-tetrapanax-rispenhortensie.webp
+    - image: /assets/img/hackescher-markt-hofgarten-persicaria-bodendecker-sitzplatz.webp
   copy: ''
   articleFooter: null
   articleCredits:
