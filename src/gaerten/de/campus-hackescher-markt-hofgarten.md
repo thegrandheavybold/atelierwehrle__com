@@ -55,7 +55,7 @@ mainArticle:
     closingImage: /assets/img/hackescher-markt-hofgarten-lage-stadtblick-berlin-mitte.webp
     alt: 'Blick über die Dächer zum Hackeschen Markt: die innerstädtische Lage des Hofgartens in Mitte'
   articleCredits:
-    entwurf: ''
+    entwurf: Manuel Wehrle
     ausfuehrung: ''
-    bilder: ''
+    bilder: Vladyslav Pustovit
 ---
