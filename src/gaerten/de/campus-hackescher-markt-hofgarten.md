@@ -15,6 +15,12 @@ mainArticle:
   galleryImages:
     - image: /assets/img/hackescher-markt-hofgarten-sitzgruppe-hortensie-limelight.webp
       alt: Olivgrüne Sitzgruppe auf heller Plattenterrasse, gerahmt von Rispenhortensien und Sträuchern
+    - image: /assets/img/hackescher-markt-hofgarten-klinkerweg-persicaria-staudensaum.webp
+      alt: Geschwungener Klinkerweg führt zwischen hohen Staudensäumen mit Persicaria in den Hof hinein
+    - image: /assets/img/hackescher-markt-hofgarten-natursteinquader-graeser-sitzterrasse.webp
+      alt: Natursteinquader und Gräser säumen den Weg zur Sitzterrasse mit gelb blühenden Kletterrosen
+    - image: /assets/img/hackescher-markt-hofgarten-zwei-sitzterrassen-plattenbelag.webp
+      alt: ''
   copy: ''
   articleFooter: null
   articleCredits:

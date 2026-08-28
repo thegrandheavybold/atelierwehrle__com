@@ -14,6 +14,9 @@ mainArticle:
     alt: Climate resilient courtyard garden at Campus Hackescher Markt in Berlin, aerial view with paths
   galleryImages:
     - image: /assets/img/hackescher-markt-hofgarten-sitzgruppe-hortensie-limelight.webp
+    - image: /assets/img/hackescher-markt-hofgarten-klinkerweg-persicaria-staudensaum.webp
+    - image: /assets/img/hackescher-markt-hofgarten-natursteinquader-graeser-sitzterrasse.webp
+    - image: /assets/img/hackescher-markt-hofgarten-zwei-sitzterrassen-plattenbelag.webp
   copy: ''
   articleFooter: null
   articleCredits:
