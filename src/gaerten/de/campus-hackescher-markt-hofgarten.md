@@ -36,7 +36,7 @@ mainArticle:
     - image: /assets/img/hackescher-markt-hofgarten-aster-divaricatus-anemonen-leuchte.webp
       alt: Weißer Teppich aus Aster divaricatus und Anemonen mit kupferner Gartenleuchte im Halbschatten
   copy: |-
-    ### Eine grüne Lunge mitten in Berlin – Innenhofgestaltung am Campus Hackescher Markt
+    #### Eine grüne Lunge mitten in Berlin – Innenhofgestaltung am Campus Hackescher Markt
 
     Die Sommer in der Stadt werden heißer – umso wichtiger wird es, Orte zu schaffen, die kühlen, schützen und zum Verweilen im Freien einladen. Als Atelier für Landschaftsarchitektur in Berlin haben wir für den Innenhof am Campus Hackescher Markt genau darauf eine gestalterische Antwort gefunden: einen Ort, der Schatten spendet, die Luft kühlt und mitten in der Stadt Aufenthaltsqualität im Freien möglich macht, auch wenn das Stadtklima immer wärmer wird.
 
@@ -56,6 +56,6 @@ mainArticle:
     alt: 'Blick über die Dächer zum Hackeschen Markt: die innerstädtische Lage des Hofgartens in Mitte'
   articleCredits:
     entwurf: Manuel Wehrle
-    ausfuehrung: ''
+    ausfuehrung: Alpina AG
     bilder: Vladyslav Pustovit
 ---
