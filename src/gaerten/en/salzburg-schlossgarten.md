@@ -40,7 +40,7 @@ mainArticle:
     Baroque geometry was translated into a modern planting framework. Instead of monotonous gravel, roses and perennials now provide color and seasonal depth. Diseased boxwood was replaced by a defining yew structure, while fountains and benches designed by Manuel Wehrle integrate into the overall composition.
     This castle garden demonstrates how historic identity and contemporary horticultural design can be combined with precision, restraint and long-term quality. In Salzburg, heritage context and contemporary landscape architecture are aligned through precise garden design for representative private gardens.
   articleFooter:
-    closingImage: /assets/img/schlossgarten-leopoldskron-terrasse-seeblick-alpen.webp
+    closingImage: /assets/img/0399_001-2.jpg
     alt: ''
   articleCredits:
     entwurf: Manuel Wehrle
