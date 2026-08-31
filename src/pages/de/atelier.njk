@@ -57,7 +57,7 @@ awards:
   <section class="awards">
     <div class="wrapper">
       <h1 class="h6 oov">{{ translate[locale].award }}</h1>
-      {% set awardsList = awards or [] %}
+      {% set awardsList = (awards or []) | reverse %}
       <ol class="award_list">
         {% for award in awardsList %}
         <li class="item__{{ loop.index }} oov">
