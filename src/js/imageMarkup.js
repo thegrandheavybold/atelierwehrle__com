@@ -8,9 +8,19 @@ function titleCase(value = "") {
   return value.replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
+function normalizeImageName(imageName = "") {
+  const decoded = decodeURIComponent(String(imageName || ""))
+    .split("?")[0]
+    .split("#")[0]
+    .trim();
+
+  if (!decoded) return "";
+
+  return decoded.split("/").filter(Boolean).pop() || "";
+}
+
 function deriveAltFromFilename(imageName = "") {
-  const decoded = decodeURIComponent(String(imageName || ""));
-  const basename = decoded.split("/").pop()?.replace(/\.[a-z0-9]+$/i, "") || "";
+  const basename = normalizeImageName(imageName).replace(/\.[a-z0-9]+$/i, "");
   const cleaned = basename
     .replace(/^atelier-wehrle-/i, "")
     .replace(/[-_]+/g, " ")
@@ -43,7 +53,8 @@ function resolveImageAlt(imageAlt = "", imageName = "") {
 const isDevContext = process.env.CONTEXT === "dev";
 
 function buildTransformSrc(imageName, width, format = "") {
-  const sourcePath = encodeURIComponent(`/assets/img/${imageName}`);
+  const normalizedImageName = normalizeImageName(imageName);
+  const sourcePath = encodeURIComponent(`/assets/img/${normalizedImageName}`);
   const formatParam = format ? `&fm=${encodeURIComponent(format)}` : "";
   return `/.netlify/images?url=${sourcePath}&width=${width}${formatParam}`;
 }
@@ -67,18 +78,19 @@ export default function imageMarkup({
   decoding = "async",
   fetchPriority = "auto",
 }) {
+  const normalizedImageName = normalizeImageName(imageName);
   const safeAlt = escapeAttr(resolveImageAlt(imageAlt, imageName));
   const safeClass = escapeAttr(className).trim();
   const safeLoading = escapeAttr(loading);
   const safeDecoding = escapeAttr(decoding);
   const safeFetchPriority = escapeAttr(fetchPriority);
   const safeSizes = escapeAttr(sizes);
-  const encodedName = encodeURIComponent(imageName);
+  const encodedName = encodeURIComponent(normalizedImageName);
   const plainSrc = `/assets/img/${encodedName}`;
-  const transformedSrc = buildTransformSrc(imageName, fallbackWidth);
-  const defaultSrcSet = buildSrcSet(imageName, widths);
-  const avifSrcSet = buildSrcSet(imageName, widths, "avif");
-  const webpSrcSet = buildSrcSet(imageName, widths, "webp");
+  const transformedSrc = buildTransformSrc(normalizedImageName, fallbackWidth);
+  const defaultSrcSet = buildSrcSet(normalizedImageName, widths);
+  const avifSrcSet = buildSrcSet(normalizedImageName, widths, "avif");
+  const webpSrcSet = buildSrcSet(normalizedImageName, widths, "webp");
   const src = isDevContext ? plainSrc : transformedSrc;
   const srcsetAttr = isDevContext
     ? ""
@@ -100,7 +112,7 @@ export default function imageMarkup({
                 ${webpSrcSet}"
               ${sizesAttr}
             />`;
-  const detectedSize = getImageDimensions(imageName);
+  const detectedSize = getImageDimensions(normalizedImageName);
   const resolvedWidth = Number(width) || detectedSize?.width || null;
   const resolvedHeight = Number(height) || detectedSize?.height || null;
   const dimensionAttrs =
