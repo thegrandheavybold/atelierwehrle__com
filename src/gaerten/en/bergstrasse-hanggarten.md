@@ -9,7 +9,9 @@ featured:
   featImage: bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
   alt: Terraced hillside garden design on the Bergstrasse with stone block steps, natural stone walls and verbena below the house
 mainArticle:
-  articleHeader: null
+  articleHeader:
+    openerImage: bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
+    alt: Terraced hillside garden design on the Bergstrasse with stone block steps, natural stone walls and verbena below the house
   galleryImages:
     - image: bergstrasse-hanggarten-luftbild-terrassen-kieswege.webp
     - image: bergstrasse-hanggarten-schraegluftbild-kiesweg-hochbeet.webp
@@ -29,6 +31,15 @@ mainArticle:
     - image: bergstrasse-hanggarten-kardy-laub-silbergrau.webp
     - image: bergstrasse-hanggarten-fernblick-kardy-graeser.webp
     - image: bergstrasse-hanggarten-dachterrasse-klappstuehle-fernblick.webp
+    - image: ''
+    - image: ''
+    - image: ''
+    - image: ''
+    - image: ''
+    - image: ''
+    - image: ''
+    - image: ''
+    - image: bergstrasse-hanggarten-terrasse-abendstimmung-ausblick.webp
   copy: ''
   articleFooter: null
   articleCredits:
