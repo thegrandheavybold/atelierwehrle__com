@@ -1,10 +1,10 @@
 ---
-title: Bergstraße – Terrassierter Hanggarten mit Wassertrog und Staudenpflanzung
+title: Bergstraße DE – Terrassierter Hanggarten
 date: 2026-10-26T15:23
 urlSlug: bergstrasse-hanggarten
 metaTags:
-  metatitle: Hanggarten Bergstraße | Gartenplanung | Atelier Wehrle
-  metaDescription: 'Projekt an der Bergstraße: terrassierter Hanggarten mit Wassertrog, Staudenbeeten und weitem Fernblick. Pflanzplanung von Atelier Wehrle, naturnah gedacht.'
+  metatitle: Hanggarten Bergstraße | Terrassierte Gartenplanung
+  metaDescription: 'Hanggarten an der Bergstraße mit Natursteinmauern, Blockstufen und Wassertrog: Stauden, Terrassen und Fernblick. Gartenplanung von Atelier Wehrle.'
 featured:
   featImage: /assets/img/bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
   alt: Terrassierter Hanggarten an der Bergstraße mit Blockstufen, Natursteinmauern und Verbena unterhalb des Hauses
@@ -45,10 +45,17 @@ mainArticle:
       alt: Reife Erdbeeren hängen zwischen Thymian und Laub, eine essbare Pflanzung direkt am Kiesweg
     - image: /assets/img/bergstrasse-hanggarten-kardy-laub-silbergrau.webp
       alt: Silbergraues, tief gezähntes Blattwerk der Kardy zwischen Gräsern und Stauden am Kiesweg
-  copy: ''
-  articleFooter: null
+  copy: |-
+    Dieser **Hanggarten an der Bergstraße** erstreckt sich über mehrere Terrassen unterhalb eines modernen Wohnhauses und endet oben in einer Dachterrasse mit weitem Blick in die Ebene. Statt den Hang zu nivellieren, gliedern Natursteinmauern und breite Blockstufen das Gelände in kleine Gartenräume, die Kieswege miteinander verbinden.
+
+    Die **Pflanzungplanung** folgt einer naturalistischen Formensprache. Vor den Mauern wachsen Patagonisches Eisenkraut (Verbena bonariensis), Spanisches Gänseblümchen (Erigeron karvinskianus) und Herbstanemonen, dazwischen geben Thymian, Salbei und Kardy dem Beet Struktur. Mangold und Erdbeeren zeigen, dass Zier- und Nutzpflanzung hier ineinandergreifen. Ein Steintrog mit Stahlrohr-Wasserspiel setzt an der Treppe einen ruhigen Akzent, auf der Terrasse stehen Lavendel und Gräser in großen Pflanzgefäßen.
+
+    So entsteht ein Garten, der Topografie, Architektur und **Pflanzplanung** zu einem naturnahen Ganzen verbindet. Das Projekt an der Bergstraße steht für präzise Landschaftsarchitektur und hochwertige Privatgärten.
+  articleFooter:
+    closingImage: /assets/img/bergstrasse-hanggarten-blick-durch-stauden-treppe-haus.webp
+    alt: Blick durch Verbena, Gräser und Kardy auf Kiesweg, Steinmauer und Stufen, oben das Haus vor herbstlichem Waldhang
   articleCredits:
-    entwurf: ''
+    entwurf: Manuel Wehrle
     ausfuehrung: ''
-    bilder: ''
+    bilder: '[Vladyslav Pustovit](https://www.pustovit.de/)'
 ---
