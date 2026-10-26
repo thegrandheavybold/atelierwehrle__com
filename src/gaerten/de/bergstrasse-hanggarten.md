@@ -6,22 +6,22 @@ metaTags:
   metatitle: Hanggarten Bergstraße | Gartenplanung | Atelier Wehrle
   metaDescription: 'Projekt an der Bergstraße: terrassierter Hanggarten mit Wassertrog, Staudenbeeten und weitem Fernblick. Pflanzplanung von Atelier Wehrle, naturnah gedacht.'
 featured:
-  featImage: bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
+  featImage: /assets/img/bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
   alt: Terrassierter Hanggarten an der Bergstraße mit Blockstufen, Natursteinmauern und Verbena unterhalb des Hauses
 mainArticle:
   articleHeader:
-    openerImage: bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
+    openerImage: /assets/img/bergstrasse-hanggarten-blockstufen-natursteinmauer.webp
     alt: Terrassierter Hanggarten an der Bergstraße mit Blockstufen, Natursteinmauern und Verbena unterhalb des Hauses
   galleryImages:
-    - image: bergstrasse-hanggarten-luftbild-terrassen-kieswege.webp
+    - image: /assets/img/bergstrasse-hanggarten-luftbild-terrassen-kieswege.webp
       alt: 'Luftbild des Hanggartens: Kieswege, Blockstufen und Hochbeete zwischen dichter Staudenpflanzung, unten ein Pflasterweg'
-    - image: bergstrasse-hanggarten-schraegluftbild-kiesweg-hochbeet.webp
+    - image: /assets/img/bergstrasse-hanggarten-schraegluftbild-kiesweg-hochbeet.webp
       alt: 'Schrägluftbild: Kiesweg windet sich durch den Garten, links ein Pflasterweg, in der Mitte ein gerahmtes Hochbeet'
-    - image: bergstrasse-hanggarten-blick-ueber-terrassen-ebene.webp
+    - image: /assets/img/bergstrasse-hanggarten-blick-ueber-terrassen-ebene.webp
       alt: Blick über die Gartenterrassen mit Kiesweg und Rankstäben in die weite Ebene im warmen Licht
-    - image: bergstrasse-hanggarten-kiesweg-eisenkraut-waldhang.webp
+    - image: /assets/img/bergstrasse-hanggarten-kiesweg-eisenkraut-waldhang.webp
       alt: Gewundener Kiesweg steigt zwischen Verbena bonariensis und Gräsern zum Haus an, links ein bewaldeter Hang
-    - image: bergstrasse-hanggarten-kardy-eisenkraut-stufen-haus.webp
+    - image: /assets/img/bergstrasse-hanggarten-kiesweg-eisenkraut-waldhang.webp
       alt: Silbriges Kardy-Laub und Verbena bonariensis im Vordergrund, dahinter Stufen und die Glasfassade des Wohnhauses
     - image: bergstrasse-hanggarten-treppenweg-wohnhaus-thymian.webp
       alt: Treppenweg mit Steinmauern führt durch Gräser und Thymian zum modernen Wohnhaus am oberen Gartenrand
