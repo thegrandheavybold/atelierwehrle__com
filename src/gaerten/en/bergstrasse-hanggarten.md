@@ -17,29 +17,18 @@ mainArticle:
     - image: /assets/img/bergstrasse-hanggarten-schraegluftbild-kiesweg-hochbeet.webp
     - image: /assets/img/bergstrasse-hanggarten-blick-ueber-terrassen-ebene.webp
     - image: /assets/img/bergstrasse-hanggarten-kiesweg-eisenkraut-waldhang.webp
-    - image: bergstrasse-hanggarten-kardy-eisenkraut-stufen-haus.webp
-    - image: bergstrasse-hanggarten-staudenhang-treppe-glasfassade.webp
-    - image: bergstrasse-hanggarten-mauer-naturstein-erigeron-kiesweg.webp
-    - image: bergstrasse-hanggarten-salbei-eisenkraut-mauerkrone.webp
-    - image: bergstrasse-hanggarten-steinmauer-kiesweg-gaensebluemchen.webp
-    - image: bergstrasse-hanggarten-kiesweg-thymian-anemonen-stufen.webp
-    - image: bergstrasse-hanggarten-herbstanemone-weisse-bluete.webp
-    - image: bergstrasse-hanggarten-erigeron-karvinskianus-nahaufnahme.webp
-    - image: bergstrasse-hanggarten-kugeldistel-samenstaende-herbst.webp
-    - image: bergstrasse-hanggarten-mangold-nutzpflanzung.webp
-    - image: bergstrasse-hanggarten-erdbeeren-thymian-wegrand.webp
-    - image: bergstrasse-hanggarten-kardy-laub-silbergrau.webp
-    - image: bergstrasse-hanggarten-fernblick-kardy-graeser.webp
-    - image: bergstrasse-hanggarten-dachterrasse-klappstuehle-fernblick.webp
-    - image: ''
-    - image: ''
-    - image: ''
-    - image: ''
-    - image: ''
-    - image: ''
-    - image: ''
-    - image: ''
-    - image: bergstrasse-hanggarten-terrasse-abendstimmung-ausblick.webp
+    - image: /assets/img/bergstrasse-hanggarten-kardy-eisenkraut-stufen-haus.webp
+    - image: /assets/img/bergstrasse-hanggarten-treppenweg-wohnhaus-thymian.webp
+    - image: /assets/img/bergstrasse-hanggarten-staudenhang-treppe-glasfassade.webp
+    - image: /assets/img/bergstrasse-hanggarten-mauer-naturstein-erigeron-kiesweg.webp
+    - image: /assets/img/bergstrasse-hanggarten-kiesweg-thymian-anemonen-stufen.webp
+    - image: /assets/img/bergstrasse-hanggarten-wassertrog-stufen-gruene-fassade.webp
+    - image: /assets/img/bergstrasse-hanggarten-wassertrog-wasserspiel-stahlrohr.webp
+    - image: /assets/img/bergstrasse-hanggarten-wassertrog-gegenlicht-stauden.webp
+    - image: /assets/img/bergstrasse-hanggarten-wassertrog-schwimmblaetter-bluetenblaetter.webp
+    - image: /assets/img/bergstrasse-hanggarten-mangold-nutzpflanzung.webp
+    - image: /assets/img/bergstrasse-hanggarten-erdbeeren-thymian-wegrand.webp
+    - image: /assets/img/bergstrasse-hanggarten-kardy-laub-silbergrau.webp
   copy: ''
   articleFooter: null
   articleCredits:
